@@ -1,0 +1,673 @@
+[00:00:00 - 00:00:03] Bonjour à tous et à toutes, j'espère que vous allez bien, on se retrouve aujourd'hui du coup,
+[00:00:03 - 00:00:08] la science numéro 9, donc on va parler de création de site WordPress,
+[00:00:08 - 00:00:12] on va le construire avec LIA, donc avec Cloud Code,
+[00:00:12 - 00:00:17] c'est une stratégie que j'ai créée moi-même qui est assez révolutionnaire,
+[00:00:17 - 00:00:23] personne n'en a encore parlé, donc c'est vraiment une chance très très intéressante pour vous,
+[00:00:23 - 00:00:29] dans le sens où après cette science-là, comme la science précédente par rapport au SEO Géro,
+[00:00:29 - 00:00:35] Vous allez pouvoir proposer des services de la création de sites Internet avec WordPress.
+[00:00:35 - 00:00:39] Les gens ne vont même pas savoir que c'est fait avec de nia parce que vous allez vraiment reproduire
+[00:00:39 - 00:00:40] un site.
+[00:00:40 - 00:00:46] C'est pour ça que derrière, il va falloir bien suivre et en plus de ça, les pages qu'on
+[00:00:46 - 00:00:50] crée, la page accueille par exemple, on va l'enrichir grâce à l'audit et à la
+[00:00:50 - 00:00:55] stratégie qu'on a fait juste avant sur les SEO et le GEO.
+[00:00:55 - 00:01:01] Donc c'est parti, normalement tu as du coup t3 fichiers, audit SEO, strategy MD,
+[00:01:01 - 00:01:08] stratégique LSX et la stratégie HTML, c'est la séance qu'on a vu juste avant et à la fin du coup de
+[00:01:08 - 00:01:16] cette séance là on aura un autre site internet complet pour soit notre profil d'expert,
+[00:01:16 - 00:01:20] il y a une freelance ou soit de notre alliance. Donc moi ça va être une agence comme on l'a
+[00:01:20 - 00:01:29] vu je suis dans la restauration, c'est ça, viser tous les restaurants et je propose des services de
+[00:01:29 - 00:01:37] chatbot IA, de chatbot vocale, etc. Donc on va créer ça. En cette étape ça va prendre beaucoup de temps.
+[00:01:37 - 00:01:42] Quand une fois je vais vraiment concentrer sur quelque chose de qualitatif, je vais rester
+[00:01:42 - 00:01:53] une module très longue à bien suivre. Mais cette étape c'est de ne pas racheter un monde
+[00:01:53 - 00:01:58] domaine avec un hébergement Stinger. Ensuite, installer WordPress depuis
+[00:01:58 - 00:02:18] au Stinger. Ensuite, on va vérifier le DNS. On va installer PlayWriteMCP. On va lancer
+[00:02:18 - 00:02:26] Cloté pour faire nos audits. On va la réutiliser pour cette séance-là. On va
+[00:02:26 - 00:02:30] coller le prompt de construction que je vais vous expliquer par la suite.
+[00:02:30 - 00:02:34] Donc l'étape 1, ça a acheté un nombre de domaines. Donc, un nombre de domaines on va
+[00:02:34 - 00:03:12] sur ostinger, là c'est bon, donc là derrière je peux commencer du coup avec email, cette fois si je
+[00:03:12 - 00:03:53] ne vais pas utiliser une fausse parce que je crée mon compte, je mets mon passe sur le dashboard
+[00:03:53 - 00:03:57] officiel, maintenant ce que je vais faire c'est simple, c'est que je vais aller dans mon domaine,
+[00:03:57 - 00:04:10] je vais obtenir un pour ça maintenant, il va falloir sélectionner où vous voulez choisir,
+[00:04:10 - 00:04:32] moi comme on a vu c'était rester recherché, d'une manière honnête je vais prendre le moins
+[00:04:32 - 00:05:11] chère. Choisissez celui que vous voulez, je vais prendre le Profun, voilà, vu que c'est un test,
+[00:05:11 - 00:05:49] on va le prendre sur un an, on va passer au paiement, là vous faites l'accepte. Donc c'est top,
+[00:05:49 - 00:05:59] je vais avoir mon nombre de domaines de près, on va voir comment bien le paramétrer. Donc c'est
+[00:05:59 - 00:06:11] top, un petit peu, après il va falloir aussi choisir un pack pour notre site web. Le conseil,
+[00:06:11 - 00:06:22] de partir sur l'article business. Si derrière les vautres sites peut créer plusieurs sites en
+[00:06:22 - 00:06:28] même temps, on peut avoir du stockage rapide en SSD. Donc ça c'est super important pour la vitesse
+[00:06:28 - 00:06:38] du site internet. Moi je vais partir sur la version single. Je suis un peu plus à besoin
+[00:06:38 - 00:06:47] au moment et du coup je vais faire aussi un mois si vous prenez la version au 48 mois. Vous
+[00:06:47 - 00:06:55] Vous avez 85 euros, il n'y a plus besoin de payer, du coup pour nous, il y a 2 ans de votre abonnement.
+[00:06:55 - 00:07:03] Maintenant, je l'ai choisi mais à moi, c'est à la caisse, comme on dit,
+[00:07:03 - 00:08:13] je vais cliquer sur payer, je vais sur payer.
+[00:08:13 - 00:08:19] Maintenant, vous allez choisir à qui s'adresse ce site, donc pour moi ou pour mon entreprise,
+[00:08:19 - 00:08:21] qu'est-ce que tu souhaites faire ?
+[00:08:21 - 00:08:24] Je vais te créer un site web, transférer votre site vers Rostinger,
+[00:08:24 - 00:08:27] moi perso, je souhaite créer un site internet.
+[00:08:27 - 00:08:32] Donc maintenant, comment voulez-vous créer votre site web ?
+[00:08:32 - 00:08:34] Surtout, cliquez sur WordPress.
+[00:08:34 - 00:08:37] C'est très très très très très très très important.
+[00:08:37 - 00:08:41] Donc, vous cliquez sur WordPress, mettez suivant.
+[00:08:41 - 00:08:45] Ensuite, vous allez cliquer sur le mot de passe.
+[00:08:45 - 00:08:52] Vous allez grossélectionner le mot de passe, comme ça derrière quand vous allez devoir vous connecter.
+[00:08:52 - 00:08:55] Et bien, vous allez utiliser celui-là.
+[00:08:55 - 00:09:01] Donc, suivant, le nombre de domaines hop, c'est le nombre de domaines que j'ai acheté juste
+[00:09:01 - 00:09:46] avant, Trestillap en film, je vais sur suivant et ensuite, vous avez juste appris à dire
+[00:09:46 - 00:09:47] ça.
+[00:09:47 - 00:09:53] Donc maintenant, ils vont vous proposer où est mon public cible, moi c'est la France.
+[00:09:53 - 00:10:01] Maintenant, ils installent WordPress, ça prend peut-être 5-10 minutes pour un petit
+[00:10:01 - 00:10:05] jeu comme Google.
+[00:10:05 - 00:10:15] Donc, celui qui bat le record que je vais faire avant le téléchargement, je le
+[00:10:15 - 00:10:59] un coaching pendant une heure. 422 à battre. Si vous battez 422, envoyez moins screen et un petit
+[00:10:59 - 00:11:38] message coaching, j'ai fait un meilleur score que toi et on se programme ça. C'est terminé.
+[00:11:38 - 00:11:57] Du coup, on donne l'information comme quoi notre site est prêt. Il s'est chargé. Il vous demande
+[00:11:57 - 00:12:02] de choisir si tu as perçu ou on ne veut pas. On va aller directement sur WordPress parce que
+[00:12:02 - 00:12:10] là comme vous pouvez voir vous êtes connecté du coup sur WordPress donc maintenant on va
+[00:12:10 - 00:12:25] tout simplement ajouter une extension Elementor. Pour ce faire je vais vous donner un dossier qui
+[00:12:25 - 00:12:31] sera récupérable dans le support technique où vous allez télécharger en zip et ce que vous allez
+[00:12:31 - 00:13:39] faire c'est simple c'est cliquer sur choisir une extension active, Elementor l'a installé maintenant
+[00:13:39 - 00:13:51] Maintenant, on va voir sur la version Pro, parce que là c'est la version simple et ce qu'on veut c'est vraiment donner la capacité à le code de faire ce qu'il veut.
+[00:13:51 - 00:14:30] Pour ça, on retourne dans Extensions, ajouter une extension de décharge, installer maintenant Extensions et bien on active.
+[00:14:30 - 00:14:39] Donc c'est top par rapport à ça, on a bien Elementor Pro et du coup on peut commencer à créer l'opage.
+[00:14:39 - 00:14:43] on ne va pas les créer manuellement parce que si vous n'avez pas de compétence sur les mentors
+[00:14:43 - 00:14:50] tout à prendre ça prend beaucoup trop de temps. Là on va vraiment utiliser du coup Cloud Code
+[00:14:50 - 00:14:56] qui va travailler directement sur un site, recopier le code et ensuite il va le transformer en bloc
+[00:14:56 - 00:15:02] natif élémentaire. C'est quoi un bloc natif élémentaire ? Pas très compliqué. Par exemple si tu
+[00:15:02 - 00:15:29] es sur un modifié juste ici, un modifié avec élémentaire, comment tout faire ? C'est comme
+[00:15:29 - 00:15:47] si vous utilisez filmat ou autre, sauf que là votre place et bon comme vous avez pu le voir il y a
+[00:15:47 - 00:15:52] un petit coupage pourquoi parce que tout simplement j'ai retourné une partie de cette session là
+[00:15:52 - 00:15:58] tout simplement parce qu'entropique a sorti un nouveau modèle et je me devais de vous en parler
+[00:15:58 - 00:16:03] et je devais surtout vous présenter la nouvelle stratégie par rapport à la création de sites
+[00:16:03 - 00:16:08] internet donc c'est une lutte très puissante qui n'a pas encore été révélée au marché c'est moi
+[00:16:08 - 00:16:12] qui l'est créé, j'ai envie de montrer vraiment comment bien l'utiliser, pourquoi ? Parce que d'une
+[00:16:12 - 00:16:18] part, si vous avez posé des services de création de sites internet, vous allez pouvoir le faire
+[00:16:18 - 00:16:23] avec cette stratégie-là et en plus de ça, vous n'allez pas prendre énormément de temps. Donc ça
+[00:16:23 - 00:16:28] va être important qu'on se le fasse ensemble étape par étape avec du coup le dernier modèle et
+[00:16:28 - 00:16:33] la dernière stratégie que j'ai créée. Donc comme vous pouvez le voir, on a toujours nos deux
+[00:16:33 - 00:16:38] onglets, donc on a l'onglet WordPress qu'on avait vu de la séance, donc comment arriver sur
+[00:16:38 - 00:16:45] sur cette partie-là avec Singer et comment télécharger l'outil et les mentors.
+[00:16:45 - 00:16:47] Là, j'ai bien la page accueil juste là.
+[00:16:47 - 00:16:52] Je vais vous montrer comment supprimer une page.
+[00:16:52 - 00:16:56] Ça va être important comme ça, on va repartir sur une bonne base.
+[00:16:56 - 00:17:01] Vous allez juste ici cliquer sur la page en question.
+[00:17:01 - 00:17:03] Si vous en avez plusieurs, vous pouvez cliquer juste ici.
+[00:17:03 - 00:17:04] Ça va à tous les sélectionner.
+[00:17:04 - 00:17:11] Vous allez ensuite aller dans déplacer dans Corbeille, appliquer et là comme vous pouvez
+[00:17:11 - 00:17:19] voir si je clique sur Corbeille, j'ai ma page, je reclique dessus, je vais cliquer sur supprimer
+[00:17:19 - 00:17:20] définitivement.
+[00:17:20 - 00:17:24] Je sais que ça ne peut pas très simple si derrière vous n'avez jamais utilisé WordPress
+[00:17:24 - 00:17:30] mais vous allez voir qu'aux codes tout faire ça va être bien plus simple.
+[00:17:30 - 00:17:35] Donc maintenant j'ai aucune page connectée à mon WordPress donc ce que je vais faire
+[00:17:35 - 00:17:37] c'est qu'on crée une tout simplement.
+[00:17:37 - 00:17:43] On veut une page d'accueil, c'est la base d'un site, la page d'accueil a tout simplement
+[00:17:43 - 00:17:45] été une page.
+[00:17:45 - 00:17:50] Là, on va nous demander si on souhaite une composition, on va mettre que non parce que
+[00:17:50 - 00:17:57] tout simplement, on va le faire en héros automatiques, donc accueil, on l'appelle.
+[00:17:57 - 00:18:01] Ensuite, je clique sur modifier avec élément de tort.
+[00:18:01 - 00:18:18] Un petit peu, vous pouvez voir, on est sur la page accueil, donc on peut attaider
+[00:18:18 - 00:18:21] des blocs, peu vraiment tout faire.
+[00:18:21 - 00:18:23] C'est simple d'utilisation.
+[00:18:23 - 00:18:27] En plus de ça, pourquoi je vous propose de créer un site sur l'Elementor et WordPress ?
+[00:18:27 - 00:18:32] Parce que pour le SEO, c'est le top du top Google Adore les sites WordPress combinés
+[00:18:32 - 00:18:36] à l'Elementor.
+[00:18:36 - 00:18:43] Le système-là, donc vendre un service, ça peut être intéressant de montrer votre expertise.
+[00:18:43 - 00:18:50] Donc une fois que c'est fait, vous avez un lien juste ici, c'est ce qu'on va utiliser
+[00:18:50 - 00:18:55] pour le monde, il y a un code-code, voilà la page, pourquoi tu dois travailler, comme
+[00:18:55 - 00:18:59] ça il ne va pas dans tous les sens, il reste fixe sur ça, ensuite il duplique.
+[00:18:59 - 00:19:20] Alors mon business, donc la formation, on va sur la partie 002 site, on fait nouveau
+[00:19:20 - 00:19:26] terminal au dossier et ensuite on copie la commande juste ici, lors de la séance de
+[00:19:26 - 00:19:31] l'audite SEO, on la copie, on la colle et on fait entrer.
+[00:19:31 - 00:19:35] Pourquoi cette commande là ? Parce que tout simplement, on n'a pas envie que Claude
+[00:19:35 - 00:19:38] nous envoie tout le temps des messages en mode est-ce que je peux faire ça ? Est-ce
+[00:19:38 - 00:19:43] que je peux faire si ? Dis-moi oui ou non ? Le but c'est qu'il travaille en autonomie.
+[00:19:43 - 00:19:47] Donc, une fois que c'est fait, on va tester voir si la connexion MCP fonctionne bien.
+[00:19:47 - 00:20:01] Pour se faire, ça va être pas compliqué, on lui dit, ok, connecte-toi les mentors slash
+[00:20:01 - 00:20:03] command MCP.
+[00:20:03 - 00:20:13] Vous pouvez voir, j'ai bien ma commande en bleu.
+[00:20:13 - 00:20:19] Si la commande est en bleu comme ça, ça veut dire qu'elle est bien utilisée.
+[00:20:19 - 00:20:25] J'envoie et là, normalement, ça va m'ouvrir un navigateur avec cette page.
+[00:20:25 - 00:20:28] Ok, superbe.
+[00:20:28 - 00:20:33] qu'il a ouvert un navigateur et là il lance du coup le site internet.
+[00:20:33 - 00:20:38] Donc le lien que je lui ai fourni, ça va arriver directement sur l'élément de tort avec la
+[00:20:38 - 00:20:40] page accueillie.
+[00:20:40 - 00:20:42] Ok, c'est top.
+[00:20:42 - 00:20:48] Ce qu'on va faire, c'est qu'imaginez, vous n'avez pas encore renseigné vos identifiants,
+[00:20:48 - 00:21:01] vous allez sûrement arriver une page, moi je vais me déconnecter, faire se déconnecter
+[00:21:01 - 00:21:04] et on va se le refaire ensemble parce que vraiment vous allez tomber sur ça.
+[00:21:04 - 00:21:06] On va le refaire.
+[00:21:06 - 00:21:14] Il veut dire de ouvrir un navigateur.
+[00:21:14 - 00:21:22] Ok, connecte-toi sur cette page restée là, d'où là, on va arriver sur le login.
+[00:21:22 - 00:21:30] Ok, là il a réouvert le navigateur et là, comme on peut voir, on arrive bien sur le
+[00:21:30 - 00:21:31] login.
+[00:21:31 - 00:21:32] Donc c'est top.
+[00:21:32 - 00:21:35] Maintenant, vous allez renseigner l'identifiant que vous avez créé.
+[00:21:35 - 00:21:40] Vous avez simplement pris un nombre d'omènes sur Hostinger.
+[00:21:40 - 00:21:42] Donc moi, c'était Ulibatiste.
+[00:21:42 - 00:21:44] Je renseigne mon mot de passe.
+[00:21:44 - 00:21:48] Si vous en souvenez plus, vous allez sur Hostinger un mot de passe oublier.
+[00:21:48 - 00:21:57] ça va vous envoyer un mail et vous cliquez surtout sur ce souvenir de moi. Pourquoi ? Parce
+[00:21:57 - 00:22:02] que tout simplement s'il y a un problème et que Cloud Code se déconnecte, quand il va
+[00:22:02 - 00:22:10] relancer la page, on n'aura pas besoin de... il sera directement connecté à la page.
+[00:22:10 - 00:22:22] Donc voilà pourquoi il faut qu'il y ait sur ce souvenir de moi. Donc c'est top, on arrive
+[00:22:22 - 00:22:30] bien sur la même page. Maintenant je vais pouvoir tout simplement fermer celle-ci
+[00:22:30 - 00:22:37] parce que nous ne nous intéresse plus. Et là, notre navigateur est bien connecté à
+[00:22:37 - 00:22:41] l'élément de tour. Maintenant, on va falloir faire de la veille. Pourquoi de la veille ?
+[00:22:41 - 00:22:45] Parce qu'on souhaite reproduire un site internet. Ensuite, on modifiaira, c'est juste pour avoir une base
+[00:22:45 - 00:22:53] exploitable, pour ensuite avoir un site professionnel. Pour faire de la veille, vous allez tout simplement
+[00:22:53 - 00:23:10] sur internet, cliquez « agences.IA », choisissez un site qui vous convient. Là, il est sympa,
+[00:23:10 - 00:23:35] mais faire quand même des choses sympa avec mes objectifs. Encore une fois c'est subjectif,
+[00:23:35 - 00:23:43] moi je peux aimer quelque chose et nous, on ne reste pas à dire qu'on ne va pas,
+[00:23:43 - 00:23:58] je pense que c'est fait avec Delia ça aussi. A partir sur ça, maintenant ce que vous allez
+[00:23:58 - 00:24:07] faire c'est simple, simplement lui dire qu'il est fait directement dans le ligateur,
+[00:24:07 - 00:24:21] mais il peut dire qu'il a fait une erreur, parce qu'il a remplacé le lien, il est montant,
+[00:24:21 - 00:24:59] pas la page d'accueil, il est montant. Pour remettre, il nous intéresse,
+[00:24:59 - 00:25:05] c'est d'abord la page qu'on va dupliquer, donc moi on s'est bien fait.co, et la page
+[00:25:05 - 00:25:12] élémentaire où il va co-créer le site internet. Il ne faut pas qu'il y ait juste le lien
+[00:25:12 - 00:25:17] là et du coup pas la page élémentaire ou un version. Donc maintenant qu'on a le dos
+[00:25:17 - 00:25:27] page qui sont au MCP, ce qu'on va faire c'est simple, c'est qu'on va lui donner
+[00:25:27 - 00:25:32] un print, on va l'analyser après, mais ce qu'on va faire c'est section par section.
+[00:25:32 - 00:25:38] Ça va prendre un petit peu de temps, mais en l'espace de 2-3 heures, vous allez avoir
+[00:25:38 - 00:25:40] tout votre site.
+[00:25:40 - 00:25:51] Vous allez faire, c'est que vous allez tout simplement scrimer la section que vous souhaitez,
+[00:25:51 - 00:26:00] lui donner du coup le screen, et après je vais copier le prompt, je vais copier le
+[00:26:00 - 00:26:06] lien de la page, et je vais copier le lien de ma page et les mentors.
+[00:26:06 - 00:26:09] Une fois que c'est fait, vous cliquez sur « Entrez ».
+[00:26:09 - 00:26:18] Donc nous ce qu'on va faire à avoir besoin mais intéressant de l'analyser comme ça
+[00:26:18 - 00:26:53] derrière vous allez comprendre où il en est, on s'est attaider, il va réfléchir et préparer
+[00:26:53 - 00:27:09] un plan, il va extraire la source de la section en question, ok donc là il nous donne une
+[00:27:09 - 00:27:23] demande 3 points donc URL de preview manquante donc on va lui donner tout simplement URL
+[00:27:23 - 00:27:29] preview donc URL de preview c'est quoi c'est ce qui nous permet justement de prévitualiser le site
+[00:27:29 - 00:27:43] internet alors lui donner ensuite il nous demande quoi section ciblir confirmé sur bienfait.co
+[00:27:43 - 00:28:24] section héros tel que tu vas lui dire réponse on lui a répondu aux questions maintenant il va
+[00:28:24 - 00:28:44] pouvoir travailler en autonomie en train de travailler en train d'entrer en code directement
+[00:28:44 - 00:28:50] donc c'est ça qui va être intéressant, après encore une fois l'embaquaine, on ne peut pas
+[00:28:50 - 00:29:00] te m'en voir en réelle, qui tue de sa manière de réfléchir et comment il touche justement
+[00:29:00 - 00:29:08] le fin élément de tort. Là il voit que la viewport est plafonnée à 1800 par l'extension,
+[00:29:08 - 00:29:13] je continue la solution qui est sûrement un citro-tour.
+[00:29:13 - 00:29:26] là il voit que la viewport est plafonnée à 1800 par l'extension, je continue
+[00:29:26 - 00:29:41] l'isolation qui est sûrement ainsi. On va analyser tout le prompt du coup de nous
+[00:29:41 - 00:30:23] faire. Je crée moi-même des sites internet, ça me prenait deux semaines pour
+[00:30:23 - 00:30:28] en créer un qui soit fonctionnel etc. Là on a bien trois heures, on va avoir un site
+[00:30:28 - 00:30:37] de structure avec un banc ici haut et justement on va avoir tout ça tout au long de la
+[00:30:37 - 00:30:41] la séance, ça va prendre un petit peu de temps, mais ça va être top.
+[00:30:41 - 00:30:47] En gros, je lui donne un prompt technique de reconstruction, pixel, perfect, d'une section
+[00:30:47 - 00:30:49] d'un site source vers élément de tort.
+[00:30:49 - 00:30:56] Donc le contexte, trois anglais chrome, donc la source URL source, c'est le site du
+[00:30:56 - 00:30:57] piqué.
+[00:30:57 - 00:31:02] Ensuite, on a la section ciblée, le nom, c'est le screen qu'on lui a envoyé et
+[00:31:02 - 00:31:08] l'éditeur URL élément de tort, donc l'URL de la page qu'on a créée juste
+[00:31:08 - 00:31:09] ensemble, la page accueillable.
+[00:31:09 - 00:31:18] Ensuite, on lui donne la prévue URL, donc le lien qui permet justement un code de
+[00:31:18 - 00:31:23] s'auto corriger pour voir le résultat qu'il a créé, et du coup après on lui explique
+[00:31:23 - 00:31:28] l'objectif concret de ce qu'on tente de faire et ce qu'il va devoir réaliser.
+[00:31:28 - 00:31:50] On va produire la section, donc dans Elementor, avec fidélité visuel parfait, en gros on
+[00:31:50 - 00:31:55] va lui dire voilà tu prends cette section, tu regardes le code source, tu regardes
+[00:31:55 - 00:32:03] section de manière visuelle, avec le code plus pour regard personnel, donc
+[00:32:03 - 00:32:07] regard ça est important pour bien qu'ils jugent parce que dans le code certes on a
+[00:32:07 - 00:32:11] la partie visuelle, ça peut être différent par rapport à les
+[00:32:11 - 00:32:15] visualisations de ce qu'il va voir et du coup il y a prêt envie d'aller
+[00:32:15 - 00:32:19] regarder sur les trois breakpoints pour avoir justement un responsible.
+[00:32:19 - 00:32:26] Regarde le desktop, la tablette et le mobile, incluant tous les effets
+[00:32:26 - 00:32:31] over animation, je crois, un lacs, marques, toutes les images source, toutes les typographies,
+[00:32:31 - 00:32:35] toutes les espaces moins, toutes les couleurs. Encore une fois, notre objectif c'est qu'ils
+[00:32:35 - 00:32:43] puissent reprendre exactement du coup toute la section, d'un après des contraintes. On peut
+[00:32:43 - 00:32:54] voir, nous faire déjà la première partie. Le widget natif et némentant uniquement. Pourquoi
+[00:32:54 - 00:33:04] je lui dis d'utiliser seulement le widget ? Parce qu'en gros, c'est par la suite. Pourquoi ? Parce
+[00:33:04 - 00:33:12] parce que si on lui donne simplement dans un bloc note et après ça va être illisible,
+[00:33:12 - 00:33:16] ça va être impossible de modifier quoi que ce soit sans que ça bête, là on veut vraiment
+[00:33:16 - 00:33:23] quelque chose avec une belle structure qui nous permet d'avoir un résultat concret
+[00:33:23 - 00:33:27] pour qu'ensuite on puisse l'avoir constamment sous la mainside et modifier quand on souhaite.
+[00:33:27 - 00:33:31] C'est pour ça qu'à prendre à voir une phase de modification, comment changer la
+[00:33:31 - 00:33:33] couleur, comment changer le texte grâce à l'audité cible.
+[00:33:33 - 00:33:37] C'est pour ça qu'on lui dit on veut des blocs natifail et menthorsais ce qui
+[00:33:37 - 00:33:40] fait la force de cet outil-là et c'est pour ça qu'il a cartonné parce que c'est un peu comme
+[00:33:40 - 00:33:48] filmant, on va pouvoir tout simplement giffer simplement tout ce qu'on s'en fout pour ça.
+[00:33:48 - 00:33:51] Encore une fois on lui dit pas de widgets html, pas de code on va dire, pas de short
+[00:33:51 - 00:33:57] code, pas de plug-in ou chair, sauf palidation, c'est pas grave, c'est SSJS autorisé et
+[00:33:57 - 00:34:04] vraiment impossible avec prévenir avant. JS Custom interdit, Polistite Archive donc bref on lui
+[00:34:04 - 00:34:11] donne toutes les informations qu'il doit récupérer, on lui donne aussi, elle ne doit pas faire et après on lui
+[00:34:11 - 00:34:16] lui demande tout simplement de faire une extraction source, donc là il va aller par exemple sur un site,
+[00:34:16 - 00:34:24] on va sur Google, Google Labs par exemple, inspecter, il va récupérer tout le code juste ici.
+[00:34:24 - 00:34:29] Donc ça va être un point important pour qu'il analyse justement la structure à quoi il ressemble,
+[00:34:29 - 00:34:36] récupérer la bonne police d'écriture, etc. Donc une fois qu'il a fait ça, il va faire une
+[00:34:36 - 00:34:41] détection d'effets, donc comprendre les effets des boutons, comprendre les effets des sections,
+[00:34:41 - 00:34:52] ensuite ils reproduisent à l'identique des images cascades donc s'ils voient une image sur un site
+[00:34:52 - 00:35:06] cliquez pas parce qu'après il va perdre justement la tête vraiment le laisser piloter en autonomie
+[00:35:06 - 00:35:23] c'est plus comment il s'appelle le site que j'avais bien fait Panko en gros s'ils voient une page
+[00:35:23 - 00:35:30] s'ils voient une image pardon juste ici bah il va devoir faire enregistrer l'image choux et
+[00:35:30 - 00:35:34] ensuite l'upload directement sur d'autres preuves, ça va être très important comme ça
+[00:35:34 - 00:35:39] on n'aura pas besoin justement de le faire nous-mêmes et puis après on verra comment
+[00:35:39 - 00:35:44] changer ces images là pour ne pas qu'on fasse du piquage à 100%. On est vraiment quelque
+[00:35:44 - 00:35:48] chose de personnalisé de l'objectif, c'est encore une fois d'avoir une structure qui
+[00:35:48 - 00:35:53] est saine, qui est exploitable et après modifier par rapport à notre niche et du coup
+[00:35:53 - 00:36:01] notre SEO réalisé juste avant. Voilà pourquoi l'étape 3 est importante et après on lui
+[00:36:01 - 00:36:07] demande de nous faire l'étape 4 avant de les mentor écrire en clair l'arbe au
+[00:36:07 - 00:36:13] ressence contenait rassé de plus enfants. Direction, Justify, Align, Padding,
+[00:36:13 - 00:36:18] donc lui ça va lui permettre d'avoir une réflexion de ce qu'il a analysé et
+[00:36:18 - 00:36:24] ensuite de nous faire un petit plan pour par la suite passer à l'étape 5 donc
+[00:36:24 - 00:36:29] la construction dans les mentor. Voilà pourquoi doit passer juste avant
+[00:36:29 - 00:36:33] aux quatre étapes avant de construire sur les mentor et après on demande de
+[00:36:33 - 00:36:39] de faire une vérification visuelle, comprendre s'il est bien construit, s'il y a des problématiques
+[00:36:39 - 00:36:46] etc., doit passer à l'étape 7, donc avec une boucle justement, donc max 5 iterations.
+[00:36:46 - 00:36:50] C'est quoi la boucle ? C'est de faire une comparaison entre ce qui m'a créé et du
+[00:36:50 - 00:36:52] coup le site de la section.
+[00:36:52 - 00:36:57] Est-ce que c'est parfait ? Oui ou non ? Est-ce qu'après l'étape 8, est-ce qu'il y a du
+[00:36:57 - 00:37:01] responsif ? Et bon, si il est bon, on passe à l'étape 9 et après on passe
+[00:37:01 - 00:37:06] à la livrable avec tout simplement le résultat. Donc là, comme on peut voir, il vous a fait la
+[00:37:06 - 00:37:16] première section, donc si je vais sur mon élément de tort, on peut voir que c'est parfait. Il y a des
+[00:37:16 - 00:37:30] informations, donc après on lui demandera de changer les liens, version du coup. Ce qu'on lui a
+[00:37:30 - 00:37:43] demandé, donc là si je fais modifier les membres de tort, il y a un petit espace qui manque, on pourrait
+[00:37:43 - 00:37:57] très bien lui dire qu'il n'est pas parfait, améliore au stop light, responsif, juste ici tout
+[00:37:57 - 00:38:00] tout fonctionnera pour être très bien réduire le titre etc.
+[00:38:00 - 00:38:03] Mais là déjà on a quelque chose qui est exploitable,
+[00:38:03 - 00:38:06] puis il y aura bien sûr une phase d'ajustement, une phase d'amélioration.
+[00:38:06 - 00:38:09] Exactement là ce que je vous montre.
+[00:38:09 - 00:38:12] Donc là il va analyser du coup la partie bouton,
+[00:38:12 - 00:38:22] il va le modifier pour produire avec l'actitude du coup le réservé.
+[00:38:22 - 00:38:25] Voilà là on voit qu'il est déjà en train d'améliorer.
+[00:38:25 - 00:38:28] Et là il est bien différent de bouton, et bien mieux.
+[00:38:28 - 00:38:44] De l'espace du coup, parce que là c'est trop collé.
+[00:38:44 - 00:39:04] toucher un deux tickets parce que sinon ça va l'embrouiller l'information supplémentaire.
+[00:39:04 - 00:39:52] On fait en live quatre rappels, là il nous a bien créé plus loin ce que je vais demander.
+[00:39:52 - 00:39:57] Donc c'est top, on peut passer à la suite du coup on va aller sur la prochaine section.
+[00:39:57 - 00:40:03] Donc la prochaine section il faut y aller vraiment section par section, c'est cette barre-là.
+[00:40:03 - 00:40:14] J'ai encore une fois je screen la section en question, je retourne dans ma partie prompt
+[00:40:14 - 00:40:56] et je lui ordonne le même prompt. Donc là il va tout faire, tout faire tout le site ensemble, ça durerait peut-être longtemps mais au moins ça derrière s'il n'aura pas de problème, vous pourrez goûter directement et voir si c'est un problème que moi.
+[00:40:56 - 00:41:45] Comment régler cette problématique là ? Le but c'est vraiment une base extravidifiée par dessus, directement le texte, directement les images, etc.
+[00:41:45 - 00:42:07] Et css, donc là il a bien compris là, c'est parfait, il a compris exactement ce que chouette,
+[00:42:07 - 00:42:10] on va voir après le résultat si il est dans la capacité de le faire ou pas, normalement
+[00:42:10 - 00:42:45] c'est bon, il aura peut-être quelques modifications à faire, la page où il est, on va créer
+[00:42:45 - 00:42:51] du coup une fois toutes les pages, donc là on va faire la page accueil, la page solution
+[00:42:51 - 00:42:57] et la page contact comme ça au moins, ça sera fait, ça a l'air vraiment pour faire
+[00:42:57 - 00:43:11] la même chose que moi, donc là il est en train de bulle, il a fini de bulle
+[00:43:11 - 00:43:16] la section et là il est en train de vérifier, on va voir le résultat, c'est parce que je
+[00:43:16 - 00:43:18] n'aurai pas trop de choses à modifier, on peut voir qu'il est en train de regarder
+[00:43:18 - 00:43:51] parce qu'il a ouvert la page preview, on décombre quand même de la puissance de cette
+[00:43:51 - 00:43:56] séance là, il est vraiment reproduit un site comme ça, il est appelé une agence
+[00:43:56 - 00:44:01] et vous voulez un site similaire, c'est une gmob, 10 cas je pense, même plus.
+[00:44:01 - 00:44:05] Là vous le faites vraiment, il est en 1 heure, 2 heures, 3 heures, avec 3 heures
+[00:44:05 - 00:44:09] si vous voulez vraiment plus de pages, donc on va peut-être prendre 2 heures
+[00:44:09 - 00:44:22] 2h30, pas de marcher la formation, c'est vraiment prendre son temps à voir les compétences
+[00:44:22 - 00:44:26] nécessaires pour qu'à la fin des 90 jours, vous sortez sur le marché, vous avez votre
+[00:44:26 - 00:44:30] site, vous avez votre audite, vous avez votre étude de marché, vous avez bulle des solutions
+[00:44:30 - 00:44:35] d'automatisation et d'agent IA, vous avez créé aussi des infrastructures complètes,
+[00:44:35 - 00:44:38] il n'y a pas d'inquiétude, il n'y a pas de sain d'ordre de l'imposteur à
+[00:44:38 - 00:44:44] la fin, un client vous demande quelque chose, c'est outil de point et vous le facturez
+[00:44:44 - 00:44:51] à la somme que vous souhaitez livrer un B-TAC à une reprise de l'animation source avec
+[00:44:51 - 00:44:55] l'information GNS avec effet d'exploitation, pas identique au pixel-press ou au timing.
+[00:44:55 - 00:45:04] Ok, on va avoir du coup le résultat, on aurait dit que c'est mieux, on va voir en
+[00:45:04 - 00:45:10] prévu si c'est parfait.
+[00:45:10 - 00:45:15] Quand j'arrive au B-TAC, ça ferait de l'eau, c'est parfait, du coup on peut passer
+[00:45:15 - 00:45:16] à la suite.
+[00:45:16 - 00:45:21] Donc, encore une fois, ce qui va être bien avec cette stratégie-là, c'est que
+[00:45:21 - 00:45:26] vous allez pouvoir modifier directement les logos. Si je vais sélectionner, je vais mettre par exemple ça,
+[00:45:26 - 00:45:47] ça a cassé parce que c'est pas la même taille je pense. Je change ma lik, on met un vrai logo,
+[00:45:47 - 00:46:13] Tristia, du coup le monde de l'agence, à l'image là, je vais lui dire tout simplement parce que là je
+[00:46:13 - 00:46:27] ne sais pas pourquoi il m'a redescendu, le bouton, je vais lui dire l'espace, le bouton et le texte.
+[00:46:27 - 00:46:35] C'est vraiment en fait, vous allez pouvoir tout modifier, c'est-à-dire que quelque chose ne vous
+[00:46:35 - 00:46:40] il va le faire rapidement sur des demandes qui sont assez simples.
+[00:46:40 - 00:46:46] Il a fait, super, il publie, c'est fait, merci, on passe à la suite.
+[00:46:46 - 00:46:50] Donc la suite c'est cette section là.
+[00:46:50 - 00:46:52] On le vendra, c'est mieux pour avoir un script comme ça derrière.
+[00:46:52 - 00:46:54] On a le même résultat.
+[00:46:54 - 00:47:33] Je fais de la section, je récupère mon compte,
+[00:47:33 - 00:47:38] et je colle, c'est toujours, même chez moi.
+[00:47:38 - 00:47:41] Après il va reproduire et après je passerai à la prochaine section,
+[00:47:41 - 00:47:49] Donc celle-ci, là ça va être plus complexe, c'est parti là.
+[00:47:49 - 00:48:12] Par exemple là, nous on fait bien fait, on peut aller sur une autre agence, y'a même tout le monde différent.
+[00:48:12 - 00:48:16] On peut très bien lui dire voilà, votre logiciel de métier.
+[00:48:16 - 00:48:26] Encore une fois, pour avoir une agence vision, y'a, j'ai changé le site d'ailleurs, j'utilise la même stratégie.
+[00:48:26 - 00:48:33] J'ai regardé un petit peu le goût de l'analytique et du coup les personnes qui vont sur mon site,
+[00:48:33 - 00:48:36] ou comme ça de toute manière, y'a deux choses qui arrivent.
+[00:48:36 - 00:48:38] ou la page de redirection où ils arrivent,
+[00:48:38 - 00:48:43] on a vu que je fais des lignes magnétes sur mon blog,
+[00:48:43 - 00:48:46] mais une fois qu'ils arrivent sur le site,
+[00:48:46 - 00:48:47] ils regardent de choses,
+[00:48:47 - 00:48:50] ils regardent la page accueil et la partie cléante.
+[00:48:50 - 00:48:51] C'est le plus important.
+[00:48:51 - 00:48:54] Ils regardent ce que vous avez réalisé.
+[00:48:54 - 00:48:57] Donc c'est cette page-là qu'on va devoir blinder,
+[00:48:57 - 00:49:00] qu'on va devoir créer avec des vraies explications,
+[00:49:00 - 00:49:03] parce que ça va le brancher,
+[00:49:03 - 00:49:06] de voir ce que vous avez déjà fait, votre expertise,
+[00:49:06 - 00:49:08] et voir si vous avez déjà bossé dans l'indomène similaire,
+[00:49:08 - 00:49:12] On va mettre des en plusieurs, vu que je suis en train de le refaire, bon c'est vide mais l'arrière
+[00:49:12 - 00:49:17] si je clique sur l'agence à boutin on peut voir les informations et c'est assez bien
+[00:49:17 - 00:49:23] positionné en ICO, ils aiment bien, ils aiment bien aussi Google et GPT project
+[00:49:23 - 00:50:07] bref, biémentaire, pipeline, on va faire une partie là, même pas difficile site
+[00:50:07 - 00:50:10] vous voulez changer de image, on change d'image, vous voulez changer de couleur, on va changer de couleur
+[00:50:10 - 00:50:27] on va suivre la boucle
+[00:50:27 - 00:50:30] parfois quand il y a beaucoup de textes, copier l'huile humaine comme ça ils ne trompent pas
+[00:50:30 - 00:50:39] ce qu'on va faire juste ensemble, là en plus ce qui est bien c'est qu'au fur et à mesure il comprend
+[00:50:39 - 00:50:44] exactement ce qu'on veut, il commence à s'habituer à la tâche, il commence à comprendre le part
+[00:50:44 - 00:53:07] vérifié, donc là il a terminé, on va prévu une section parce que ce ne sera pas plus, on va
+[00:53:07 - 00:53:12] avoir un peu l'horizone propose, c'est bizarre, il a fait sauter les logos du coup de la barre,
+[00:53:12 - 00:53:49] alors que ça marche très bien juste avant, une indication supplémentaire, pourquoi je
+[00:53:49 - 00:54:37] dois appuyer le logo de la barre, la section le regarde lui-même donc il a compris, c'est
+[00:54:37 - 00:54:42] C'est top, c'est top, on n'est pas obligé de repartir sur ça, maintenant on a du coup nos deux sections,
+[00:54:42 - 00:55:20] peut-être lui dire, à grandir un petit peu, passer à la section sur une fois, parfois mettez-lui tout texte,
+[00:55:20 - 00:55:31] on fait comme ça derrière le compromet, STP, screen de la section encore une fois, c'est important,
+[00:55:31 - 00:55:52] on voit le screen, on récupère le prompt, on donne, et il fait toujours la même logique, on ne change pas.
+[00:55:52 - 00:56:00] Encore une fois, ça va vous faire les petits ajustements.
+[00:56:00 - 00:56:16] Moi, par exemple, j'aime bien j'ouvre là, mais mon but va changer les couleurs.
+[00:56:16 - 00:56:21] Je peux aller sur ChatGPT, ils ont sorti un dernier modèle qui est extrêmement puissant.
+[00:56:21 - 00:56:29] Le modèle, c'est GPT2 Image, c'est le meilleur sur le marché, sur PastaNanoBanana et tous les autres modèles.
+[00:56:29 - 00:56:33] Peut-être que ça va changer après 17, 8 mois, vu que le marché bouge beaucoup.
+[00:56:33 - 00:56:55] Mais pour le moment, j'utilise du coup, j'ai regardé qui est donc là, il a sauté.
+[00:56:55 - 00:57:12] Voilà, quand il fait ça, c'est pas grave, ce que vous faites, c'est compact, supplémentaire.
+[00:57:12 - 00:57:36] Il te relance la session, tout en live, comme ça, si vous rencontrez un problème similaire.
+[00:57:36 - 00:57:43] Donc là, on teste la commande compact, lui renvoie du coup pour qu'on vous l'aille.
+[00:57:43 - 00:57:52] Quand on reçoit ce message-là, ça veut dire, encore une fois, parce qu'on a envoyé MCP, il est bon parfait.
+[00:57:52 - 00:58:02] Donc au niveau de sa réflexion, il peut être un peu limité.
+[00:58:02 - 00:58:05] Ouais, c'est pas mal, c'est pas mal, c'est pas mal, c'est pas mal.
+[00:58:05 - 00:58:27] Encore une fois, c'est des petits prombes, je le fais vraiment en one shot en live.
+[00:58:27 - 00:58:32] Challenger avec des meilleures prombes.
+[00:58:32 - 00:58:41] Encore une fois, c'est pour rapprocher ce possible.
+[00:58:41 - 00:58:47] C'est comme ça, vous tapez directement le prospect.
+[00:58:47 - 00:59:13] On veut du fact design, on veut de la restauration, on va le faire.
+[00:59:13 - 00:59:15] Là, on a compact, on va voir, on va lui renvoyer du coup.
+[00:59:15 - 00:59:54] On souhaite qu'ici derrière, il nous fait le même message.
+[00:59:54 - 00:59:57] On relance la session cloud directement.
+[00:59:57 - 01:00:01] On va voir ce qu'il nous a fait.
+[01:00:01 - 01:00:02] Ciao GPT.
+[01:00:02 - 01:00:06] Voilà, c'est bien mieux, c'est bien mieux.
+[01:00:06 - 01:00:12] Voilà, on a quelque chose de différent qui est qualitatif, qui est professionnel, on la télécharge.
+[01:00:12 - 01:00:26] Encore une fois, enregistrer sous, vous pouvez aller dans le bureau, dans le business, en faire d'autres.
+[01:00:26 - 01:01:32] Le collègue continue, c'est top pour moi de faire.
+[01:01:32 - 01:01:40] Après, on va ouvrir une nouvelle session de code, on va attendre, finis.
+[01:01:40 - 01:01:57] On va utiliser Codex, justement, qui, on enregistre, après on verra, le but c'est de s'en faire plusieurs.
+[01:01:57 - 01:02:01] En fait, on va faire plusieurs du rythme, il est vraiment trop puissant sous le modèle.
+[01:02:01 - 01:02:06] Une, deux, trois, c'est extraordinaire, extraordinaire.
+[01:02:06 - 01:02:08] Puis elles sont parfaites, honnêtement, un allure.
+[01:02:08 - 01:02:16] Franchement, les plus que vous avez eu, c'est des promes tout simples.
+[01:02:16 - 01:02:24] Quatre, il m'en a fait une quatrième, et de français.
+[01:02:24 - 01:02:39] On va finir la partie image, en faisant raisonnement,
+[01:02:39 - 01:02:44] en fait les derniers modèles de Obenai extrêmement puissants,
+[01:02:44 - 01:02:47] le 5.5, qui pour moi, ils surpassent,
+[01:02:47 - 01:02:49] code-code sur certaines tâches,
+[01:02:49 - 01:02:53] terme de réflexion, raisonnement, etc.
+[01:02:53 - 01:02:55] Donc c'est très important.
+[01:02:55 - 01:04:17] encore une fois manier les deux, 5.5, prendre du temps par contre, on va le laisser travailler le temps
+[01:04:17 - 01:04:29] c'est pas mal, c'est parfait
+[01:04:29 - 01:04:48] c'est pas mal, améliorer, on va lui dire après d'aller l'expansive, on va avoir sur le mobile
+[01:04:48 - 01:04:53] c'est parfait, honnêtement c'est parfait
+[01:04:53 - 01:05:51] c'est parfait, c'est parfait, c'est parfait, c'est laquelle, cool image, business
+[01:05:51 - 01:06:07] on a pas une différente, donc récupérer du site internet, style, couleur
+[01:06:07 - 01:07:01] On va légère tout simplement je travaille, comment je m'organise, comment je réfléchis,
+[01:07:01 - 01:07:08] c'est important, ça vous pouvez vous inspirer après chacun sa propre méthode encore une fois.
+[01:07:08 - 01:07:16] Donc la mienne, du coup, bam, je screale du coup, très chouette.
+[01:07:16 - 01:07:28] On le prompte, une fois c'est toujours pareil, je colle, on passe à la suite.
+[01:07:28 - 01:09:18] Donner l'image pour y donner du contexte.
+[01:09:18 - 01:10:04] Si l'image, là c'est pas de l'attente qui répond.
+[01:10:04 - 01:10:08] Claude Finis, la section, le but c'est qu'on travaille en parallèle, on garde du temps
+[01:10:08 - 01:10:14] après avoir créé les images on va passer aussi à partie textuelle, où on va changer le texte
+[01:10:14 - 01:10:28] encore une fois, on va avoir une expertise sur les mentors, ça prend beaucoup de temps
+[01:10:28 - 01:10:35] d'automatique, prise de tête, vous savez pas utiliser un logiciel, vous connectez codepud
+[01:10:35 - 01:10:37] sur ce logiciel là en question
+[01:10:37 - 01:11:10] bon, qu'est-ce qu'il y a au web-off français ?
+[01:11:10 - 01:11:13] mais il va comprendre, c'est ça le pire, trop rempli, il faut que ce soit visible
+[01:11:13 - 01:13:57] Donc là il a fini la section, on va voir, ça ressemble, ok bon c'est parfait, parce qu'il va regarder la section, j'ai mal à la réaliser.
+[01:13:57 - 01:14:11] Mais une fois que j'ai mal screen le reste comme ça derrière, il faut comprendre bien qu'il y a des bordures en noir.
+[01:14:11 - 01:14:25] Des fois un même process, on récupère le prompt, on colle, maintenant il a tous les liens, il a compris comment s'organiser.
+[01:14:25 - 01:14:55] On va passer à une autre tâche, après on va refaire d'autres, mais l'objectif ça va
+[01:14:55 - 01:15:12] être encore une fois, ça va être simple, on va ouvrir le dossier mon business.
+[01:15:12 - 01:15:22] Encore une fois c'est temps réchir, en train de créer le temps qu'une tâche est en train
+[01:15:22 - 01:15:23] d'être créée.
+[01:15:23 - 01:15:26] Là on sait que le code fait les sections, donc qu'est-ce qu'on peut faire le temps,
+[01:15:26 - 01:15:29] tout simplement on va préparer le texte.
+[01:15:29 - 01:15:45] Donc là on a nos images, on va créer un dossier image si image sheet, donc là on a
+[01:15:45 - 01:15:55] l'audité si-all, quand une fois celui-là, le logo on va le mettre sur image sheet.
+[01:15:55 - 01:16:04] Vous allez pouvoir aussi très bien l'améliorer du coup, c'est le html pardon je me suis trompé
+[01:16:04 - 01:16:06] jusqu'au bout de mon site.
+[01:16:06 - 01:16:35] On l'avait déjà fait je ne sais plus où, si je l'enlève, l'organisation, mettre
+[01:16:35 - 01:16:45] ça là, mettre ça là, maintenant on va faire quoi ? Une allo dossier codex.
+[01:16:45 - 01:17:09] Cette fois-ci on va utiliser Codex de marché, mais ça on en a besoin aussi, je l'ai ouvert
+[01:17:09 - 01:17:12] deux fois.
+[01:17:12 - 01:17:13] Ok.
+[01:17:13 - 01:17:21] Du coup on a l'autre deux sessions, la partie Codex, et on a la partie Codecodes pour créer
+[01:17:21 - 01:17:22] du coup les sections.
+[01:17:22 - 01:20:33] Et c'est pas mal j'aime bien.
+[01:20:33 - 01:20:42] On va y arriver un maudit de crayon, un blage ancien, des rostes en rater monsieur.
+[01:20:42 - 01:21:01] C'est un appel découverte, un petit peu Codecodes.
+[01:21:01 - 01:21:21] Donc dès qu'il y a beaucoup de logos ou d'animations, on prend plus de temps que vous pouvez
+[01:21:21 - 01:21:29] voir.
+[01:21:29 - 01:22:13] texte. Il a terminé je pense. Notifiez-le un petit peu. C'est pas le top du top, encore une fois on lui donne
+[01:22:13 - 01:22:32] pas de code modifié c'est bien. En vrai c'est pas mal, ça change mais c'est pas encore le top du top
+[01:22:32 - 01:23:21] si on va sur l'exemple. Faire un style, encore une fois ce qui est bien c'est que là vous voulez
+[01:23:21 - 01:23:25] changer de logo après vous allez pouvoir changer de logo. Donc là notre sélection d'outils
+[01:23:25 - 01:23:30] no-code et no-code vous allez dire les outils qu'on maîtrise pour aider les restaurateurs.
+[01:23:30 - 01:24:07] ensuite on met le logo par exemple, je ne sais pas, je lui ai demandé quelque chose il
+[01:24:07 - 01:24:21] l'a fait, pas exactement au 10 pixel parfait prêt pour avoir quelque chose qui est très
+[01:24:21 - 01:24:45] semblable, quelque chose de très très qualitatif, c'est ça qui est important, on veut mentor,
+[01:24:45 - 01:24:49] faire passer sur un système comme je suis en train de vous montrer, parce que ça me fait
+[01:24:49 - 01:24:55] gagner du temps et bah malheureusement il est plus, il est meilleur que bon alors que ça m'a pris
+[01:24:55 - 01:24:59] peut-être aller un bon six mois pour comprendre, represser les moments de temps.
+[01:24:59 - 01:25:08] Donc là on a quelque chose qui est semblable, on va voir le responsif si
+[01:25:08 - 01:26:25] il correspond bien du coup ce qu'on souhaite, c'est recharger la page, il est
+[01:26:25 - 01:26:28] extrêmement puissant et pour des tâches toutes bêtes il va prendre énormément de
+[01:26:28 - 01:26:39] temps, bon laisser faire mais là on pourrait très bien aussi améliorer
+[01:26:39 - 01:26:42] du coup de l'attitude de marché, voilà on a plus d'informations. Ce qu'on souhaite
+[01:26:42 - 01:26:47] de faire c'est quoi ? C'est tout simplement travailler dans la restaurateur, enfin proposer
+[01:26:47 - 01:26:52] des solutions d'automatisation et d'agentria pour les restaurateurs, donc du coup on cherche
+[01:26:52 - 01:27:14] qu'est-ce qu'il est escalable. Là, zelcher, la zelcher, gsforkmanager, zelty, une restaurant
+[01:27:14 - 01:27:34] super, l'addition, des livrailles qui... Testez quelque chose, je l'ai jamais fait,
+[01:27:34 - 01:28:51] on va voir s'il y a d'un capacité de le faire ou pas. La première fois je le
+[01:28:51 - 01:30:36] test là comme ça c'est intéressant de tester jusqu'au moins ses limites mais vous savez quoi
+[01:30:36 - 01:30:47] j'ai encore mieux. A la place de prendre des promptes et après les envoyages IPT, on va lui demander
+[01:30:47 - 01:30:51] qu'il nous crée directement les images parce que la différence de clout code j'avais oublié
+[01:30:51 - 01:30:56] bah bah il en fait il a son propre généateur d'image donc on peut passer par codex pour qu'il
+[01:30:56 - 01:33:34] refase des images ok maintenant répondre devant la suite pour plus de tête donc là lui il a
+[01:33:34 - 01:34:02] compris Codex qui l'utilise et imagine. Du filtex, je me demande aussi directement
+[01:34:02 - 01:34:08] de faire un code code. On va demander un peu de code, c'est plus simple. J'ai pas
+[01:34:08 - 01:35:08] ma effet. Des indications, assez des promes tant plus, au lieu principal, qu'on ne fasse pas
+[01:35:08 - 01:35:12] bien complexe, là ce que je suis en train de faire. Je me demande simplement de remplacer du
+[01:35:12 - 01:36:24] texte. C'est juste ça, juste ce que je veux. Codex prend beaucoup de temps,
+[01:36:24 - 01:36:32] il est très puissant ce modèle de me rapprocher de plus en plus d'open eyes,
+[01:36:32 - 01:36:40] la concurrence en fait, ce qui est bien dans ce marché là, il se livre une bataille, une bataille
+[01:36:40 - 01:37:31] féroce derrière, des coulissons obligés à chaque fois de vous sortir des nouveaux faits donc c'est
+[01:37:31 - 01:40:10] top, attendez deux d'un soir. Je ne suis pas fan du tout. Je ne suis pas fan du tout. Les images
+[01:40:10 - 01:41:35] bien, bien long, il s'est travaillé encore, peut-être qu'il a bugué, ça peut arriver,
+[01:41:35 - 01:41:43] encore une fois, c'est pas parfait donc là 100% tous les modèles, mais le but,
+[01:41:43 - 01:43:20] j'essaie de vous habituer à utiliser deux modèles différents en codex et clocode avec deux terminaux
+[01:43:20 - 01:43:25] différents, après bien sûr quand vous avez travaillé ça peut que derrière vous ayez une
+[01:43:25 - 01:43:40] organisation avec un terminal là, un terminal là, déjà vous avez beaucoup de clients,
+[01:43:40 - 01:43:45] beaucoup de travail, c'est ça qui rentre, en fait, pour vous donner un ordre d'idée,
+[01:43:45 - 01:43:54] imaginons que vous êtes un freelance et que votre TGM, si je vais sur ma, excusez-moi de
+[01:43:54 - 01:44:25] partir dans tous les sens, mais le accès il est à 500 jours, 47, etc. En fait, ça se trouve lui,
+[01:44:25 - 01:44:29] il va signer quatre projets, il va y avoir quatre terminales différents, un terminal par projet.
+[01:44:29 - 01:44:36] A la place d'être à 500 jours, il va faire x4, il va être à 2000. C'est vraiment ça qu'il
+[01:44:36 - 01:44:44] faut se mettre en tête, c'est derrière la capacité sur plusieurs projets en même temps.
+[01:44:44 - 01:45:36] Il avait aussi, là il a terminé, on l'a connecté, là vous n'êtes pas obligés de mettre la commande parce que tu comprends, il a tout le contexte, il travaille directement sur ce projet avec lui.
+[01:45:36 - 01:45:43] Mais pas encore parfait.
+[01:45:43 - 01:46:10] Très bien, on va laisser ça comme ça, on va passer à la suite après.
+[01:46:10 - 01:46:23] Encore une fois, si vous souhaitez démodiver le mandé, par les deux sections, il y a une barre au milieu, je vais dire.
+[01:46:23 - 01:46:40] Pourquoi est bugged ?
+[01:46:40 - 01:48:23] Ça nous fait la même chose, comme on a vu, il va falloir faire quoi ?
+[01:48:23 - 01:48:24] Slash compact.
+[01:48:24 - 01:48:25] compact.
+[01:48:25 - 01:48:30] Si ça ne marche pas encore une fois le compact, on éteint la session code code et on redémarre.
+[01:48:30 - 01:48:38] Faites-moi bloquer codex fermé, ce n'est pas utile.
+[01:48:38 - 01:48:47] Par une fois, c'est du live, on ne peut pas bien se passer selon le forêt que je coupe.
+[01:48:47 - 01:48:55] C'est parti là, mais mon objectif, c'est encore une fois, montrer comment m'ont les problèmes,
+[01:48:55 - 01:49:13] c'était mon codex.
+[01:49:13 - 01:49:17] Par exemple, quand j'aurai fini mon site internet, je travaille sur autre chose.
+[01:49:17 - 01:49:20] Ah tiens, je n'avais pas trop cette section-là.
+[01:49:20 - 01:49:24] je vais l'améliorer le temps, c'est ça en fait, c'est comme ça que vous allez
+[01:49:24 - 01:49:27] productive, vous allez gagner du temps et vous allez bon parce que vous allez
+[01:49:27 - 01:49:36] constamment chercher la perfection. Je ne dis pas que c'est impossible, mais
+[01:49:36 - 01:49:41] essayez à chaque fois d'aller gagner du temps sur des quittages, essayez d'améliorer
+[01:49:41 - 01:49:49] vos process pour que la fin, bien nickel. Vous avez une bonne organisation,
+[01:49:49 - 01:49:59] vous savez comment ça fonctionne, un point, pour la mesure que vous allez
+[01:49:59 - 01:50:03] répéter ces tâches là, vous avez promis une bonne habitude et ça va être
+[01:50:03 - 01:50:48] le top du top pour la suite. Donc là je vais le redonner. Peut-être que ça va bloquer.
+[01:50:48 - 01:50:55] Souvent quand ça fait ça, il va falloir relancer la session par contre.
+[01:50:55 - 01:53:04] En train de continuer, c'est top. Il nous a généré l'image résultat.
+[01:53:04 - 01:55:29] Donc on va voir au niveau du part du fer. Mais il manque des logos ici.
+[01:55:29 - 01:55:36] On verra les améliorations, le but c'est qu'on avance. Ça joue encore une fois.
+[01:55:36 - 01:55:38] Pourquoi je le fais sur les montants ? Parce qu'après ça, il semble de modifier.
+[01:55:38 - 01:55:45] Vous voulez changer l'image, vous voulez changer le peg, vous voulez changer le tout.
+[01:55:45 - 01:56:08] modifié. Le but c'est d'avoir une structure qui est simple, bon blanc ou pas du tout.
+[01:56:08 - 01:56:19] Je termine là même quand on est biker, on va faire la dernière section, je crois que c'est
+[01:56:19 - 01:56:44] la meilleure screen, encore une fois pourtant c'est lui envoyé tout ça, éducation,
+[01:56:44 - 01:58:30] je vais copier même le texte, ok c'est top, elle a dur, on passe à la suite. Avant
+[01:58:30 - 02:01:11] dernière section, c'est parti, hop, screen, hop envoyé, hop il y a le texte, encore une
+[02:01:11 - 02:01:16] fois un peu de prise de tête, enfin on est pas obligé de chercher des choses très
+[02:01:16 - 02:02:22] compliqué pour des tâches. J'ai pensé que là on aurait pu traîmer en vrai un troisième
+[02:02:22 - 02:02:35] terminal sur codex ou gpt, vous pouvez trouver des idées de texte mais pour l'instant on va finir
+[02:02:35 - 02:02:43] déjà le site web, ça va être mieux. Ok, c'est parfait. Et comment ça va avoir de la gueule
+[02:02:43 - 02:02:58] d'autres sites ? Comment ça va avoir de la gueule ? D'effet, on va voir ça plus tard.
+[02:02:58 - 02:03:03] Plusieurs qu'une fois, tout est modifiable, c'est ça la puissance, ce que je vous montre,
+[02:03:03 - 02:03:33] les logos, l'image de 5-10 ans, totalement remplacé quoi.
+[02:03:33 - 02:03:42] Les modificés, vous avez vu, ça va faire deux heures, j'ai déjà fini ma page d'accueil.
+[02:03:42 - 02:03:44] Ça va faire une heure et une heure 30.
+[02:03:44 - 02:03:52] En quatre heures, vous avez un site complet, on va avoir aussi la partie blog automatique.
+[02:03:52 - 02:04:55] Vous pouvez être intéressant pour la page solution, ou bref, vous l'appelez comme vous voulez,
+[02:04:55 - 02:04:56] le service.
+[02:04:56 - 02:05:41] L'endrier, il comprend tout.
+[02:05:41 - 02:05:44] Il y a une analyse, tout le monde comprend ça quoi.
+[02:05:44 - 02:05:50] sur le site ou même sur des post-linked in, après c'est simple, net, efficace, précis.
+[02:05:50 - 02:06:59] On va parler le résultat, il a fait l'refacure et ma durée, c'est franchement top, on va voir en
+[02:06:59 - 02:07:11] responsive, je pense pas mal aussi, on va remarque, honnêtement responsive top, on va lui dire
+[02:07:11 - 02:08:14] juste ça, je vais faire le design, après encore, on va le faire, même de design, mh4, ok donc c'est
+[02:08:14 - 02:08:26] on va faire des petites améliorations maintenant sur la page qui nous a créé comme ça
+[02:08:26 - 02:08:31] une structure qui est stable et après on va faire la lave bar donc la bâche de navigation qui
+[02:08:31 - 02:08:45] va être une des pages le footer déjà on va là j'avais remarqué un problème
+[02:08:45 - 02:09:46] juste avant les copies textes on regarde l'effet on est où le petit codex
+[02:09:46 - 02:09:59] Donc là ce qu'il parait il a ajouté il est fait, ouais c'est fait, parfait, parfait, parfait, parfait.
+[02:09:59 - 02:10:15] En fait c'est bien, c'est pratiquement parfait, je vais juste le dire, même pas en fait c'est bien comme ça.
+[02:10:15 - 02:10:29] Une fois il y a des petites choses qui peuvent être changées, peut-être sur le texte,
+[02:10:29 - 02:10:36] ce pilote doit mettre autre chose, après on va voir au niveau du texte justement comment l'améliorer.
+[02:10:36 - 02:10:48] On va le laisser travailler, nous ce qu'on va faire c'est simple, c'est qu'on va remplacer le texte,
+[02:10:48 - 02:10:57] le texte. Donc comment remplacer le texte ? Pas de compliqués. Ok. Maintenant, on place le texte
+[02:10:57 - 02:11:24] de cette codex de dossier. Donc on va bureau mon business, encore une fois celui qui est connecté
+[02:11:24 - 02:12:04] à coworkers, audit SEO. On lui donne un peu plus de contexte. Mon agence reste du contexte.
+[02:12:04 - 02:12:11] Ensuite, tu lui expliques qu'il va falloir qu'il analyse l'audit SEO et qu'après une phase
+[02:12:11 - 02:12:38] du texte pour la section juste ici. Ok donc là normalement ce qu'il va faire c'est l'audit des
+[02:12:38 - 02:13:19] longs comptes. En fait on arrive à des modèles qui sont tellement puissants, des simples petites
+[02:13:19 - 02:13:38] invites vont permettre de faire un étage complexe. Il a fait une, deux, trois, quatre. Après il a fait
+[02:13:38 - 02:14:39] un état là, il a fait deux images supplémentaires. Ok donc la partie avec client. Encore une fois
+[02:14:39 - 02:14:43] il vous fait des propositions, ça vous plaît pas, vous demandez de changer. Moi ça va plus
+[02:14:43 - 02:14:46] puisqu'il m'a mis combien d'appels pour rester à l'intérieur de chaque service.
+[02:14:46 - 02:16:10] Une fois c'est vous qui voyez, je ne peux pas vous aider là-dessus.
+[02:16:10 - 02:16:19] En mobile, ça rend bien comme ça.
+[02:16:19 - 02:16:45] Une fois c'est l'image, on pourrait la mettre comme ça.
+[02:16:45 - 02:16:49] On va voir ça.
+[02:16:49 - 02:17:12] Il est notre guide, il l'a analysé.
+[02:17:12 - 02:17:13] C'est lui qui l'a fait.
+[02:17:13 - 02:17:16] On sait qu'il est qualitatif, qu'est-ce qu'on peut mettre.
+[02:17:16 - 02:17:18] On veut se placer.
+[02:17:18 - 02:17:47] Il en est codex.
+[02:17:47 - 02:17:51] Je cherchais sur internet, je ne sais pas ce qu'il fait.
+[02:17:51 - 02:17:54] Mais je vais laisser travailler, on va voir le résultat après.
+[02:17:54 - 02:18:04] j'adore parfois voir ça jusqu'à où il peut aller quoi, où il peut réfléchir jusqu'à où
+[02:18:04 - 02:18:10] il peut résoudre la tâche, il faut éviter que toutes les images sont au bon centre, je vais
+[02:18:10 - 02:18:55] alterner avec les marines tailles, bien regarder l'auditation, au pied ça on veut se positionner
+[02:18:55 - 02:19:55] le temps-là on va voir, enfin ça m'impressionne beaucoup de ces modèles là, je reçois les cas
+[02:19:55 - 02:20:08] C'est pourquoi tu as sélectionné ce texte, ça c'est juste pour montrer comment il a sélectionné ce texte-là, pourquoi il l'a choisi.
+[02:20:08 - 02:20:40] Il dit vraiment ce qu'on a fait juste avant. Voilà pourquoi c'est important de faire un audit et on se positionne du coup.
+[02:20:40 - 02:21:21] C'est à la fin des 90 jours, je vais suivre Restia, montrer justement les tapes par étapes comme ça vous avez répond, structurer.
+[02:21:21 - 02:21:32] Je trouve que j'ai reçu un client grâce à cette agence-là, on va voir, il est lent.
+[02:21:32 - 02:22:27] Vous dites que c'est que ce voir section, c'est bon bah vas-y, je vais le tout faire en même temps, ok.
+[02:22:27 - 02:22:37] Bon, là on a fini, du coup, la première partie de notre site, ça ressemble énormément à la version de base et rien à dire, c'est parfait.
+[02:22:37 - 02:22:45] Petit détail, bien sûr, après ça, vous corrigez, le manque, la barre de navigation dessus, le footeur.
+[02:22:45 - 02:22:53] une fois pour utiliser le système comme professionnel, ne créez pas directement sur la page d'accueil
+[02:22:53 - 02:22:57] parce que l'on veut que cette barre-là suive toutes les autres pages. Pour ça, je vous ai préparé
+[02:22:57 - 02:24:45] un petit prompt. Ok, top, on passe à la petite prompt. Je d'accueille le même process pour les
+[02:24:45 - 02:26:46] autres deux points bloquants, donc ça les prévu de le faire après un moment. Ça ressemble un peu
+[02:26:46 - 02:27:41] aux dizaines que j'ai fait. Ce n'est pas le meilleur exemple parce que je parle très
+[02:27:41 - 02:27:52] Très honnêtement, il est extrêmement puissant et plus puissant qu'au puce 4,7, mais je ne sais pas pourquoi là il bug peut-être que ça fait trop longtemps qu'il réfléchit.
+[02:27:52 - 02:29:51] J'aimais bien leur comment écriventer leur solution là.
+[02:29:51 - 02:30:04] Visuel, je suis un grand fan de flat design comme vous pouvez le voir.
+[02:30:04 - 02:30:09] Après vous pouvez aller demander des images réelles, ce n'est pas un problème.
+[02:30:09 - 02:30:11] C'est dépendre de l'idée que vous souhaitez mettre en place.
+[02:30:11 - 02:31:04] Nafe bar, donc là il voit qu'il y a un problème qui est tout seul.
+[02:31:04 - 02:31:19] Le résultat correspond bien à nos attentes, on a poussé l'année, il y a une seule page qui a été créée.
+[02:31:19 - 02:31:21] Maintenant ça on lui a déjà répondu parmi.
+[02:31:21 - 02:32:13] Il y a très bien envoyé un screen et à la place de ça on met le contact redirection, c'est pas mal.
+[02:32:13 - 02:32:18] C'est pas mal aussi, il s'est après d'avoir le choix, je sais pas ce que je vais en faire d'ailleurs.
+[02:32:18 - 02:32:24] Pas mal aussi pour les articles, ça peut...
+[02:32:24 - 02:33:31] Là il a terminé, on va voir le résultat.
+[02:33:31 - 02:33:55] Il reste simple.
+[02:33:55 - 02:34:34] Là il nous l'a mis en logo.
+[02:34:34 - 02:35:00] On va lui donner le logo de votre image, à la place de texte, TML, Business.
+[02:35:00 - 02:38:00] Faut qu'il ajoute le logo, j'ai préparé aussi un petit prompt du coup pour le footer.
+[02:38:00 - 02:38:09] On va lui utiliser, le footer c'est quoi ? C'est sur un site, là c'est on le crée.
+[02:38:09 - 02:38:20] Et la nave bar, on crée un template qui sera utilisé pour chacune des pages qu'on va créer.
+[02:38:20 - 02:38:26] Donc là ce qu'il est en train de me créer, on va la voir constamment sur toutes les pages.
+[02:38:26 - 02:38:32] ça on garde le même design de navigation, pas d'une page à l'autre, changer le menu, etc.
+[02:38:32 - 02:39:10] Une fois vous voyez, on aurait pu très bien ouvrir un troisième navigateur pour faire une autre tâche.
+[02:39:10 - 02:39:18] On est main quatrième, comme ça on peut switcher entre temps d'attente,
+[02:39:18 - 02:39:21] comment ça qu'il faut mettre en place chaque fois.
+[02:39:21 - 02:40:13] Le plus de temps que prévu, je pense qu'en une bonne journée vous avez fini votre site internet,
+[02:40:13 - 02:40:29] une bonne journée vous avez fini mais ça est important parce qu'encore une fois vous avez
+[02:40:29 - 02:40:40] fait une agence qui créa un stake chat gpt vous allez vraiment additionnel et ça c'est
+[02:40:40 - 02:41:15] très bien upload le logo directement sur wordpress, avant comment remplacer le texte de
+[02:41:15 - 02:41:22] toutes les images qu'on a eu upload, apporter au messain modération la séance juste après
+[02:41:22 - 02:42:05] pour la partie blog des services quand je dis inventer c'est que là par exemple il n'y a pas
+[02:42:05 - 02:42:11] grand chose qui a été fait. Il y a des choses qui peuvent évolutionner ce marché là. Je suis certain.
+[02:42:11 - 02:42:19] Si vous avez une bonne idée, allez-y foncez. C'est une opportunité où vous pouvez remplacer
+[02:42:19 - 02:42:26] l'expertise par exemple. Là, pour finir le site web, maintenant de coding, de design.
+[02:42:26 - 02:42:30] Enfin bref, vous pouvez faire énormément de choses. Allez-y, laissez pas rire votre créativité,
+[02:42:30 - 02:42:36] n'ayez pas peur, foncez. Beaucoup de choses à faire. Le marché est à peine exploité.
+[02:42:36 - 02:42:40] Dans les années à venir, ça va être complètement fou avec les modèles qui seront
+[02:42:40 - 02:42:50] plus en puissant, c'est incroyable. Mais en expérience, après nez, devenez meilleur, ça va
+[02:42:50 - 02:43:31] marcher pour vous, j'en suis certain, malade mental. Dans le contexte, carrément il est sur image bébé,
+[02:43:31 - 02:43:38] il a récupéré la pays. Donc ça on aurait pu le voir en live, c'est dommage, c'est dommage qu'on
+[02:43:38 - 02:44:44] n'a pas vu, c'est un bon exemple. Il a récupéré l'image, il l'a converti, petit bouton modifié,
+[02:44:44 - 02:44:58] Il y a un petit peu, à une fois vous pouvez le faire avec l'autre code, des petites
+[02:44:58 - 02:46:37] mesons de prendre parlons, mais c'est compliqué quoi, il y a juste à faire des
+[02:46:37 - 02:46:41] screens, copier le prong, vous l'envoyer, vous avez quelque chose de parfait
+[02:46:41 - 02:47:14] pratiquement, c'est assez incroyable. Une question, dans le contexte, il reste
+[02:47:14 - 02:47:31] il y a 5 clins comme même pas. En plus, plus vous commencez à travailler avec lui,
+[02:47:31 - 02:47:34] puis il a du contexte, puis il est un puissant, donc ça c'est incroyable.
+[02:47:34 - 02:47:49] Quai de caisse, rouler à dossier, ça c'est pas mal ça.
+[02:47:49 - 02:47:51] On pourrait faire un service aussi supplémentaire sur ça.
+[02:47:51 - 02:48:37] On peut aller voir vite fait sur codexmonusage,
+[02:48:37 - 02:48:40] voir si je vais vous l'utiliser beaucoup de tokens,
+[02:48:40 - 02:48:43] parce qu'il vous fera beaucoup de temps pour générer tout ça.
+[02:48:43 - 02:48:49] Ça va à 98%, ça c'est parce que j'avais bien travaillé avant.
+[02:48:49 - 02:48:51] On va laisser travailler.
+[02:48:51 - 02:50:23] La page pourrait très bien créer une page,
+[02:50:23 - 02:50:34] une espèce de redirection, des backlinks, ça c'est pas mal,
+[02:50:34 - 02:52:30] il est déjà mieux, on va prendre pour aller passer à autre chose.
+[02:52:30 - 02:53:06] On va passer à la suite.
+[02:53:06 - 02:53:08] C'est simple.
+[02:53:08 - 02:53:19] On va couler sur la partie de l'onglet, modifier avec élément tord, jeunisation, fermer ça
+[02:53:19 - 02:53:20] aussi.
+[02:53:20 - 02:53:26] Là, on est sur notre page avec modification.
+[02:53:26 - 02:55:02] Il faut appeler, améliorer après, c'est propre à vous, on va voir justement ce
+[02:55:02 - 02:55:03] qu'il faut faire.
+[02:55:03 - 02:55:16] On va laisser finir sur cette tâche, on ment tout lui dire, il va le faire dans toutes
+[02:55:16 - 02:55:36] les images, avec commande peut-être, feuilles pour l'environnement, je ne sais pas.
+[02:55:36 - 02:57:01] C'est pas mal aussi, on va rester sur ça, l'objectif encore une fois que vous allez faire votre propre
+[02:57:01 - 02:57:08] procède, vos propres designs etc, propres modifications, donc là par exemple l'image ça va plus du tout parce que le fond il est blanc
+[02:57:08 - 02:57:16] mais vous vous amusez à modifier, vous amusez à changer ce que vous souhaitez, encore une fois là j'aurais pu faire beaucoup mieux si je prenais plus de temps
+[02:57:16 - 02:57:27] et le but c'est pas ça, par exemple le logo aussi, bref voilà, maintenant vous avez votre page d'accueil, elle est parfaite, tout est bien designé, tout est propre, tout est clean
+[02:57:27 - 02:57:31] vous êtes satisfait de votre travail, que vous avez mis les bons liens de redirection etc.
+[02:57:31 - 02:57:35] Ce que vous allez faire, c'est qu'il va falloir créer d'autres pages.
+[02:57:35 - 02:57:41] Pour créer d'autres pages, ça va pas être compliqué. Vous allez cliquer sur sortir de
+[02:57:41 - 02:57:48] WordPress. Vous allez aller juste ici aussi. Vous allez faire ajouter une page. Vous allez écrire.
+[02:57:48 - 02:58:03] Par exemple, si vous voulez la page solution, si vous voulez la page contact, vous allez faire
+[02:58:03 - 02:58:10] page contact. Vous allez en recréer et du coup, on va faire exactement le même système.
+[02:58:10 - 02:59:02] Pourquoi je le fais section par section ? Parce que je pense que derrière,
+[02:59:02 - 02:59:06] Il y en a qui m'ont essayé pour aller plus vite, c'est parce qu'après il perd la tête.
+[02:59:06 - 02:59:09] En fait il y a tellement de choses à reproduire et on lui donne énormément d'indications.
+[02:59:09 - 02:59:25] Du coup, le problème, c'est qu'il va faire n'importe quoi, que ce soit le niveau du responsif,
+[02:59:25 - 02:59:26] au niveau des couleurs.
+[02:59:26 - 02:59:30] En bref, ça va pas être top, après vous pouvez essayer, comme ça vous faites un avis,
+[02:59:30 - 02:59:34] vous prenez un limite aussi de cette fonctionnalité que je vous montre.
+[02:59:34 - 03:00:06] Par exemple, vous avez fait une erreur comme je viens de le faire, vous demandez
+[03:00:06 - 03:00:43] code-code directement. On va faire plus simple, on va le faire en live ensemble, donc là c'est mon nom,
+[03:00:43 - 03:01:57] il a reconnété, après s'il fonctionne ça ensemble, s'il l'a bien mis sur un nouvel page,
+[03:01:57 - 03:03:21] je pense pas modifier avec élémentaire, avec comme ça. Ce que vous avez compris du coup,
+[03:03:21 - 03:03:27] comment créer un site web avec élémentaire et code-code, que vous avez pu voir c'est pas
+[03:03:27 - 03:03:31] compliqué, je vais pas le faire sur toutes les pages, parce que là ça fait déjà deux heures,
+[03:03:31 - 03:03:36] sinon ça a duré six heures, ça va pas être le plus intéressant parce que maintenant vous
+[03:03:36 - 03:03:40] vous allez le faire. Une fois que vous avez les pages que vous souhaitez, vous pouvez
+[03:03:40 - 03:03:44] très bien le dire, c'est qu'il y a la place d'agence, c'est solution, oui, dite
+[03:03:44 - 03:03:48] remplace la place de solution, elle est là, c'est celle-ci. Si elle est là, comme
+[03:03:48 - 03:03:53] vous pouvez le voir, il n'y a pas de contact, page contact, et puis après vous vous demandez
+[03:03:53 - 03:03:57] qu'il y a relié tout directement entre les avocats créés, il va le faire.
+[03:03:57 - 03:04:04] Donc j'espère que cette session vous a plu. Encore une fois, vous serez les
+[03:04:04 - 03:04:13] premiers à utiliser ce système-là, c'est extrême rapport à ça. En tout cas,
+[03:04:13 - 03:04:23] vous remercie, honnêtement, envoyez les sites que vous avez réalisés. Je suis vraiment très
+[03:04:23 - 03:04:30] curieux de voir vos réalisations. Donc merci et à tout de suite du coup pour la suite.

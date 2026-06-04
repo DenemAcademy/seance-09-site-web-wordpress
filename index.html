@@ -1,0 +1,896 @@
+<!doctype html>
+<html lang="fr" id="top">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DENEM Academy - Séance 09 - Site WordPress avec IA</title>
+  <meta name="description" content="Support complet séance 09 : créer un site WordPress avec Hostinger, Elementor, Claude Code, Chrome MCP et une méthode section par section.">
+  <link rel="icon" href="logo-denem.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=JetBrains+Mono:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+:root{--ink:#171717;--muted:#5f6368;--paper:#fff;--soft:#fff5f5;--red:#dc2626;--red2:#ef4444;--amber:#f59e0b;--green:#0f766e;--line:#171717;--shadow:7px 7px 0 var(--ink);--shadow-sm:4px 4px 0 var(--ink)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font-family:Inter,system-ui,sans-serif;letter-spacing:0;overflow-x:hidden}::selection{background:#fecaca;color:#111}a{color:inherit}.progress{position:fixed;top:0;left:0;height:6px;background:linear-gradient(90deg,var(--red),#fb7185,var(--amber));z-index:90;width:0}.topbar{position:sticky;top:0;z-index:80;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:2px solid var(--ink)}.topbar-inner{max-width:1280px;margin:auto;padding:14px 18px;display:flex;gap:16px;align-items:center;justify-content:space-between}.brand{display:flex;gap:10px;align-items:center;text-decoration:none;font-weight:900}.brand img{width:42px;height:42px;border:2px solid var(--ink);box-shadow:var(--shadow-sm);object-fit:cover}.brand span{font-family:JetBrains Mono,monospace;font-size:12px;text-transform:uppercase}.nav-toggle{display:none}.act-nav{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}.act-nav a{white-space:nowrap;text-decoration:none;border:2px solid var(--ink);box-shadow:var(--shadow-sm);padding:7px 10px;background:#fff;font-family:JetBrains Mono,monospace;font-size:11px;font-weight:900;text-transform:uppercase}.act-nav a span{display:inline-block;background:var(--red);color:#fff;padding:1px 5px;margin-right:6px}.act-nav a.is-active{background:var(--red);color:#fff}.act-nav a.is-active span{background:#fff;color:var(--red)}.hero{position:relative;border-bottom:2px solid var(--ink);background:linear-gradient(#fff,#fff5f5);overflow:hidden}.hero:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(220,38,38,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(23,23,23,.06) 1px,transparent 1px);background-size:32px 32px}.hero-inner{position:relative;max-width:1280px;margin:auto;padding:72px 18px 56px}.eyebrow{display:inline-flex;border:2px solid var(--ink);background:var(--red);color:#fff;box-shadow:var(--shadow-sm);padding:8px 12px;font-family:JetBrains Mono,monospace;font-weight:900;text-transform:uppercase;font-size:12px}.hero h1{max-width:980px;font-size:64px;line-height:.95;margin:24px 0 20px;font-weight:950}.hero p{font-size:20px;line-height:1.75;max-width:850px;color:#333}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.hero-actions a{border:2px solid var(--ink);padding:13px 18px;box-shadow:var(--shadow-sm);text-decoration:none;font-weight:900;background:#fff}.hero-actions a:first-child{background:var(--red);color:#fff}.summary{max-width:1280px;margin:auto;padding:44px 18px}.summary-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.summary-card{border:2px solid var(--ink);box-shadow:var(--shadow-sm);padding:18px;background:#fff;text-decoration:none}.summary-card b{font-family:JetBrains Mono,monospace;background:var(--red);color:#fff;padding:4px 7px;font-size:12px}.summary-card h3{font-size:18px;line-height:1.2;margin:14px 0 8px}.summary-card p{font-size:13px;line-height:1.55;color:var(--muted)}main{border-top:2px solid var(--ink)}.lesson-section{scroll-margin-top:90px;padding:76px 18px;border-bottom:2px solid var(--ink);max-width:1280px;margin:auto}.lesson-section:nth-child(odd){background-image:linear-gradient(90deg,rgba(220,38,38,.045) 0 1px,transparent 1px),linear-gradient(rgba(245,158,11,.04) 0 1px,transparent 1px);background-size:34px 34px}.meta-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}.meta-row span{border:2px solid var(--ink);box-shadow:var(--shadow-sm);padding:6px 9px;background:#fff;font-family:JetBrains Mono,monospace;font-size:11px;font-weight:900;text-transform:uppercase}.meta-row .kicker{background:var(--red);color:#fff}.lesson-section h2{font-size:44px;line-height:1.02;margin:0 0 18px;font-weight:950}.lead{font-size:18px;line-height:1.8;color:#333;margin:0 0 22px}.split-grid,.hero-grid,.mistake-layout,.quote-grid,.prompt-layout{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start}.hero-grid{grid-template-columns:1.08fr .92fr}.wide-copy{max-width:880px}.shot{border:2px solid var(--ink);box-shadow:var(--shadow);background:#fff;margin:0 0 22px;overflow:hidden}.shot img{display:block;width:100%;height:auto;background:#fff}.shot figcaption{border-top:2px solid var(--ink);padding:12px 14px;font-size:13px;font-weight:800;color:#444}.action-box,.proof-box,.trap-box,.diagnostic,.method-card,.wide-band{border:2px solid var(--ink);box-shadow:var(--shadow-sm);padding:18px;background:#fff;margin:14px 0}.action-box{background:#fee2e2}.proof-box{background:#f7fee7}.trap-box{background:#fffbeb}.action-box b,.proof-box b,.trap-box b,.diagnostic b{font-family:JetBrains Mono,monospace;text-transform:uppercase;font-size:12px}.action-box p,.proof-box p,.trap-box p,.diagnostic p{line-height:1.65;margin:8px 0 0;color:#333}.two-box{display:grid;grid-template-columns:1fr 1fr;gap:18px}.check-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:22px 0}.check-grid label{border:2px solid var(--ink);box-shadow:var(--shadow-sm);padding:16px;background:#fff;font-weight:800;line-height:1.4}.check-grid input{width:20px;height:20px;margin-right:8px;accent-color:var(--red)}.prompt-card{border:2px solid var(--ink);box-shadow:var(--shadow);background:#111;color:#fff;margin:20px 0;overflow:hidden}.prompt-head{display:flex;justify-content:space-between;gap:12px;align-items:center;border-bottom:2px solid rgba(255,255,255,.25);padding:10px 12px;background:#1f1f1f}.prompt-head span{font-family:JetBrains Mono,monospace;text-transform:uppercase;font-size:12px;font-weight:900;color:#fecaca}.copy-btn{border:2px solid #fff;background:#fff;color:#111;padding:6px 10px;font-weight:900;cursor:pointer}.copy-btn.is-copied{background:#fecaca}.prompt-card pre{margin:0;padding:20px;white-space:pre-wrap;overflow-x:auto;font-family:JetBrains Mono,monospace;font-size:13px;line-height:1.75}.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:24px 0}.timeline div{border:2px solid var(--ink);box-shadow:var(--shadow-sm);background:#fff;padding:16px;font-weight:900}.timeline span,.steps-list span{display:inline-grid;place-items:center;width:30px;height:30px;background:var(--red);color:#fff;border:2px solid var(--ink);margin-right:8px;font-family:JetBrains Mono,monospace}.table-wrap{overflow-x:auto;border:2px solid var(--ink);box-shadow:var(--shadow-sm);margin:22px 0;background:#fff}table{border-collapse:collapse;width:100%;min-width:680px}th,td{border:2px solid var(--ink);padding:14px;text-align:left;vertical-align:top;line-height:1.55}th{background:var(--red);color:#fff}.before-after{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0}.before-after div,.card-grid div,.steps-list div{border:2px solid var(--ink);box-shadow:var(--shadow-sm);background:#fff;padding:18px}.before-after div:first-child{background:#fafafa}.before-after div:last-child{background:#fee2e2}.method-card ol{margin:18px 0 0;padding-left:22px;line-height:1.9;font-weight:800}.diagnostic{background:#111;color:#fff}.diagnostic p{color:#eee}.lesson-section blockquote{font-size:34px;line-height:1.22;font-weight:950;margin:0 0 24px;padding:26px;border-left:10px solid var(--red);background:#fee2e2}.card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:24px 0}.card-grid p{line-height:1.6;color:#333}.steps-list{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:22px 0;font-weight:900}.wide-band{background:#111;color:#fff}.wide-band .lead,.wide-band p{color:#fff}.hero-sub{font-size:20px;line-height:1.8;color:#333}.hero-stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.hero-stats span{background:#111;color:#fff;border:2px solid var(--ink);box-shadow:var(--shadow-sm);padding:12px 14px;font-family:JetBrains Mono,monospace;font-weight:900}.accent-black .meta-row .kicker,.accent-black .timeline span,.accent-black .steps-list span{background:#111}.accent-amber .meta-row .kicker,.accent-amber .timeline span,.accent-amber .steps-list span{background:var(--amber);color:#111}.accent-green .meta-row .kicker,.accent-green .timeline span,.accent-green .steps-list span{background:var(--green)}.final{max-width:1280px;margin:auto;padding:60px 18px 80px}.final-box{border:2px solid var(--ink);box-shadow:var(--shadow);padding:28px;background:#111;color:#fff}.final-box h2{font-size:42px;line-height:1.05;margin:0 0 14px}.final-box p{line-height:1.75;color:#eee}.footer{border-top:2px solid var(--ink);padding:26px 18px;background:#fff}.footer-inner{max-width:1280px;margin:auto;display:flex;justify-content:space-between;gap:16px;align-items:center;font-family:JetBrains Mono,monospace;font-weight:900;font-size:12px;text-transform:uppercase}.reveal{opacity:0;transform:translateY(18px);transition:opacity .5s ease,transform .5s ease}.reveal.is-visible{opacity:1;transform:none}@media(max-width:1050px){.summary-grid{grid-template-columns:repeat(2,1fr)}.split-grid,.hero-grid,.mistake-layout,.quote-grid,.prompt-layout{grid-template-columns:1fr}.timeline,.card-grid{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:52px}.lesson-section h2{font-size:38px}}@media(max-width:700px){.topbar-inner{align-items:flex-start;flex-direction:column}.act-nav{width:100%}.hero-inner{padding:46px 16px}.hero h1{font-size:40px}.hero p{font-size:17px}.summary-grid,.two-box,.check-grid,.timeline,.before-after,.card-grid,.steps-list{grid-template-columns:1fr}.lesson-section{padding:54px 16px}.lesson-section h2{font-size:32px}.lead{font-size:16px}.lesson-section blockquote{font-size:25px}.footer-inner{flex-direction:column;align-items:flex-start}.shot{box-shadow:var(--shadow-sm)}.prompt-card pre{font-size:12px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}.reveal{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#top"><img src="logo-denem.jpeg" alt="Logo DENEM Academy"><span>DENEM Academy · Séance 09</span></a>
+      <nav class="act-nav" aria-label="Navigation par actes"><a href="#section-001"><span>01</span>Départ</a><a href="#section-011"><span>02</span>Hostinger</a><a href="#section-021"><span>03</span>WordPress</a><a href="#section-031"><span>04</span>Elementor</a><a href="#section-041"><span>05</span>Claude Code</a><a href="#section-051"><span>06</span>Prompt coeur</a><a href="#section-061"><span>07</span>Hero</a><a href="#section-071"><span>08</span>Répétition</a><a href="#section-081"><span>09</span>Images</a><a href="#section-091"><span>10</span>Sections</a><a href="#section-101"><span>11</span>Responsive</a><a href="#section-111"><span>12</span>SEO</a><a href="#section-121"><span>13</span>Global</a><a href="#section-131"><span>14</span>Production</a><a href="#section-141"><span>15</span>Récap</a></nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="eyebrow">Acte 2 · Lancer · WordPress</span>
+      <h1>Créer ton site WordPress avec Claude Code, section par section.</h1>
+      <p>Je pars d’un domaine Hostinger, j’installe WordPress, je branche Elementor, puis j’utilise Claude Code et le navigateur pour construire une page d’accueil complète. Le support reprend la séance en 150 étapes courtes, avec les prompts à copier et les captures utiles.</p>
+      <div class="hero-actions"><a href="#section-001">Commencer</a><a href="#prompts-index">Voir les prompts</a><a href="#section-150">Checklist finale</a></div>
+    </div>
+  </section>
+  <aside class="summary"><div class="summary-grid"><a class="summary-card" href="#section-001"><b>01</b><h3>Poser le cadre</h3><p>Je pars de la séance précédente : audit SEO, stratégie et positionnement. Maintenant je transforme tout ça en page WordPress exploitable.</p></a><a class="summary-card" href="#section-011"><b>02</b><h3>Acheter domaine et hébergement</h3><p>Je commence par Hostinger parce que c’est simple, rapide et suffisant pour un site vitrine de formation.</p></a><a class="summary-card" href="#section-021"><b>03</b><h3>Installer WordPress proprement</h3><p>Je ne choisis pas l’AI Website Builder. Je veux le vrai WordPress, parce que je vais ensuite utiliser Elementor et garder la main.</p></a><a class="summary-card" href="#section-031"><b>04</b><h3>Installer Elementor et Elementor Pro</h3><p>Je transforme WordPress en constructeur visuel. Elementor me donne le canvas que Claude Code peut manipuler.</p></a><a class="summary-card" href="#section-041"><b>05</b><h3>Connecter Claude Code au navigateur</h3><p>Je donne à Claude Code la capacité d’agir dans mon vrai Chrome, mais je garde les zones sensibles sous mon contrôle.</p></a><a class="summary-card" href="#section-051"><b>06</b><h3>Comprendre le prompt pixel-perfect</h3><p>Le gros prompt sert à transformer une inspiration en section Elementor maintenable, avec extraction, construction et vérification.</p></a><a class="summary-card" href="#section-061"><b>07</b><h3>Construire la première section</h3><p>Je commence par le hero parce que c’est la section la plus visible et celle qui fixe le style général.</p></a><a class="summary-card" href="#section-071"><b>08</b><h3>Avancer section par section</h3><p>La puissance vient de la répétition : même process, nouvelle capture, nouvelle section, nouvelle vérification.</p></a><a class="summary-card" href="#section-081"><b>09</b><h3>Remplacer les images et assets</h3><p>Je ne garde pas les images source telles quelles. Je les remplace ou les adapte pour mon projet.</p></a><a class="summary-card" href="#section-091"><b>10</b><h3>Construire les blocs commerciaux</h3><p>Je construis les sections qui donnent de la crédibilité : outils, services, preuves, FAQ, CTA.</p></a><a class="summary-card" href="#section-101"><b>11</b><h3>Vérifier desktop, tablette, mobile</h3><p>Je ne valide jamais seulement sur desktop. Le responsive est une étape de production, pas une option.</p></a><a class="summary-card" href="#section-111"><b>12</b><h3>Réécrire avec la stratégie</h3><p>Je fais entrer l’audit SEO dans la page. Le design vient de l’inspiration, mais le contenu vient du positionnement.</p></a><a class="summary-card" href="#section-121"><b>13</b><h3>Navbar, footer et pages suivantes</h3><p>Une fois les sections stables, je passe aux éléments globaux : navbar, footer, menu, pages.</p></a><a class="summary-card" href="#section-131"><b>14</b><h3>Travailler comme un pro</h3><p>Je transforme la démo en méthode de production : prompts, validations, sauvegardes, limites.</p></a><a class="summary-card" href="#section-141"><b>15</b><h3>Refaire la séance sans la vidéo</h3><p>Je termine par une checklist complète pour que tu puisses refaire seul, étape par étape.</p></a></div></aside>
+  <main><section id="section-001" class="lesson-section layout-hero accent-red" data-act="01"><div class="hero-grid"><div><div class="meta-row"><span class="kicker">001</span><span>Départ</span><span>hero</span></div>
+    <h2>Ce que je construis vraiment</h2>
+    <p class="lead">Je ne crée pas juste une page jolie. Je crée une base commerciale : un site que tu peux vendre, répliquer et améliorer avec l’IA.</p><p class="hero-sub">Je pars d'une vidéo longue de 3 h et je la transforme en support pratique : tu peux suivre, copier les prompts, vérifier chaque étape et refaire le site sans dépendre de la mémoire.</p><div class="hero-stats"><span>150 sections</span><span>49 captures</span><span>17 prompts</span></div></div><figure class="shot">
+      <img src="img/captures-s9/01-domain-hostinger-search.jpg" alt="Capture de la séance 09 - Ce que je construis vraiment" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Ce que je construis vraiment</figcaption>
+    </figure></div></section>
+<section id="section-002" class="lesson-section layout-story accent-black" data-act="01"><div class="wide-band"><div class="meta-row"><span class="kicker">002</span><span>Départ</span><span>story</span></div>
+    <h2>Pourquoi WordPress maintenant</h2>
+    <p class="lead">WordPress + Elementor donne une base simple à piloter, bonne pour le SEO, et assez standard pour que Claude Code puisse agir dans l’interface.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Garde WordPress comme socle pratique, pas comme sujet théorique.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu peux ouvrir wp-admin et Elementor sans te perdre.</p></div></div></div><figure class="shot">
+      <img src="img/captures-s9/02-domain-choice-hpanel.jpg" alt="Capture de la séance 09 - Pourquoi WordPress maintenant" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Pourquoi WordPress maintenant</figcaption>
+    </figure></section>
+<section id="section-003" class="lesson-section layout-split accent-amber" data-act="01"><div class="split-grid"><div><div class="meta-row"><span class="kicker">003</span><span>Départ</span><span>split</span></div>
+    <h2>Le résultat final attendu</h2>
+    <p class="lead">À la fin, je veux une page d’accueil publiée, construite section par section, responsive et cohérente avec RestIA.</p><div class="action-box"><b>À faire</b><p>Ne vise pas tout le site en une seule demande. Vise une page solide.</p></div></div><div><figure class="shot">
+      <img src="img/captures-s9/03-domain-payment.jpg" alt="Capture de la séance 09 - Le résultat final attendu" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Le résultat final attendu</figcaption>
+    </figure><div class="proof-box"><b>Preuve que c'est bon</b><p>La page s’ouvre en public et se lit sur mobile.</p></div></div></div></section>
+<section id="section-004" class="lesson-section layout-image accent-green" data-act="01"><div class="wide-copy"><div class="meta-row"><span class="kicker">004</span><span>Départ</span><span>image</span></div>
+    <h2>Le service que tu peux vendre</h2>
+    <p class="lead">Cette compétence devient une offre : création de site, refonte, landing page, site vitrine, page service, page locale SEO.</p></div><figure class="shot">
+      <img src="img/captures-s9/04-domain-ready.jpg" alt="Capture de la séance 09 - Le service que tu peux vendre" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Le service que tu peux vendre</figcaption>
+    </figure><div class="two-box"><div class="action-box"><b>À faire</b><p>Écris déjà le livrable client : pages, sections, délais, validations.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu peux proposer un prix sans vendre seulement du temps.</p></div></div></section>
+<section id="section-005" class="lesson-section layout-check accent-red" data-act="01"><div class="meta-row"><span class="kicker">005</span><span>Départ</span><span>check</span></div>
+    <h2>La logique de la séance</h2>
+    <p class="lead">Je prépare le terrain, je connecte les outils, puis je fais travailler Claude Code section par section dans Elementor.</p><div class="check-grid"><label><input type="checkbox"> Je comprends l'objectif</label><label><input type="checkbox"> Je sais quoi cliquer</label><label><input type="checkbox"> Je peux vérifier le résultat</label><label><input type="checkbox"> Je sais quoi corriger si ça bloque</label></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Respecte l’ordre : hébergement, WordPress, Elementor, MCP, page, prompt.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Chaque outil a une raison claire.</p></div></div></section>
+<section id="section-006" class="lesson-section layout-prompt accent-black" data-act="01"><div class="prompt-layout"><div><div class="meta-row"><span class="kicker">006</span><span>Départ</span><span>prompt</span></div>
+    <h2>Pourquoi section par section</h2>
+    <p class="lead">Une page entière d’un coup part vite dans tous les sens. Une section, c’est contrôlable, corrigeable et vérifiable.</p><div class="action-box"><b>À faire</b><p>Ne lance jamais “fais-moi tout le site” au début.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu peux corriger sans casser le reste.</p></div></div><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>[Image #X]
+Voici la prochaine section.
+Reprends exactement le même process : extraction source, plan, construction Elementor, vérification desktop/tablette/mobile, sauvegarde, puis mini compte-rendu.</code></pre>
+    </div></div><figure class="shot">
+      <img src="img/captures-s9/06-domain-selected-for-wordpress.jpg" alt="Capture de la séance 09 - Pourquoi section par section" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Pourquoi section par section</figcaption>
+    </figure></section>
+<section id="section-007" class="lesson-section layout-timeline accent-amber" data-act="01"><div class="meta-row"><span class="kicker">007</span><span>Départ</span><span>timeline</span></div>
+    <h2>Ce que tu dois garder sous la main</h2>
+    <p class="lead">Domaine, accès WordPress, dossier Elementor, URL source, URL Elementor, URL preview, capture de section, audit SEO.</p><div class="timeline"><div><span>01</span>Préparer</div><div><span>02</span>Construire</div><div><span>03</span>Vérifier</div><div><span>04</span>Corriger</div></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Prépare ces éléments avant de demander à Claude de construire.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu ne perds pas 10 minutes à chaque prompt.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/07-wordpress-installing.jpg" alt="Capture de la séance 09 - Ce que tu dois garder sous la main" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Ce que tu dois garder sous la main</figcaption>
+    </figure></section>
+<section id="section-008" class="lesson-section layout-table accent-green" data-act="01"><div class="meta-row"><span class="kicker">008</span><span>Départ</span><span>table</span></div>
+    <h2>La vraie compétence IA</h2>
+    <p class="lead">Le sujet n’est pas Elementor. Le sujet est de piloter un agent avec un contexte clair, des captures, des règles et une boucle de vérification.</p><div class="table-wrap"><table><tr><th>Point</th><th>Décision</th><th>Contrôle</th></tr><tr><td>Objectif</td><td>Formule la tâche comme un système, pas comme une demande vague.</td><td>Claude sait quoi faire sans inventer.</td></tr><tr><td>Risque</td><td>Aller trop vite</td><td>Revenir à une validation observable</td></tr></table></div><figure class="shot">
+      <img src="img/captures-s9/08-go-to-wordpress.jpg" alt="Capture de la séance 09 - La vraie compétence IA" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : La vraie compétence IA</figcaption>
+    </figure></section>
+<section id="section-009" class="lesson-section layout-mistake accent-red" data-act="01"><div class="mistake-layout"><div><div class="meta-row"><span class="kicker">009</span><span>Départ</span><span>mistake</span></div>
+    <h2>Le piège du débutant</h2>
+    <p class="lead">Le piège, c’est de confondre vitesse et résultat. Si tu vas trop vite, tu obtiens une page bancale et tu dois tout reprendre.</p><div class="trap-box"><b>Piège à éviter</b><p>Ne saute pas cette vérification. Si ce point est flou, la suite va coûter plus cher en corrections.</p></div></div><div><div class="action-box"><b>À faire</b><p>Valide une section avant de passer à la suivante.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu gardes une page stable.</p></div><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code># Installer Claude Code si besoin
+node -v
+npm -v
+npm install -g @anthropic-ai/claude-code
+claude --version</code></pre>
+    </div></div></div><figure class="shot">
+      <img src="img/captures-s9/09-wordpress-extensions.jpg" alt="Capture de la séance 09 - Le piège du débutant" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Le piège du débutant</figcaption>
+    </figure></section>
+<section id="section-010" class="lesson-section layout-before accent-black" data-act="01"><div class="meta-row"><span class="kicker">010</span><span>Départ</span><span>before</span></div>
+    <h2>Mini récap de départ</h2>
+    <p class="lead">Je veux un site WordPress, avec Elementor, piloté par Claude Code, à partir d’un site d’inspiration et adapté à mon business.</p><div class="before-after"><div><b>Avant</b><p>Une action vague, un outil ouvert, et beaucoup d'incertitude.</p></div><div><b>Après</b><p>Le fil rouge est clair.</p></div></div><div class="action-box"><b>À faire</b><p>Note cette phrase dans ton QG.</p></div><figure class="shot">
+      <img src="img/captures-s9/10-elementor-upload.jpg" alt="Capture de la séance 09 - Mini récap de départ" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Mini récap de départ</figcaption>
+    </figure></section>
+<section id="section-011" class="lesson-section layout-method accent-amber" data-act="02"><div class="method-card"><div class="meta-row"><span class="kicker">011</span><span>Hostinger</span><span>method</span></div>
+    <h2>Chercher Hostinger</h2>
+    <p class="lead">Je pars d’une recherche simple et je vais sur le site officiel. Le but est d’éviter les faux liens, les comparateurs inutiles et les offres parasites.</p><ol><li>Je prépare le contexte.</li><li>Je lance une action précise.</li><li>Je vérifie dans l'interface réelle.</li><li>Je corrige seulement ce qui bloque.</li></ol></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Clique uniquement sur le résultat officiel ou tape directement hostinger.fr.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu arrives sur une page Hostinger fiable.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/11-elementor-pro-upload.jpg" alt="Capture de la séance 09 - Chercher Hostinger" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Chercher Hostinger</figcaption>
+    </figure></section>
+<section id="section-012" class="lesson-section layout-diagnostic accent-green" data-act="02"><div class="meta-row"><span class="kicker">012</span><span>Hostinger</span><span>diagnostic</span></div>
+    <h2>Comprendre domaine + hébergement</h2>
+    <p class="lead">Le domaine est l’adresse. L’hébergement est l’endroit où tourne le site. Les deux doivent être liés pour que WordPress soit accessible.</p><div class="diagnostic"><b>Diagnostic rapide</b><p>Si tu ne peux pas expliquer cette étape en une phrase, reviens au dernier écran stable et vérifie l'URL, l'outil ouvert et l'objectif de la section.</p></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Ne paye pas seulement un domaine si tu veux installer WordPress.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu sais ce que tu achètes.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/12-elementor-pro-active.jpg" alt="Capture de la séance 09 - Comprendre domaine + hébergement" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Comprendre domaine + hébergement</figcaption>
+    </figure><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code># Depuis ton dossier de travail site
+cd ~/Desktop/mon-business/02-site
+claude --dangerously-skip-permissions</code></pre>
+    </div></section>
+<section id="section-013" class="lesson-section layout-quote accent-red" data-act="02"><blockquote>“Je prends une durée réaliste, pas forcément l’offre la plus longue. Le prix mensuel affiché cache souvent un engagement plus cher en cash.”</blockquote><div class="quote-grid"><div><div class="meta-row"><span class="kicker">013</span><span>Hostinger</span><span>quote</span></div><h2>Choisir une durée raisonnable</h2><div class="action-box"><b>À faire</b><p>Compare le total payé, pas seulement le prix par mois.</p></div></div><div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu évites une mauvaise surprise de paiement.</p></div><figure class="shot">
+      <img src="img/captures-s9/13-wordpress-pages.jpg" alt="Capture de la séance 09 - Choisir une durée raisonnable" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Choisir une durée raisonnable</figcaption>
+    </figure></div></div></section>
+<section id="section-014" class="lesson-section layout-cards accent-black" data-act="02"><div class="meta-row"><span class="kicker">014</span><span>Hostinger</span><span>cards</span></div>
+    <h2>Chercher un nom de domaine</h2>
+    <p class="lead">Je teste un nom lié au projet. Pour RestIA, je veux un nom court, mémorisable, cohérent avec la promesse.</p><div class="card-grid"><div><b>Pourquoi</b><p>Je teste un nom lié au projet. Pour RestIA, je veux un nom court, mémorisable, cohérent avec la promesse.</p></div><div><b>Action</b><p>Teste plusieurs extensions mais garde une logique simple.</p></div><div><b>Validation</b><p>Le nom se comprend vite.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/14-create-home-page.jpg" alt="Capture de la séance 09 - Chercher un nom de domaine" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Chercher un nom de domaine</figcaption>
+    </figure><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>/mcp
+
+Objectif : vérifier que le serveur Chrome MCP est bien connecté et que Claude Code peut ouvrir, lire et piloter un onglet Chrome.</code></pre>
+    </div></section>
+<section id="section-015" class="lesson-section layout-steps accent-amber" data-act="02"><div class="meta-row"><span class="kicker">015</span><span>Hostinger</span><span>steps</span></div>
+    <h2>Analyser les extensions</h2>
+    <p class="lead">Le .fr rassure en France, le .com est standard, le .online est économique, le .ai peut être cher. Le choix dépend de ton budget et de ton image.</p><div class="steps-list"><div><span>1</span>Ouvre le bon écran.</div><div><span>2</span>Fais l'action indiquée.</div><div><span>3</span>Contrôle la preuve.</div><div><span>4</span>Note la correction si besoin.</div></div><figure class="shot">
+      <img src="img/captures-s9/15-elementor-editor-ready.jpg" alt="Capture de la séance 09 - Analyser les extensions" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Analyser les extensions</figcaption>
+    </figure><div class="two-box"><div class="action-box"><b>À faire</b><p>Choisis l’extension comme une décision business, pas comme un détail esthétique.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le domaine est disponible et cohérent.</p></div></div></section>
+<section id="section-016" class="lesson-section layout-wide accent-green" data-act="02"><div class="wide-band"><div class="meta-row"><span class="kicker">016</span><span>Hostinger</span><span>wide</span></div>
+    <h2>Passer au panier</h2>
+    <p class="lead">Je vérifie le domaine exact, la durée, les frais et le total. Une erreur de nom coûte du temps.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Relis le domaine caractère par caractère avant de payer.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le panier contient le bon domaine.</p></div></div></div><figure class="shot">
+      <img src="img/captures-s9/16-mcp-test.jpg" alt="Capture de la séance 09 - Passer au panier" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Passer au panier</figcaption>
+    </figure><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>Ouvre un nouvel onglet Chrome via le MCP et navigue vers https://[TON_DOMAINE]/wp-admin.
+Attends que je me connecte à la main.
+Quand tu vois le tableau de bord WordPress, confirme-moi que la session est active.
+
+Important : je saisis moi-même l&#x27;identifiant et le mot de passe. Tu ne me demandes jamais mes accès.</code></pre>
+    </div></section>
+<section id="section-017" class="lesson-section layout-story accent-red" data-act="02"><div class="wide-band"><div class="meta-row"><span class="kicker">017</span><span>Hostinger</span><span>story</span></div>
+    <h2>Choisir le moyen de paiement</h2>
+    <p class="lead">Je garde le paiement simple. Carte, PayPal, Google Pay ou Apple Pay : l’objectif est de finaliser proprement, pas d’optimiser chaque centime.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Ne montre jamais d’informations sensibles dans un support public.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le paiement peut se faire sans bloquer.</p></div></div></div><figure class="shot">
+      <img src="img/captures-s9/17-wordpress-login.jpg" alt="Capture de la séance 09 - Choisir le moyen de paiement" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Choisir le moyen de paiement</figcaption>
+    </figure></section>
+<section id="section-018" class="lesson-section layout-split accent-black" data-act="02"><div class="split-grid"><div><div class="meta-row"><span class="kicker">018</span><span>Hostinger</span><span>split</span></div>
+    <h2>Comprendre les frais</h2>
+    <p class="lead">Le total inclut parfois des frais ICANN, TVA ou protection. Je regarde le total final, pas seulement le prix promotionnel.</p><div class="action-box"><b>À faire</b><p>Garde une capture mentale du vrai coût annuel.</p></div><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>Crée une nouvelle page WordPress appelée &quot;Accueil&quot;.
+Ouvre-la dans l&#x27;éditeur Elementor.
+Confirme-moi que le canvas est vide et donne-moi l&#x27;URL exacte de l&#x27;éditeur avec le post ID.</code></pre>
+    </div></div><div><figure class="shot">
+      <img src="img/captures-s9/18-source-bienfait-page.jpg" alt="Capture de la séance 09 - Comprendre les frais" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Comprendre les frais</figcaption>
+    </figure><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu peux expliquer le budget à un client.</p></div></div></div></section>
+<section id="section-019" class="lesson-section layout-image accent-amber" data-act="02"><div class="wide-copy"><div class="meta-row"><span class="kicker">019</span><span>Hostinger</span><span>image</span></div>
+    <h2>Retrouver le domaine ensuite</h2>
+    <p class="lead">Après l’achat, je vais dans le portfolio de domaines ou dans hPanel. C’est là que je vérifie ce que j’ai réellement acheté.</p></div><figure class="shot">
+      <img src="img/captures-s9/19-section-screenshot-workflow.jpg" alt="Capture de la séance 09 - Retrouver le domaine ensuite" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Retrouver le domaine ensuite</figcaption>
+    </figure><div class="two-box"><div class="action-box"><b>À faire</b><p>Ne repars pas sur Google si tu es déjà dans ton compte Hostinger.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le domaine apparaît dans le tableau de bord.</p></div></div></section>
+<section id="section-020" class="lesson-section layout-check accent-green" data-act="02"><div class="meta-row"><span class="kicker">020</span><span>Hostinger</span><span>check</span></div>
+    <h2>Preuve de réussite Hostinger</h2>
+    <p class="lead">La preuve n’est pas le paiement : c’est de voir le domaine dans le compte et de pouvoir l’utiliser pour créer le site.</p><div class="check-grid"><label><input type="checkbox"> Je comprends l'objectif</label><label><input type="checkbox"> Je sais quoi cliquer</label><label><input type="checkbox"> Je peux vérifier le résultat</label><label><input type="checkbox"> Je sais quoi corriger si ça bloque</label></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Passe à WordPress seulement quand le domaine est visible.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu peux sélectionner le domaine dans hPanel.</p></div></div></section>
+<section id="section-021" class="lesson-section layout-prompt accent-red" data-act="03"><div class="prompt-layout"><div><div class="meta-row"><span class="kicker">021</span><span>WordPress</span><span>prompt</span></div>
+    <h2>Éviter le mauvais builder</h2>
+    <p class="lead">Hostinger pousse parfois son constructeur IA. Il peut être utile, mais ici il casse la méthode : je veux WordPress + Elementor.</p><div class="action-box"><b>À faire</b><p>Clique WordPress quand Hostinger te demande comment créer le site.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu restes dans le bon écosystème.</p></div></div><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>[Image #X]
+Voici la prochaine section.
+Reprends exactement le même process : extraction source, plan, construction Elementor, vérification desktop/tablette/mobile, sauvegarde, puis mini compte-rendu.</code></pre>
+    </div></div><figure class="shot">
+      <img src="img/captures-s9/21-confirm-section-target.jpg" alt="Capture de la séance 09 - Éviter le mauvais builder" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Éviter le mauvais builder</figcaption>
+    </figure></section>
+<section id="section-022" class="lesson-section layout-timeline accent-black" data-act="03"><div class="meta-row"><span class="kicker">022</span><span>WordPress</span><span>timeline</span></div>
+    <h2>Choisir créer ou migrer</h2>
+    <p class="lead">Je crée un site neuf. Migrer sert quand tu as déjà un site ailleurs. Ici, je pars d’une base propre.</p><div class="timeline"><div><span>01</span>Préparer</div><div><span>02</span>Construire</div><div><span>03</span>Vérifier</div><div><span>04</span>Corriger</div></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Ne choisis pas migration si tu n’as rien à transférer.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le parcours reste simple.</p></div></div></section>
+<section id="section-023" class="lesson-section layout-table accent-amber" data-act="03"><div class="meta-row"><span class="kicker">023</span><span>WordPress</span><span>table</span></div>
+    <h2>Choisir la méthode de création</h2>
+    <p class="lead">WordPress donne plus de contrôle. Website Builder et Horizons sont séduisants, mais moins adaptés à la suite de la formation.</p><div class="table-wrap"><table><tr><th>Point</th><th>Décision</th><th>Contrôle</th></tr><tr><td>Objectif</td><td>Sélectionne WordPress, pas l’option la plus marketing.</td><td>Tu arrives sur l’installation WordPress.</td></tr><tr><td>Risque</td><td>Aller trop vite</td><td>Revenir à une validation observable</td></tr></table></div></section>
+<section id="section-024" class="lesson-section layout-mistake accent-green" data-act="03"><div class="mistake-layout"><div><div class="meta-row"><span class="kicker">024</span><span>WordPress</span><span>mistake</span></div>
+    <h2>Créer les identifiants admin</h2>
+    <p class="lead">Je crée un accès admin WordPress. Le mot de passe doit être solide, mais je ne le donne jamais à l’IA.</p><div class="trap-box"><b>Piège à éviter</b><p>Ne saute pas cette vérification. Si ce point est flou, la suite va coûter plus cher en corrections.</p></div></div><div><div class="action-box"><b>À faire</b><p>Stocke tes accès dans un gestionnaire de mots de passe.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu peux te connecter à /wp-admin.</p></div></div></div><figure class="shot">
+      <img src="img/captures-s9/24-visual-loop.jpg" alt="Capture de la séance 09 - Créer les identifiants admin" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Créer les identifiants admin</figcaption>
+    </figure></section>
+<section id="section-025" class="lesson-section layout-before accent-red" data-act="03"><div class="meta-row"><span class="kicker">025</span><span>WordPress</span><span>before</span></div>
+    <h2>Attacher le domaine au site</h2>
+    <p class="lead">Je sélectionne le domaine acheté. Ce choix évite de construire sur une adresse temporaire quand le vrai domaine est prêt.</p><div class="before-after"><div><b>Avant</b><p>Une action vague, un outil ouvert, et beaucoup d'incertitude.</p></div><div><b>Après</b><p>Le site cible utilise le bon domaine.</p></div></div><div class="action-box"><b>À faire</b><p>Vérifie que le bon domaine apparaît dans l’écran Hostinger.</p></div></section>
+<section id="section-026" class="lesson-section layout-method accent-black" data-act="03"><div class="method-card"><div class="meta-row"><span class="kicker">026</span><span>WordPress</span><span>method</span></div>
+    <h2>Renseigner les infos propriétaire</h2>
+    <p class="lead">Pour un domaine, les informations propriétaire peuvent être demandées. Je remplis proprement, sans improviser.</p><ol><li>Je prépare le contexte.</li><li>Je lance une action précise.</li><li>Je vérifie dans l'interface réelle.</li><li>Je corrige seulement ce qui bloque.</li></ol></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Ne mets pas de fausses informations sur un domaine.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le domaine peut être enregistré correctement.</p></div></div></section>
+<section id="section-027" class="lesson-section layout-diagnostic accent-amber" data-act="03"><div class="meta-row"><span class="kicker">027</span><span>WordPress</span><span>diagnostic</span></div>
+    <h2>Choisir la localisation cible</h2>
+    <p class="lead">Je choisis la France ou la zone proche de mon audience. Ce n’est pas le détail qui fait tout, mais ça garde une logique de performance.</p><div class="diagnostic"><b>Diagnostic rapide</b><p>Si tu ne peux pas expliquer cette étape en une phrase, reviens au dernier écran stable et vérifie l'URL, l'outil ouvert et l'objectif de la section.</p></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Aligne le data center avec ton public principal.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le site est configuré pour la bonne audience.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/27-preview-check.jpg" alt="Capture de la séance 09 - Choisir la localisation cible" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Choisir la localisation cible</figcaption>
+    </figure></section>
+<section id="section-028" class="lesson-section layout-quote accent-green" data-act="03"><blockquote>“L’installation WordPress peut prendre quelques minutes. Je laisse faire au lieu de cliquer partout.”</blockquote><div class="quote-grid"><div><div class="meta-row"><span class="kicker">028</span><span>WordPress</span><span>quote</span></div><h2>Lancer l’installation</h2><div class="action-box"><b>À faire</b><p>Attends la fin, même si la barre semble lente.</p></div></div><div><div class="proof-box"><b>Preuve que c'est bon</b><p>WordPress annonce que le site est prêt.</p></div></div></div></section>
+<section id="section-029" class="lesson-section layout-cards accent-red" data-act="03"><div class="meta-row"><span class="kicker">029</span><span>WordPress</span><span>cards</span></div>
+    <h2>Ignorer les distractions</h2>
+    <p class="lead">Hostinger propose des templates, modules et options. Je prends seulement ce qui sert à ouvrir WordPress.</p><div class="card-grid"><div><b>Pourquoi</b><p>Hostinger propose des templates, modules et options. Je prends seulement ce qui sert à ouvrir WordPress.</p></div><div><b>Action</b><p>Évite d’empiler des options avant d’avoir une page simple.</p></div><div><b>Validation</b><p>Tu arrives au tableau de bord.</p></div></div></section>
+<section id="section-030" class="lesson-section layout-steps accent-black" data-act="03"><div class="meta-row"><span class="kicker">030</span><span>WordPress</span><span>steps</span></div>
+    <h2>Preuve de réussite WordPress</h2>
+    <p class="lead">La vraie preuve : le site se charge, wp-admin est accessible, et je peux accéder au tableau de bord WordPress.</p><div class="steps-list"><div><span>1</span>Ouvre le bon écran.</div><div><span>2</span>Fais l'action indiquée.</div><div><span>3</span>Contrôle la preuve.</div><div><span>4</span>Note la correction si besoin.</div></div><figure class="shot">
+      <img src="img/captures-s9/30-logo-bar-bug.jpg" alt="Capture de la séance 09 - Preuve de réussite WordPress" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Preuve de réussite WordPress</figcaption>
+    </figure><div class="two-box"><div class="action-box"><b>À faire</b><p>Ouvre /wp-admin pour tester.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu vois le menu WordPress.</p></div></div></section>
+<section id="section-031" class="lesson-section layout-wide accent-amber" data-act="04"><div class="wide-band"><div class="meta-row"><span class="kicker">031</span><span>Elementor</span><span>wide</span></div>
+    <h2>Entrer dans wp-admin</h2>
+    <p class="lead">Je rentre dans WordPress, pas dans Hostinger. hPanel gère l’hébergement, wp-admin gère le site.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Distingue toujours les deux interfaces.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu sais où installer les extensions.</p></div></div></div></section>
+<section id="section-032" class="lesson-section layout-story accent-green" data-act="04"><div class="wide-band"><div class="meta-row"><span class="kicker">032</span><span>Elementor</span><span>story</span></div>
+    <h2>Ouvrir Extensions</h2>
+    <p class="lead">Je vais dans Extensions &gt; Ajouter. C’est là que WordPress accepte les plugins, soit depuis le répertoire, soit en ZIP.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Ne cherche pas Elementor dans Hostinger.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu es sur la page Ajouter des extensions.</p></div></div></div></section>
+<section id="section-033" class="lesson-section layout-split accent-red" data-act="04"><div class="split-grid"><div><div class="meta-row"><span class="kicker">033</span><span>Elementor</span><span>split</span></div>
+    <h2>Installer Elementor gratuit</h2>
+    <p class="lead">Elementor gratuit doit être installé avant Elementor Pro. C’est la base du plugin.</p><div class="action-box"><b>À faire</b><p>Installe et active la version gratuite d’abord.</p></div></div><div><figure class="shot">
+      <img src="img/captures-s9/33-mobile-image-check.jpg" alt="Capture de la séance 09 - Installer Elementor gratuit" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Installer Elementor gratuit</figcaption>
+    </figure><div class="proof-box"><b>Preuve que c'est bon</b><p>Elementor apparaît dans le menu.</p></div></div></div></section>
+<section id="section-034" class="lesson-section layout-image accent-black" data-act="04"><div class="wide-copy"><div class="meta-row"><span class="kicker">034</span><span>Elementor</span><span>image</span></div>
+    <h2>Uploader Elementor en ZIP</h2>
+    <p class="lead">Si tu as un fichier ZIP fourni, tu passes par Téléverser une extension. Je choisis le fichier, j’installe, puis j’active.</p></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Ne dézippe pas le plugin avant l’upload WordPress.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>WordPress confirme l’installation.</p></div></div></section>
+<section id="section-035" class="lesson-section layout-check accent-amber" data-act="04"><div class="meta-row"><span class="kicker">035</span><span>Elementor</span><span>check</span></div>
+    <h2>Installer Elementor Pro</h2>
+    <p class="lead">Elementor Pro ajoute Theme Builder, header/footer global, formulaires et widgets utiles. Je l’installe après la base.</p><div class="check-grid"><label><input type="checkbox"> Je comprends l'objectif</label><label><input type="checkbox"> Je sais quoi cliquer</label><label><input type="checkbox"> Je peux vérifier le résultat</label><label><input type="checkbox"> Je sais quoi corriger si ça bloque</label></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Même logique : ZIP, installer, activer.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Elementor Pro est actif.</p></div></div></section>
+<section id="section-036" class="lesson-section layout-prompt accent-green" data-act="04"><div class="prompt-layout"><div><div class="meta-row"><span class="kicker">036</span><span>Elementor</span><span>prompt</span></div>
+    <h2>Connecter la licence si besoin</h2>
+    <p class="lead">Si une licence est demandée, je la connecte manuellement. Je ne donne pas l’accès à l’IA.</p><div class="action-box"><b>À faire</b><p>Fais cette partie toi-même si elle contient des identifiants.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Elementor ne bloque pas l’éditeur.</p></div></div><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>[Image #X]
+Voici la prochaine section.
+Reprends exactement le même process : extraction source, plan, construction Elementor, vérification desktop/tablette/mobile, sauvegarde, puis mini compte-rendu.</code></pre>
+    </div></div><figure class="shot">
+      <img src="img/captures-s9/36-tools-logos-section.jpg" alt="Capture de la séance 09 - Connecter la licence si besoin" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Connecter la licence si besoin</figcaption>
+    </figure></section>
+<section id="section-037" class="lesson-section layout-timeline accent-red" data-act="04"><div class="meta-row"><span class="kicker">037</span><span>Elementor</span><span>timeline</span></div>
+    <h2>Comprendre les widgets natifs</h2>
+    <p class="lead">Je veux que Claude utilise des containers, titres, textes, boutons, images et accordéons natifs. Ça garde le site maintenable.</p><div class="timeline"><div><span>01</span>Préparer</div><div><span>02</span>Construire</div><div><span>03</span>Vérifier</div><div><span>04</span>Corriger</div></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Évite les blocs HTML bricolés.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Chaque section reste modifiable visuellement.</p></div></div></section>
+<section id="section-038" class="lesson-section layout-table accent-black" data-act="04"><div class="meta-row"><span class="kicker">038</span><span>Elementor</span><span>table</span></div>
+    <h2>Créer une page Accueil</h2>
+    <p class="lead">Je prépare une page vide. Le canvas vide évite que Claude modifie un template déjà rempli ou un bloc que je ne veux pas toucher.</p><div class="table-wrap"><table><tr><th>Point</th><th>Décision</th><th>Contrôle</th></tr><tr><td>Objectif</td><td>Crée “Accueil” avant de lancer le gros prompt.</td><td>La page existe dans WordPress.</td></tr><tr><td>Risque</td><td>Aller trop vite</td><td>Revenir à une validation observable</td></tr></table></div></section>
+<section id="section-039" class="lesson-section layout-mistake accent-amber" data-act="04"><div class="mistake-layout"><div><div class="meta-row"><span class="kicker">039</span><span>Elementor</span><span>mistake</span></div>
+    <h2>Ouvrir Modifier avec Elementor</h2>
+    <p class="lead">Je veux voir le bouton Modifier avec Elementor et arriver sur le canvas. Sans ça, l’agent ne peut pas construire correctement.</p><div class="trap-box"><b>Piège à éviter</b><p>Ne saute pas cette vérification. Si ce point est flou, la suite va coûter plus cher en corrections.</p></div></div><div><div class="action-box"><b>À faire</b><p>Si Elementor ne s’ouvre pas, règle ce problème avant MCP.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le canvas est visible.</p></div></div></div><figure class="shot">
+      <img src="img/captures-s9/39-generated-image-result.jpg" alt="Capture de la séance 09 - Ouvrir Modifier avec Elementor" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Ouvrir Modifier avec Elementor</figcaption>
+    </figure></section>
+<section id="section-040" class="lesson-section layout-before accent-green" data-act="04"><div class="meta-row"><span class="kicker">040</span><span>Elementor</span><span>before</span></div>
+    <h2>Preuve de réussite Elementor</h2>
+    <p class="lead">La preuve : une page Accueil vide ouverte dans Elementor, avec une URL d’éditeur contenant un post ID.</p><div class="before-after"><div><b>Avant</b><p>Une action vague, un outil ouvert, et beaucoup d'incertitude.</p></div><div><b>Après</b><p>Claude peut cibler la bonne page.</p></div></div><div class="action-box"><b>À faire</b><p>Copie cette URL dans ton prompt.</p></div></section>
+<section id="section-041" class="lesson-section layout-method accent-red" data-act="05"><div class="method-card"><div class="meta-row"><span class="kicker">041</span><span>Claude Code</span><span>method</span></div>
+    <h2>Ouvrir le bon dossier</h2>
+    <p class="lead">Je lance Claude Code dans le dossier du projet site. Ça garde les fichiers, notes et captures au même endroit.</p><ol><li>Je prépare le contexte.</li><li>Je lance une action précise.</li><li>Je vérifie dans l'interface réelle.</li><li>Je corrige seulement ce qui bloque.</li></ol></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Ne lance pas la session depuis un dossier au hasard.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le terminal affiche le bon chemin.</p></div></div></section>
+<section id="section-042" class="lesson-section layout-diagnostic accent-black" data-act="05"><div class="meta-row"><span class="kicker">042</span><span>Claude Code</span><span>diagnostic</span></div>
+    <h2>Vérifier l’installation</h2>
+    <p class="lead">Je vérifie Node, npm et Claude Code. Si la base CLI ne fonctionne pas, le MCP ne servira à rien.</p><div class="diagnostic"><b>Diagnostic rapide</b><p>Si tu ne peux pas expliquer cette étape en une phrase, reviens au dernier écran stable et vérifie l'URL, l'outil ouvert et l'objectif de la section.</p></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Teste les commandes avant la session longue.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Claude Code répond.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/42-responsive-check.jpg" alt="Capture de la séance 09 - Vérifier l’installation" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Vérifier l’installation</figcaption>
+    </figure></section>
+<section id="section-043" class="lesson-section layout-quote accent-amber" data-act="05"><blockquote>“Dans cette séance, Claude doit faire beaucoup d’actions navigateur. Le mode skip permissions évite de valider chaque clic.”</blockquote><div class="quote-grid"><div><div class="meta-row"><span class="kicker">043</span><span>Claude Code</span><span>quote</span></div><h2>Lancer en mode permissions souples</h2><div class="action-box"><b>À faire</b><p>Utilise-le uniquement dans un contexte que tu comprends.</p></div></div><div><div class="proof-box"><b>Preuve que c'est bon</b><p>Claude peut enchaîner les actions.</p></div></div></div></section>
+<section id="section-044" class="lesson-section layout-cards accent-green" data-act="05"><div class="meta-row"><span class="kicker">044</span><span>Claude Code</span><span>cards</span></div>
+    <h2>Vérifier /mcp</h2>
+    <p class="lead">Je lance /mcp pour voir les serveurs connectés. Je veux que Chrome soit disponible.</p><div class="card-grid"><div><b>Pourquoi</b><p>Je lance /mcp pour voir les serveurs connectés. Je veux que Chrome soit disponible.</p></div><div><b>Action</b><p>Si Chrome MCP n’est pas connecté, stop.</p></div><div><b>Validation</b><p>Le serveur apparaît actif.</p></div></div></section>
+<section id="section-045" class="lesson-section layout-steps accent-red" data-act="05"><div class="meta-row"><span class="kicker">045</span><span>Claude Code</span><span>steps</span></div>
+    <h2>Tester une navigation</h2>
+    <p class="lead">Je demande à Claude d’ouvrir la page WordPress. Il doit contrôler Chrome, pas seulement répondre dans le terminal.</p><div class="steps-list"><div><span>1</span>Ouvre le bon écran.</div><div><span>2</span>Fais l'action indiquée.</div><div><span>3</span>Contrôle la preuve.</div><div><span>4</span>Note la correction si besoin.</div></div><figure class="shot">
+      <img src="img/captures-s9/45-two-images-generated.jpg" alt="Capture de la séance 09 - Tester une navigation" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Tester une navigation</figcaption>
+    </figure><div class="two-box"><div class="action-box"><b>À faire</b><p>Demande une action simple avant le gros prompt.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Un onglet s’ouvre réellement.</p></div></div></section>
+<section id="section-046" class="lesson-section layout-wide accent-black" data-act="05"><div class="wide-band"><div class="meta-row"><span class="kicker">046</span><span>Claude Code</span><span>wide</span></div>
+    <h2>Connexion WordPress manuelle</h2>
+    <p class="lead">Si WordPress demande un login, je saisis moi-même. Claude attend et reprend après.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Ne dicte jamais ton mot de passe.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La session est connectée sans exposer les accès.</p></div></div></div></section>
+<section id="section-047" class="lesson-section layout-story accent-amber" data-act="05"><div class="wide-band"><div class="meta-row"><span class="kicker">047</span><span>Claude Code</span><span>story</span></div>
+    <h2>Garder deux onglets utiles</h2>
+    <p class="lead">Je garde un onglet source, un onglet Elementor, et un onglet preview. C’est la base du prompt technique.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>N’empile pas 15 onglets inutiles.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Claude sait quelle page lire et quelle page modifier.</p></div></div></div></section>
+<section id="section-048" class="lesson-section layout-split accent-green" data-act="05"><div class="split-grid"><div><div class="meta-row"><span class="kicker">048</span><span>Claude Code</span><span>split</span></div>
+    <h2>Copier les URLs exactes</h2>
+    <p class="lead">Je copie l’URL source, l’URL Elementor et l’URL preview. Une URL approximative crée des erreurs bêtes.</p><div class="action-box"><b>À faire</b><p>Colle les URLs complètes dans le prompt.</p></div></div><div><figure class="shot">
+      <img src="img/captures-s9/48-footer-prompt.jpg" alt="Capture de la séance 09 - Copier les URLs exactes" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Copier les URLs exactes</figcaption>
+    </figure><div class="proof-box"><b>Preuve que c'est bon</b><p>Le post ID Elementor est présent.</p></div></div></div></section>
+<section id="section-049" class="lesson-section layout-image accent-red" data-act="05"><div class="wide-copy"><div class="meta-row"><span class="kicker">049</span><span>Claude Code</span><span>image</span></div>
+    <h2>Répondre aux questions de cadrage</h2>
+    <p class="lead">Quand Claude demande de confirmer la section, je réponds clairement. Je ne relance pas un nouveau prompt.</p></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Réponds court : oui, c’est cette section, fais le hero simplement.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>L’agent continue sans repartir de zéro.</p></div></div></section>
+<section id="section-050" class="lesson-section layout-check accent-black" data-act="05"><div class="meta-row"><span class="kicker">050</span><span>Claude Code</span><span>check</span></div>
+    <h2>Preuve de connexion</h2>
+    <p class="lead">La preuve : Claude ouvre, lit, screenshot, puis agit dans Elementor. Là, la mécanique est prête.</p><div class="check-grid"><label><input type="checkbox"> Je comprends l'objectif</label><label><input type="checkbox"> Je sais quoi cliquer</label><label><input type="checkbox"> Je peux vérifier le résultat</label><label><input type="checkbox"> Je sais quoi corriger si ça bloque</label></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Ne passe au prompt pixel-perfect qu’après ce test.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu vois les actions dans Chrome.</p></div></div></section>
+<section id="section-051" class="lesson-section layout-prompt accent-amber" data-act="06"><div class="prompt-layout"><div><div class="meta-row"><span class="kicker">051</span><span>Prompt coeur</span><span>prompt</span></div>
+    <h2>Pourquoi un prompt long</h2>
+    <p class="lead">Un prompt court donne une section approximative. Le prompt long impose la méthode : extraction, plan, construction, QA.</p><div class="action-box"><b>À faire</b><p>Ne raccourcis pas le prompt technique au début.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Claude suit des étapes claires.</p></div></div><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>PROMPT TECHNIQUE - RECONSTRUCTION PIXEL-PERFECT D&#x27;UNE SECTION D&#x27;UN SITE SOURCE VERS ELEMENTOR
+
+CONTEXTE
+3 onglets Chrome :
+- SOURCE : [URL_SOURCE] - section ciblée : [NOM_SECTION]
+- EDITEUR : [URL_ELEMENTOR]
+- PREVIEW : [URL_PREVIEW]
+
+OBJECTIF
+Reproduire la section [NOM_SECTION] dans Elementor avec une fidélité visuelle pixel-perfect sur desktop 1440, tablette 768 et mobile 390.
+Tu dois reprendre la structure, la typographie, les espacements, les couleurs, les images, les hover, les animations et le comportement responsive.
+
+CONTRAINTES
+- Widgets natifs Elementor uniquement : Container, Heading, Text Editor, Button, Image, Icon, Icon Box, Divider, Tabs, Accordion, Form si nécessaire.
+- Pas de widget HTML, pas de shortcode, pas de plugin tiers sans validation.
+- CSS custom seulement si un effet est impossible avec Elementor natif. Tu me préviens avant.
+- Toutes les images visibles dans la source doivent être présentes dans la section finale.
+- Tu adaptes les textes à mon projet si je fournis un texte ou un audit SEO.
+
+ETAPE 1 - EXTRACTION SOURCE
+Localise le conteneur racine de la section.
+Extrait pour chaque élément : texte, classe, position, dimensions, style calculé, couleurs, polices, padding, margin, border, radius, shadow, transform, animations et pseudo-éléments.
+Refais l&#x27;analyse en 1440, 768 et 390.
+Liste toutes les images avec URL, taille et alt.
+
+ETAPE 2 - DETECTION DES EFFETS
+Teste les hover, transitions, animations temporelles, changements au scroll et accordéons/tabs si présents.
+Pour chaque effet, propose la solution Elementor native ou la meilleure approximation.
+
+ETAPE 3 - PLAN D&#x27;IMPLEMENTATION
+Avant de toucher Elementor, écris le plan : conteneur racine, enfants, widgets, responsive, assets et effets.
+Si une décision est incertaine, pose une question courte.
+
+ETAPE 4 - CONSTRUCTION ELEMENTOR
+Construis avec les containers et widgets natifs.
+Sauvegarde à chaque jalon important, pas à chaque micro-modification.
+
+ETAPE 5 - VERIFICATION
+Recharge la preview.
+Compare source et résultat en desktop, tablette et mobile.
+Liste les écarts visibles, corrige-les, puis recommence jusqu&#x27;à obtenir une version propre.
+
+GO
+Lance l&#x27;extraction de la section maintenant. Tu ne me rends la main qu&#x27;après vérification responsive ou blocage clair.</code></pre>
+    </div></div><figure class="shot">
+      <img src="img/captures-s9/02-domain-choice-hpanel.jpg" alt="Capture de la séance 09 - Pourquoi un prompt long" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Pourquoi un prompt long</figcaption>
+    </figure></section>
+<section id="section-052" class="lesson-section layout-timeline accent-green" data-act="06"><div class="meta-row"><span class="kicker">052</span><span>Prompt coeur</span><span>timeline</span></div>
+    <h2>Les quatre variables</h2>
+    <p class="lead">Je remplis URL source, nom section, URL Elementor et URL preview. Ce sont les coordonnées du chantier.</p><div class="timeline"><div><span>01</span>Préparer</div><div><span>02</span>Construire</div><div><span>03</span>Vérifier</div><div><span>04</span>Corriger</div></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Remplace toutes les variables avant envoi.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le prompt ne contient plus de placeholder oublié.</p></div></div></section>
+<section id="section-053" class="lesson-section layout-table accent-red" data-act="06"><div class="meta-row"><span class="kicker">053</span><span>Prompt coeur</span><span>table</span></div>
+    <h2>La capture de section</h2>
+    <p class="lead">La capture aide Claude à comprendre visuellement ce que je vise. Elle complète le DOM et les styles.</p><div class="table-wrap"><table><tr><th>Point</th><th>Décision</th><th>Contrôle</th></tr><tr><td>Objectif</td><td>Joins la capture correspondant exactement à la section.</td><td>La cible est sans ambiguïté.</td></tr><tr><td>Risque</td><td>Aller trop vite</td><td>Revenir à une validation observable</td></tr></table></div><figure class="shot">
+      <img src="img/captures-s9/04-domain-ready.jpg" alt="Capture de la séance 09 - La capture de section" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : La capture de section</figcaption>
+    </figure><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>Réponse question 2 : oui, c&#x27;est cette section-là.
+Réponse question 3 : fais-moi le hero simplement, proprement, avec la même structure visuelle.</code></pre>
+    </div></section>
+<section id="section-054" class="lesson-section layout-mistake accent-black" data-act="06"><div class="mistake-layout"><div><div class="meta-row"><span class="kicker">054</span><span>Prompt coeur</span><span>mistake</span></div>
+    <h2>Extraction source</h2>
+    <p class="lead">Claude lit le DOM, les dimensions, les styles calculés, les pseudo-éléments et les images.</p><div class="trap-box"><b>Piège à éviter</b><p>Ne saute pas cette vérification. Si ce point est flou, la suite va coûter plus cher en corrections.</p></div></div><div><div class="action-box"><b>À faire</b><p>Demande l’extraction avant construction.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu obtiens un plan au lieu d’un bricolage.</p></div></div></div><figure class="shot">
+      <img src="img/captures-s9/05-wordpress-choice.jpg" alt="Capture de la séance 09 - Extraction source" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Extraction source</figcaption>
+    </figure></section>
+<section id="section-055" class="lesson-section layout-before accent-amber" data-act="06"><div class="meta-row"><span class="kicker">055</span><span>Prompt coeur</span><span>before</span></div>
+    <h2>Détection des effets</h2>
+    <p class="lead">Hover, scroll, animation, marquee, transitions : je veux que ces détails soient repérés avant d’être reproduits.</p><div class="before-after"><div><b>Avant</b><p>Une action vague, un outil ouvert, et beaucoup d'incertitude.</p></div><div><b>Après</b><p>La section vit comme la source.</p></div></div><div class="action-box"><b>À faire</b><p>Ne valide pas une section si les effets principaux manquent.</p></div></section>
+<section id="section-056" class="lesson-section layout-method accent-green" data-act="06"><div class="method-card"><div class="meta-row"><span class="kicker">056</span><span>Prompt coeur</span><span>method</span></div>
+    <h2>Plan avant action</h2>
+    <p class="lead">Je force Claude à expliquer l’arborescence Elementor avant de modifier la page.</p><ol><li>Je prépare le contexte.</li><li>Je lance une action précise.</li><li>Je vérifie dans l'interface réelle.</li><li>Je corrige seulement ce qui bloque.</li></ol></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Si le plan semble mauvais, corrige avant construction.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La structure est lisible.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/07-wordpress-installing.jpg" alt="Capture de la séance 09 - Plan avant action" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Plan avant action</figcaption>
+    </figure><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>Le bouton n&#x27;est pas parfait, améliore-le stp.
+Vérifie l&#x27;espacement interne, l&#x27;ombre, l&#x27;arrondi, l&#x27;alignement du texte et le responsive avant de sauvegarder.</code></pre>
+    </div></section>
+<section id="section-057" class="lesson-section layout-diagnostic accent-red" data-act="06"><div class="meta-row"><span class="kicker">057</span><span>Prompt coeur</span><span>diagnostic</span></div>
+    <h2>Construction native</h2>
+    <p class="lead">Containers, headings, textes, boutons, images. Plus c’est natif, plus tu peux modifier après.</p><div class="diagnostic"><b>Diagnostic rapide</b><p>Si tu ne peux pas expliquer cette étape en une phrase, reviens au dernier écran stable et vérifie l'URL, l'outil ouvert et l'objectif de la section.</p></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Refuse les solutions HTML si ce n’est pas nécessaire.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La section est éditable dans Elementor.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/08-go-to-wordpress.jpg" alt="Capture de la séance 09 - Construction native" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Construction native</figcaption>
+    </figure><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>Rajoute de l&#x27;espace entre les éléments.
+Garde le même style, mais améliore la respiration visuelle sur desktop, tablette et mobile.</code></pre>
+    </div></section>
+<section id="section-058" class="lesson-section layout-quote accent-black" data-act="06"><blockquote>“Je veux une sauvegarde après une section propre, pas après chaque micro-modification.”</blockquote><div class="quote-grid"><div><div class="meta-row"><span class="kicker">058</span><span>Prompt coeur</span><span>quote</span></div><h2>Sauvegarder aux jalons</h2><div class="action-box"><b>À faire</b><p>Évite les sauvegardes compulsives.</p></div></div><div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu peux revenir à une version stable.</p></div></div></div></section>
+<section id="section-059" class="lesson-section layout-cards accent-amber" data-act="06"><div class="meta-row"><span class="kicker">059</span><span>Prompt coeur</span><span>cards</span></div>
+    <h2>Boucle de comparaison</h2>
+    <p class="lead">La section n’est pas terminée quand elle existe. Elle est terminée quand source et preview sont comparées.</p><div class="card-grid"><div><b>Pourquoi</b><p>La section n’est pas terminée quand elle existe. Elle est terminée quand source et preview sont comparées.</p></div><div><b>Action</b><p>Demande la vérification 1440/768/390.</p></div><div><b>Validation</b><p>Les écarts visibles sont corrigés.</p></div></div></section>
+<section id="section-060" class="lesson-section layout-steps accent-green" data-act="06"><div class="meta-row"><span class="kicker">060</span><span>Prompt coeur</span><span>steps</span></div>
+    <h2>Quand s’arrêter</h2>
+    <p class="lead">Après plusieurs itérations, si un détail bloque, Claude doit expliquer le blocage au lieu de tenter 10 contournements.</p><div class="steps-list"><div><span>1</span>Ouvre le bon écran.</div><div><span>2</span>Fais l'action indiquée.</div><div><span>3</span>Contrôle la preuve.</div><div><span>4</span>Note la correction si besoin.</div></div><figure class="shot">
+      <img src="img/captures-s9/11-elementor-pro-upload.jpg" alt="Capture de la séance 09 - Quand s’arrêter" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Quand s’arrêter</figcaption>
+    </figure><div class="two-box"><div class="action-box"><b>À faire</b><p>Stoppe les boucles aveugles.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu gardes la maîtrise.</p></div></div></section>
+<section id="section-061" class="lesson-section layout-wide accent-red" data-act="07"><div class="wide-band"><div class="meta-row"><span class="kicker">061</span><span>Hero</span><span>wide</span></div>
+    <h2>Choisir la source</h2>
+    <p class="lead">Je prends une section d’un site d’inspiration, ici une logique de hero simple, forte, avec un CTA clair.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Choisis une source vraiment alignée avec ton marché.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La section a un rôle commercial.</p></div></div></div></section>
+<section id="section-062" class="lesson-section layout-story accent-black" data-act="07"><div class="wide-band"><div class="meta-row"><span class="kicker">062</span><span>Hero</span><span>story</span></div>
+    <h2>Confirmer la section</h2>
+    <p class="lead">Quand Claude hésite, je confirme la section ciblée. Cette réponse évite qu’il analyse la mauvaise zone.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Réponds à ses questions sans changer de sujet.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Il reprend la bonne section.</p></div></div></div></section>
+<section id="section-063" class="lesson-section layout-split accent-amber" data-act="07"><div class="split-grid"><div><div class="meta-row"><span class="kicker">063</span><span>Hero</span><span>split</span></div>
+    <h2>Adapter au projet</h2>
+    <p class="lead">Je ne copie pas seulement le texte source. Je transforme le contenu pour RestIA ou ton projet.</p><div class="action-box"><b>À faire</b><p>Garde la structure, change la promesse.</p></div><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>[Image #X]
+Voici la prochaine section.
+Reprends exactement le même process : extraction source, plan, construction Elementor, vérification desktop/tablette/mobile, sauvegarde, puis mini compte-rendu.</code></pre>
+    </div></div><div><figure class="shot">
+      <img src="img/captures-s9/14-create-home-page.jpg" alt="Capture de la séance 09 - Adapter au projet" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Adapter au projet</figcaption>
+    </figure><div class="proof-box"><b>Preuve que c'est bon</b><p>Le site parle à ta cible.</p></div></div></div></section>
+<section id="section-064" class="lesson-section layout-image accent-green" data-act="07"><div class="wide-copy"><div class="meta-row"><span class="kicker">064</span><span>Hero</span><span>image</span></div>
+    <h2>Créer la section dans Elementor</h2>
+    <p class="lead">Claude construit le container racine, le titre, le texte, le bouton, les espacements et les images.</p></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Observe la structure dans l’éditeur.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu peux cliquer chaque bloc.</p></div></div></section>
+<section id="section-065" class="lesson-section layout-check accent-red" data-act="07"><div class="meta-row"><span class="kicker">065</span><span>Hero</span><span>check</span></div>
+    <h2>Regarder la preview</h2>
+    <p class="lead">La preview montre ce que verra le visiteur. L’éditeur peut mentir sur certains espacements.</p><div class="check-grid"><label><input type="checkbox"> Je comprends l'objectif</label><label><input type="checkbox"> Je sais quoi cliquer</label><label><input type="checkbox"> Je peux vérifier le résultat</label><label><input type="checkbox"> Je sais quoi corriger si ça bloque</label></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Toujours vérifier côté preview.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le rendu public est propre.</p></div></div></section>
+<section id="section-066" class="lesson-section layout-prompt accent-black" data-act="07"><div class="prompt-layout"><div><div class="meta-row"><span class="kicker">066</span><span>Hero</span><span>prompt</span></div>
+    <h2>Corriger le bouton</h2>
+    <p class="lead">Un bouton trop étroit, trop haut ou mal ombré casse vite le design. Je donne une correction courte.</p><div class="action-box"><b>À faire</b><p>Demande une correction ciblée, pas “refais tout”.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le CTA respire.</p></div></div><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>[Image #X]
+Voici la prochaine section.
+Reprends exactement le même process : extraction source, plan, construction Elementor, vérification desktop/tablette/mobile, sauvegarde, puis mini compte-rendu.</code></pre>
+    </div></div><figure class="shot">
+      <img src="img/captures-s9/17-wordpress-login.jpg" alt="Capture de la séance 09 - Corriger le bouton" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Corriger le bouton</figcaption>
+    </figure></section>
+<section id="section-067" class="lesson-section layout-timeline accent-amber" data-act="07"><div class="meta-row"><span class="kicker">067</span><span>Hero</span><span>timeline</span></div>
+    <h2>Corriger l’espacement</h2>
+    <p class="lead">Si le hero est trop dense, j’ajoute de l’espace. Un site premium respire.</p><div class="timeline"><div><span>01</span>Préparer</div><div><span>02</span>Construire</div><div><span>03</span>Vérifier</div><div><span>04</span>Corriger</div></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Corrige padding et gap avant d’ajouter d’autres sections.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le haut de page est équilibré.</p></div></div></section>
+<section id="section-068" class="lesson-section layout-table accent-green" data-act="07"><div class="meta-row"><span class="kicker">068</span><span>Hero</span><span>table</span></div>
+    <h2>Tester tablette</h2>
+    <p class="lead">La tablette révèle souvent les titres trop larges et les boutons mal placés.</p><div class="table-wrap"><table><tr><th>Point</th><th>Décision</th><th>Contrôle</th></tr><tr><td>Objectif</td><td>Demande la vue 768 avant de valider.</td><td>Le hero ne déborde pas.</td></tr><tr><td>Risque</td><td>Aller trop vite</td><td>Revenir à une validation observable</td></tr></table></div></section>
+<section id="section-069" class="lesson-section layout-mistake accent-red" data-act="07"><div class="mistake-layout"><div><div class="meta-row"><span class="kicker">069</span><span>Hero</span><span>mistake</span></div>
+    <h2>Tester mobile</h2>
+    <p class="lead">Le mobile est le vrai test. Le titre doit rester lisible et le bouton accessible.</p><div class="trap-box"><b>Piège à éviter</b><p>Ne saute pas cette vérification. Si ce point est flou, la suite va coûter plus cher en corrections.</p></div></div><div><div class="action-box"><b>À faire</b><p>Regarde 390 px, pas seulement desktop.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La première impression mobile est bonne.</p></div></div></div><figure class="shot">
+      <img src="img/captures-s9/20-claude-extraction-plan.jpg" alt="Capture de la séance 09 - Tester mobile" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Tester mobile</figcaption>
+    </figure></section>
+<section id="section-070" class="lesson-section layout-before accent-black" data-act="07"><div class="meta-row"><span class="kicker">070</span><span>Hero</span><span>before</span></div>
+    <h2>Valider le hero</h2>
+    <p class="lead">Une fois le hero propre, je n’y retouche plus toutes les 5 minutes. Je passe à la suite.</p><div class="before-after"><div><b>Avant</b><p>Une action vague, un outil ouvert, et beaucoup d'incertitude.</p></div><div><b>Après</b><p>La base visuelle est posée.</p></div></div><div class="action-box"><b>À faire</b><p>Stabilise avant d’empiler.</p></div></section>
+<section id="section-071" class="lesson-section layout-method accent-amber" data-act="08"><div class="method-card"><div class="meta-row"><span class="kicker">071</span><span>Répétition</span><span>method</span></div>
+    <h2>Ne pas changer de méthode</h2>
+    <p class="lead">Je garde le même prompt et je change seulement la section, les URLs ou le contexte.</p><ol><li>Je prépare le contexte.</li><li>Je lance une action précise.</li><li>Je vérifie dans l'interface réelle.</li><li>Je corrige seulement ce qui bloque.</li></ol></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Ne réinvente pas le workflow à chaque bloc.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La production devient rapide.</p></div></div></section>
+<section id="section-072" class="lesson-section layout-diagnostic accent-green" data-act="08"><div class="meta-row"><span class="kicker">072</span><span>Répétition</span><span>diagnostic</span></div>
+    <h2>Capturer la bonne zone</h2>
+    <p class="lead">La capture doit commencer et finir au bon endroit. Trop large, Claude se disperse. Trop court, il rate des espacements.</p><div class="diagnostic"><b>Diagnostic rapide</b><p>Si tu ne peux pas expliquer cette étape en une phrase, reviens au dernier écran stable et vérifie l'URL, l'outil ouvert et l'objectif de la section.</p></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Cadre précisément la section.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le plan d’extraction est propre.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/23-prompt-pixel-perfect.jpg" alt="Capture de la séance 09 - Capturer la bonne zone" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Capturer la bonne zone</figcaption>
+    </figure></section>
+<section id="section-073" class="lesson-section layout-quote accent-red" data-act="08"><blockquote>“Je dis “voici la prochaine section” et je laisse Claude reprendre le process complet.”</blockquote><div class="quote-grid"><div><div class="meta-row"><span class="kicker">073</span><span>Répétition</span><span>quote</span></div><h2>Lancer la section suivante</h2><div class="action-box"><b>À faire</b><p>Le prompt suivant doit être explicite mais court.</p></div></div><div><div class="proof-box"><b>Preuve que c'est bon</b><p>Claude comprend la continuité.</p></div></div></div></section>
+<section id="section-074" class="lesson-section layout-cards accent-black" data-act="08"><div class="meta-row"><span class="kicker">074</span><span>Répétition</span><span>cards</span></div>
+    <h2>Observer sans micro-manager</h2>
+    <p class="lead">Pendant que Claude agit, je surveille les décisions importantes mais je n’interromps pas chaque clic.</p><div class="card-grid"><div><b>Pourquoi</b><p>Pendant que Claude agit, je surveille les décisions importantes mais je n’interromps pas chaque clic.</p></div><div><b>Action</b><p>Interviens seulement si la direction est mauvaise.</p></div><div><b>Validation</b><p>La session avance.</p></div></div></section>
+<section id="section-075" class="lesson-section layout-steps accent-amber" data-act="08"><div class="meta-row"><span class="kicker">075</span><span>Répétition</span><span>steps</span></div>
+    <h2>Corriger après rendu</h2>
+    <p class="lead">Je corrige quand je vois le résultat, pas sur une supposition.</p><div class="steps-list"><div><span>1</span>Ouvre le bon écran.</div><div><span>2</span>Fais l'action indiquée.</div><div><span>3</span>Contrôle la preuve.</div><div><span>4</span>Note la correction si besoin.</div></div><figure class="shot">
+      <img src="img/captures-s9/26-next-section.jpg" alt="Capture de la séance 09 - Corriger après rendu" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Corriger après rendu</figcaption>
+    </figure><div class="two-box"><div class="action-box"><b>À faire</b><p>Attends la preview avant de juger.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Les retours sont concrets.</p></div></div></section>
+<section id="section-076" class="lesson-section layout-wide accent-green" data-act="08"><div class="wide-band"><div class="meta-row"><span class="kicker">076</span><span>Répétition</span><span>wide</span></div>
+    <h2>Gérer les logos</h2>
+    <p class="lead">Les logos peuvent casser les tailles. Je vérifie les proportions et je remplace quand nécessaire.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Utilise des logos cohérents et lisibles.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La barre de logos ne flotte pas bizarrement.</p></div></div></div></section>
+<section id="section-077" class="lesson-section layout-story accent-red" data-act="08"><div class="wide-band"><div class="meta-row"><span class="kicker">077</span><span>Répétition</span><span>story</span></div>
+    <h2>Accepter les petites différences</h2>
+    <p class="lead">Pixel-perfect ne veut pas dire obsession infinie. Si la structure est bonne et le ressenti bon, je passe.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Distingue défaut visible et détail invisible.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu finis la page.</p></div></div></div></section>
+<section id="section-078" class="lesson-section layout-split accent-black" data-act="08"><div class="split-grid"><div><div class="meta-row"><span class="kicker">078</span><span>Répétition</span><span>split</span></div>
+    <h2>Réutiliser le texte d’audit</h2>
+    <p class="lead">La stratégie SEO nourrit les sections. Je ne laisse pas les textes génériques du site source.</p><div class="action-box"><b>À faire</b><p>Injecte ton positionnement dans les blocs.</p></div></div><div><figure class="shot">
+      <img src="img/captures-s9/29-next-section-prompt.jpg" alt="Capture de la séance 09 - Réutiliser le texte d’audit" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Réutiliser le texte d’audit</figcaption>
+    </figure><div class="proof-box"><b>Preuve que c'est bon</b><p>La page vend ton offre.</p></div></div></div></section>
+<section id="section-079" class="lesson-section layout-image accent-amber" data-act="08"><div class="wide-copy"><div class="meta-row"><span class="kicker">079</span><span>Répétition</span><span>image</span></div>
+    <h2>Faire une page en blocs</h2>
+    <p class="lead">Hero, preuves, services, outils, FAQ, CTA. Chaque section a un rôle.</p></div><div class="two-box"><div class="action-box"><b>À faire</b><p>N’ajoute pas une section juste parce qu’elle est jolie.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La page raconte quelque chose.</p></div></div></section>
+<section id="section-080" class="lesson-section layout-check accent-green" data-act="08"><div class="meta-row"><span class="kicker">080</span><span>Répétition</span><span>check</span></div>
+    <h2>Mini récap répétition</h2>
+    <p class="lead">Même boucle : source, capture, prompt, plan, build, preview, corrections, validation.</p><div class="check-grid"><label><input type="checkbox"> Je comprends l'objectif</label><label><input type="checkbox"> Je sais quoi cliquer</label><label><input type="checkbox"> Je peux vérifier le résultat</label><label><input type="checkbox"> Je sais quoi corriger si ça bloque</label></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Répète cette boucle jusqu’à la page complète.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu as une méthode industrialisable.</p></div></div></section>
+<section id="section-081" class="lesson-section layout-prompt accent-red" data-act="09"><div class="prompt-layout"><div><div class="meta-row"><span class="kicker">081</span><span>Images</span><span>prompt</span></div>
+    <h2>Pourquoi remplacer les images</h2>
+    <p class="lead">Copier une image source n’est pas propre. Je garde l’idée visuelle, mais je crée ou adapte des visuels pour mon projet.</p><div class="action-box"><b>À faire</b><p>Ne vole pas les assets d’un autre site.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La page devient vraiment à toi.</p></div></div><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>[Image #X]
+Voici la prochaine section.
+Reprends exactement le même process : extraction source, plan, construction Elementor, vérification desktop/tablette/mobile, sauvegarde, puis mini compte-rendu.</code></pre>
+    </div></div><figure class="shot">
+      <img src="img/captures-s9/32-image-reasoning.jpg" alt="Capture de la séance 09 - Pourquoi remplacer les images" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Pourquoi remplacer les images</figcaption>
+    </figure></section>
+<section id="section-082" class="lesson-section layout-timeline accent-black" data-act="09"><div class="meta-row"><span class="kicker">082</span><span>Images</span><span>timeline</span></div>
+    <h2>Créer un dossier images</h2>
+    <p class="lead">Je centralise les visuels du projet. Ça évite les fichiers dispersés dans Downloads et les liens cassés.</p><div class="timeline"><div><span>01</span>Préparer</div><div><span>02</span>Construire</div><div><span>03</span>Vérifier</div><div><span>04</span>Corriger</div></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Crée un dossier clair dans ton espace site.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu retrouves les assets.</p></div></div></section>
+<section id="section-083" class="lesson-section layout-table accent-amber" data-act="09"><div class="meta-row"><span class="kicker">083</span><span>Images</span><span>table</span></div>
+    <h2>Utiliser ChatGPT si utile</h2>
+    <p class="lead">Je peux utiliser ChatGPT pour restaurer ou générer une image cohérente. L’important est de garder le style du site.</p><div class="table-wrap"><table><tr><th>Point</th><th>Décision</th><th>Contrôle</th></tr><tr><td>Objectif</td><td>Ne multiplie pas les styles visuels.</td><td>Les images semblent appartenir au même univers.</td></tr><tr><td>Risque</td><td>Aller trop vite</td><td>Revenir à une validation observable</td></tr></table></div><figure class="shot">
+      <img src="img/captures-s9/34-repeat-prompt-next.jpg" alt="Capture de la séance 09 - Utiliser ChatGPT si utile" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Utiliser ChatGPT si utile</figcaption>
+    </figure><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>À partir de cette section, crée ou adapte une image cohérente avec mon projet [TON_PROJET].
+Style : simple, propre, noir/blanc avec accent vert.
+Sujet : [SUJET_IMAGE].
+Elle doit remplacer l&#x27;image source sans casser la composition de la section.
+Prépare-la pour un usage web et indique où elle doit être placée dans Elementor.</code></pre>
+    </div></section>
+<section id="section-084" class="lesson-section layout-mistake accent-green" data-act="09"><div class="mistake-layout"><div><div class="meta-row"><span class="kicker">084</span><span>Images</span><span>mistake</span></div>
+    <h2>Donner du contexte à l’image</h2>
+    <p class="lead">Une bonne demande image précise le sujet, le style, l’usage et la section où elle sera placée.</p><div class="trap-box"><b>Piège à éviter</b><p>Ne saute pas cette vérification. Si ce point est flou, la suite va coûter plus cher en corrections.</p></div></div><div><div class="action-box"><b>À faire</b><p>Décris l’image comme un asset web, pas comme une affiche.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le résultat rentre dans la composition.</p></div></div></div><figure class="shot">
+      <img src="img/captures-s9/35-image-folder-assets.jpg" alt="Capture de la séance 09 - Donner du contexte à l’image" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Donner du contexte à l’image</figcaption>
+    </figure></section>
+<section id="section-085" class="lesson-section layout-before accent-red" data-act="09"><div class="meta-row"><span class="kicker">085</span><span>Images</span><span>before</span></div>
+    <h2>Comparer la qualité</h2>
+    <p class="lead">Si l’image générée ne va pas, je le dis. Je ne garde pas une image moyenne juste parce qu’elle existe.</p><div class="before-after"><div><b>Avant</b><p>Une action vague, un outil ouvert, et beaucoup d'incertitude.</p></div><div><b>Après</b><p>La page garde un niveau premium.</p></div></div><div class="action-box"><b>À faire</b><p>Sois exigeant sur les visuels clés.</p></div></section>
+<section id="section-086" class="lesson-section layout-method accent-black" data-act="09"><div class="method-card"><div class="meta-row"><span class="kicker">086</span><span>Images</span><span>method</span></div>
+    <h2>Uploader dans WordPress</h2>
+    <p class="lead">Les images finales doivent être dans la médiathèque quand c’est possible.</p><ol><li>Je prépare le contexte.</li><li>Je lance une action précise.</li><li>Je vérifie dans l'interface réelle.</li><li>Je corrige seulement ce qui bloque.</li></ol></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Évite les chemins locaux ou captures temporaires.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La page reste stable en ligne.</p></div></div></section>
+<section id="section-087" class="lesson-section layout-diagnostic accent-amber" data-act="09"><div class="meta-row"><span class="kicker">087</span><span>Images</span><span>diagnostic</span></div>
+    <h2>Remplacer sans casser</h2>
+    <p class="lead">Changer une image peut modifier la hauteur, le ratio et l’équilibre. Je vérifie après remplacement.</p><div class="diagnostic"><b>Diagnostic rapide</b><p>Si tu ne peux pas expliquer cette étape en une phrase, reviens au dernier écran stable et vérifie l'URL, l'outil ouvert et l'objectif de la section.</p></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Garde le ratio attendu par la section.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La section reste alignée.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/38-image-quality-feedback.jpg" alt="Capture de la séance 09 - Remplacer sans casser" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Remplacer sans casser</figcaption>
+    </figure></section>
+<section id="section-088" class="lesson-section layout-quote accent-green" data-act="09"><blockquote>“Certaines images fonctionnent sur fond vert mais pas sur fond blanc. Je vérifie le contraste.”</blockquote><div class="quote-grid"><div><div class="meta-row"><span class="kicker">088</span><span>Images</span><span>quote</span></div><h2>Gérer le fond transparent</h2><div class="action-box"><b>À faire</b><p>Teste l’image sur le fond réel.</p></div></div><div><div class="proof-box"><b>Preuve que c'est bon</b><p>Aucun contour étrange.</p></div></div></div></section>
+<section id="section-089" class="lesson-section layout-cards accent-red" data-act="09"><div class="meta-row"><span class="kicker">089</span><span>Images</span><span>cards</span></div>
+    <h2>Nommer les fichiers</h2>
+    <p class="lead">Un fichier nommé `image-final-v2.png` ne t’aide pas. Je donne des noms simples et utiles.</p><div class="card-grid"><div><b>Pourquoi</b><p>Un fichier nommé `image-final-v2.png` ne t’aide pas. Je donne des noms simples et utiles.</p></div><div><b>Action</b><p>Nomme par section et usage.</p></div><div><b>Validation</b><p>Tu peux maintenir le site.</p></div></div></section>
+<section id="section-090" class="lesson-section layout-steps accent-black" data-act="09"><div class="meta-row"><span class="kicker">090</span><span>Images</span><span>steps</span></div>
+    <h2>Preuve asset propre</h2>
+    <p class="lead">La preuve : l’image est dans WordPress, s’affiche en preview et reste lisible sur mobile.</p><div class="steps-list"><div><span>1</span>Ouvre le bon écran.</div><div><span>2</span>Fais l'action indiquée.</div><div><span>3</span>Contrôle la preuve.</div><div><span>4</span>Note la correction si besoin.</div></div><figure class="shot">
+      <img src="img/captures-s9/41-homepage-finished.jpg" alt="Capture de la séance 09 - Preuve asset propre" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Preuve asset propre</figcaption>
+    </figure><div class="two-box"><div class="action-box"><b>À faire</b><p>Teste après upload.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>L’asset est publiable.</p></div></div></section>
+<section id="section-091" class="lesson-section layout-wide accent-amber" data-act="10"><div class="wide-band"><div class="meta-row"><span class="kicker">091</span><span>Sections</span><span>wide</span></div>
+    <h2>Section logos outils</h2>
+    <p class="lead">Une section outils montre l’écosystème : Airtable, Make, n8n, Notion, Figma, etc. Elle rassure sur la capacité d’exécution.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Garde seulement les outils cohérents avec ton offre.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le visiteur comprend ton stack.</p></div></div></div></section>
+<section id="section-092" class="lesson-section layout-story accent-green" data-act="10"><div class="wide-band"><div class="meta-row"><span class="kicker">092</span><span>Sections</span><span>story</span></div>
+    <h2>Section services</h2>
+    <p class="lead">Les services doivent être concrets. Audit IA, chatbot SAV, assistant email, agent vocal, automatisation.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Écris des services que tu peux vraiment livrer.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La section donne envie de cliquer.</p></div></div></div></section>
+<section id="section-093" class="lesson-section layout-split accent-red" data-act="10"><div class="split-grid"><div><div class="meta-row"><span class="kicker">093</span><span>Sections</span><span>split</span></div>
+    <h2>Section preuves</h2>
+    <p class="lead">Les preuves peuvent être chiffres, méthode, cas, avis, livrables. Au début, on peut utiliser des preuves de process.</p><div class="action-box"><b>À faire</b><p>Ne mens pas sur des résultats client.</p></div></div><div><figure class="shot">
+      <img src="img/captures-s9/44-audit-seo-context.jpg" alt="Capture de la séance 09 - Section preuves" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Section preuves</figcaption>
+    </figure><div class="proof-box"><b>Preuve que c'est bon</b><p>La preuve reste crédible.</p></div></div></div></section>
+<section id="section-094" class="lesson-section layout-image accent-black" data-act="10"><div class="wide-copy"><div class="meta-row"><span class="kicker">094</span><span>Sections</span><span>image</span></div>
+    <h2>Section problème</h2>
+    <p class="lead">Je montre le problème du client avant la solution. Ça rend la page plus claire.</p></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Parle avec les mots de la cible.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le lecteur se reconnaît.</p></div></div></section>
+<section id="section-095" class="lesson-section layout-check accent-amber" data-act="10"><div class="meta-row"><span class="kicker">095</span><span>Sections</span><span>check</span></div>
+    <h2>Section méthode</h2>
+    <p class="lead">Une méthode en 3 ou 4 étapes rassure. Le client voit comment ça va se passer.</p><div class="check-grid"><label><input type="checkbox"> Je comprends l'objectif</label><label><input type="checkbox"> Je sais quoi cliquer</label><label><input type="checkbox"> Je peux vérifier le résultat</label><label><input type="checkbox"> Je sais quoi corriger si ça bloque</label></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Explique la prochaine action, pas toute la cuisine interne.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le parcours semble simple.</p></div></div></section>
+<section id="section-096" class="lesson-section layout-prompt accent-green" data-act="10"><div class="prompt-layout"><div><div class="meta-row"><span class="kicker">096</span><span>Sections</span><span>prompt</span></div>
+    <h2>Section FAQ</h2>
+    <p class="lead">La FAQ enlève les objections : prix, délai, données, personnalisation, outils, maintenance.</p><div class="action-box"><b>À faire</b><p>Réponds court et concret.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Les objections principales sont traitées.</p></div></div><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>[Image #X]
+Voici la prochaine section.
+Reprends exactement le même process : extraction source, plan, construction Elementor, vérification desktop/tablette/mobile, sauvegarde, puis mini compte-rendu.</code></pre>
+    </div></div><figure class="shot">
+      <img src="img/captures-s9/47-image-centering.jpg" alt="Capture de la séance 09 - Section FAQ" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Section FAQ</figcaption>
+    </figure></section>
+<section id="section-097" class="lesson-section layout-timeline accent-red" data-act="10"><div class="meta-row"><span class="kicker">097</span><span>Sections</span><span>timeline</span></div>
+    <h2>Section CTA</h2>
+    <p class="lead">Le CTA doit être visible, répété et cohérent. Pas 7 actions différentes.</p><div class="timeline"><div><span>01</span>Préparer</div><div><span>02</span>Construire</div><div><span>03</span>Vérifier</div><div><span>04</span>Corriger</div></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Choisis un CTA principal.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le visiteur sait quoi faire.</p></div></div></section>
+<section id="section-098" class="lesson-section layout-table accent-black" data-act="10"><div class="meta-row"><span class="kicker">098</span><span>Sections</span><span>table</span></div>
+    <h2>Section contact</h2>
+    <p class="lead">Une page sans moyen clair de contact perd des prospects.</p><div class="table-wrap"><table><tr><th>Point</th><th>Décision</th><th>Contrôle</th></tr><tr><td>Objectif</td><td>Prépare email, formulaire ou lien Calendly.</td><td>Le contact est accessible.</td></tr><tr><td>Risque</td><td>Aller trop vite</td><td>Revenir à une validation observable</td></tr></table></div></section>
+<section id="section-099" class="lesson-section layout-mistake accent-amber" data-act="10"><div class="mistake-layout"><div><div class="meta-row"><span class="kicker">099</span><span>Sections</span><span>mistake</span></div>
+    <h2>Cohérence des textes</h2>
+    <p class="lead">Chaque section doit reprendre le même angle : RestIA aide les restaurants à automatiser sans complexité.</p><div class="trap-box"><b>Piège à éviter</b><p>Ne saute pas cette vérification. Si ce point est flou, la suite va coûter plus cher en corrections.</p></div></div><div><div class="action-box"><b>À faire</b><p>Évite les slogans contradictoires.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La page a une voix unique.</p></div></div></div><figure class="shot">
+      <img src="img/captures-s9/01-domain-hostinger-search.jpg" alt="Capture de la séance 09 - Cohérence des textes" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Cohérence des textes</figcaption>
+    </figure></section>
+<section id="section-100" class="lesson-section layout-before accent-green" data-act="10"><div class="meta-row"><span class="kicker">100</span><span>Sections</span><span>before</span></div>
+    <h2>Preuve page complète</h2>
+    <p class="lead">La preuve : en scrollant, on comprend le problème, la solution, les services, les preuves et l’action.</p><div class="before-after"><div><b>Avant</b><p>Une action vague, un outil ouvert, et beaucoup d'incertitude.</p></div><div><b>Après</b><p>La page raconte une histoire.</p></div></div><div class="action-box"><b>À faire</b><p>Lis la page comme un visiteur pressé.</p></div></section>
+<section id="section-101" class="lesson-section layout-method accent-red" data-act="11"><div class="method-card"><div class="meta-row"><span class="kicker">101</span><span>Responsive</span><span>method</span></div>
+    <h2>Desktop 1440</h2>
+    <p class="lead">Le desktop permet de vérifier la composition large, les colonnes et la hiérarchie.</p><ol><li>Je prépare le contexte.</li><li>Je lance une action précise.</li><li>Je vérifie dans l'interface réelle.</li><li>Je corrige seulement ce qui bloque.</li></ol></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Commence par desktop pour stabiliser la structure.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Les sections respirent.</p></div></div></section>
+<section id="section-102" class="lesson-section layout-diagnostic accent-black" data-act="11"><div class="meta-row"><span class="kicker">102</span><span>Responsive</span><span>diagnostic</span></div>
+    <h2>Tablette 768</h2>
+    <p class="lead">La tablette révèle les grilles qui ne savent pas encore passer en colonne.</p><div class="diagnostic"><b>Diagnostic rapide</b><p>Si tu ne peux pas expliquer cette étape en une phrase, reviens au dernier écran stable et vérifie l'URL, l'outil ouvert et l'objectif de la section.</p></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Vérifie les breakpoints Elementor.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Les cartes ne s’écrasent pas.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/04-domain-ready.jpg" alt="Capture de la séance 09 - Tablette 768" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Tablette 768</figcaption>
+    </figure></section>
+<section id="section-103" class="lesson-section layout-quote accent-amber" data-act="11"><blockquote>“Le mobile montre les vrais problèmes : titre trop grand, bouton sur plusieurs lignes, image coupée, padding trop large.”</blockquote><div class="quote-grid"><div><div class="meta-row"><span class="kicker">103</span><span>Responsive</span><span>quote</span></div><h2>Mobile 390</h2><div class="action-box"><b>À faire</b><p>Vérifie chaque section en mobile.</p></div></div><div><div class="proof-box"><b>Preuve que c'est bon</b><p>Aucun texte ne déborde.</p></div></div></div></section>
+<section id="section-104" class="lesson-section layout-cards accent-green" data-act="11"><div class="meta-row"><span class="kicker">104</span><span>Responsive</span><span>cards</span></div>
+    <h2>Taille des titres</h2>
+    <p class="lead">Un H1 peut être beau sur desktop et impossible sur mobile. Je définis des tailles par breakpoint.</p><div class="card-grid"><div><b>Pourquoi</b><p>Un H1 peut être beau sur desktop et impossible sur mobile. Je définis des tailles par breakpoint.</p></div><div><b>Action</b><p>Ne garde pas la même typo partout.</p></div><div><b>Validation</b><p>Le titre reste lisible.</p></div></div></section>
+<section id="section-105" class="lesson-section layout-steps accent-red" data-act="11"><div class="meta-row"><span class="kicker">105</span><span>Responsive</span><span>steps</span></div>
+    <h2>Images centrées</h2>
+    <p class="lead">Une image peut glisser hors cadre. Je vérifie object-fit, alignement et largeur.</p><div class="steps-list"><div><span>1</span>Ouvre le bon écran.</div><div><span>2</span>Fais l'action indiquée.</div><div><span>3</span>Contrôle la preuve.</div><div><span>4</span>Note la correction si besoin.</div></div><figure class="shot">
+      <img src="img/captures-s9/07-wordpress-installing.jpg" alt="Capture de la séance 09 - Images centrées" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Images centrées</figcaption>
+    </figure><div class="two-box"><div class="action-box"><b>À faire</b><p>Regarde les images une par une.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Elles restent dans le viewport.</p></div></div></section>
+<section id="section-106" class="lesson-section layout-wide accent-black" data-act="11"><div class="wide-band"><div class="meta-row"><span class="kicker">106</span><span>Responsive</span><span>wide</span></div>
+    <h2>Boutons tactiles</h2>
+    <p class="lead">Sur mobile, le bouton doit être assez grand et lisible.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Vérifie hauteur, largeur et texte.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le CTA est cliquable.</p></div></div></div></section>
+<section id="section-107" class="lesson-section layout-story accent-amber" data-act="11"><div class="wide-band"><div class="meta-row"><span class="kicker">107</span><span>Responsive</span><span>story</span></div>
+    <h2>Espacements mobiles</h2>
+    <p class="lead">Les grands paddings desktop peuvent créer un trou immense sur mobile.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Réduis padding vertical si nécessaire.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La page ne semble pas vide.</p></div></div></div></section>
+<section id="section-108" class="lesson-section layout-split accent-green" data-act="11"><div class="split-grid"><div><div class="meta-row"><span class="kicker">108</span><span>Responsive</span><span>split</span></div>
+    <h2>Menu et navigation</h2>
+    <p class="lead">La navbar mobile doit fonctionner. Si le menu est global, je le vérifie sur plusieurs pages.</p><div class="action-box"><b>À faire</b><p>Teste le hamburger, pas seulement son apparence.</p></div></div><div><figure class="shot">
+      <img src="img/captures-s9/10-elementor-upload.jpg" alt="Capture de la séance 09 - Menu et navigation" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Menu et navigation</figcaption>
+    </figure><div class="proof-box"><b>Preuve que c'est bon</b><p>Le menu s’ouvre et redirige.</p></div></div></div></section>
+<section id="section-109" class="lesson-section layout-image accent-red" data-act="11"><div class="wide-copy"><div class="meta-row"><span class="kicker">109</span><span>Responsive</span><span>image</span></div>
+    <h2>QA après correction</h2>
+    <p class="lead">Chaque correction responsive peut casser desktop. Je repasse rapidement sur les trois vues.</p></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Ne corrige pas à l’aveugle.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Les trois breakpoints restent OK.</p></div></div></section>
+<section id="section-110" class="lesson-section layout-check accent-black" data-act="11"><div class="meta-row"><span class="kicker">110</span><span>Responsive</span><span>check</span></div>
+    <h2>Preuve responsive</h2>
+    <p class="lead">La preuve : screenshots ou vérification claire desktop/tablette/mobile, et pas de scroll horizontal.</p><div class="check-grid"><label><input type="checkbox"> Je comprends l'objectif</label><label><input type="checkbox"> Je sais quoi cliquer</label><label><input type="checkbox"> Je peux vérifier le résultat</label><label><input type="checkbox"> Je sais quoi corriger si ça bloque</label></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Demande un compte-rendu à Claude.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La page est publiable.</p></div></div></section>
+<section id="section-111" class="lesson-section layout-prompt accent-amber" data-act="12"><div class="prompt-layout"><div><div class="meta-row"><span class="kicker">111</span><span>SEO</span><span>prompt</span></div>
+    <h2>Relire l’audit</h2>
+    <p class="lead">Je reprends les mots-clés, les services, la cible, les objections et le positionnement.</p><div class="action-box"><b>À faire</b><p>Ouvre la stratégie avant de réécrire.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Les textes ne sont pas génériques.</p></div></div><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>[Image #X]
+Voici la prochaine section.
+Reprends exactement le même process : extraction source, plan, construction Elementor, vérification desktop/tablette/mobile, sauvegarde, puis mini compte-rendu.</code></pre>
+    </div></div><figure class="shot">
+      <img src="img/captures-s9/13-wordpress-pages.jpg" alt="Capture de la séance 09 - Relire l’audit" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Relire l’audit</figcaption>
+    </figure></section>
+<section id="section-112" class="lesson-section layout-timeline accent-green" data-act="12"><div class="meta-row"><span class="kicker">112</span><span>SEO</span><span>timeline</span></div>
+    <h2>Adapter le hero</h2>
+    <p class="lead">Le hero doit dire qui j’aide, sur quoi, et avec quel résultat.</p><div class="timeline"><div><span>01</span>Préparer</div><div><span>02</span>Construire</div><div><span>03</span>Vérifier</div><div><span>04</span>Corriger</div></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Écris une promesse simple.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le visiteur comprend en 5 secondes.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/14-create-home-page.jpg" alt="Capture de la séance 09 - Adapter le hero" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Adapter le hero</figcaption>
+    </figure><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>Analyse mon audit SEO et ma stratégie.
+Réécris les textes de cette section pour [TON_PROJET], en gardant la même structure visuelle.
+Cible : [TA_CIBLE].
+Promesse : [TA_PROMESSE].
+Ton : simple, direct, naturel.
+Ne rajoute pas de longueur inutile. Le texte doit rentrer dans les blocs existants.</code></pre>
+    </div></section>
+<section id="section-113" class="lesson-section layout-table accent-red" data-act="12"><div class="meta-row"><span class="kicker">113</span><span>SEO</span><span>table</span></div>
+    <h2>Adapter les services</h2>
+    <p class="lead">Les services sortent de l’offre : chatbot, agent vocal, assistant email, automatisations.</p><div class="table-wrap"><table><tr><th>Point</th><th>Décision</th><th>Contrôle</th></tr><tr><td>Objectif</td><td>Garde les intitulés orientés client.</td><td>Le client voit ce qu’il achète.</td></tr><tr><td>Risque</td><td>Aller trop vite</td><td>Revenir à une validation observable</td></tr></table></div><figure class="shot">
+      <img src="img/captures-s9/15-elementor-editor-ready.jpg" alt="Capture de la séance 09 - Adapter les services" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Adapter les services</figcaption>
+    </figure><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>Fais un audit responsive complet de la page.
+Vérifie desktop 1440, tablette 768 et mobile 390.
+Liste les problèmes visibles : texte qui déborde, bouton trop étroit, image mal centrée, section trop haute, espacement incohérent, menu inutilisable.
+Corrige uniquement ce qui est nécessaire puis sauvegarde.</code></pre>
+    </div></section>
+<section id="section-114" class="lesson-section layout-mistake accent-black" data-act="12"><div class="mistake-layout"><div><div class="meta-row"><span class="kicker">114</span><span>SEO</span><span>mistake</span></div>
+    <h2>Adapter les preuves</h2>
+    <p class="lead">Je peux prouver par méthode, audit gratuit, livrable, délai, process, exemple, avant d’avoir beaucoup de cas clients.</p><div class="trap-box"><b>Piège à éviter</b><p>Ne saute pas cette vérification. Si ce point est flou, la suite va coûter plus cher en corrections.</p></div></div><div><div class="action-box"><b>À faire</b><p>Ne fabrique pas de faux chiffres.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La confiance reste saine.</p></div></div></div><figure class="shot">
+      <img src="img/captures-s9/16-mcp-test.jpg" alt="Capture de la séance 09 - Adapter les preuves" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Adapter les preuves</figcaption>
+    </figure></section>
+<section id="section-115" class="lesson-section layout-before accent-amber" data-act="12"><div class="meta-row"><span class="kicker">115</span><span>SEO</span><span>before</span></div>
+    <h2>Adapter la FAQ</h2>
+    <p class="lead">La FAQ répond aux questions réelles du marché : délai, données, prix, personnalisation, intégrations.</p><div class="before-after"><div><b>Avant</b><p>Une action vague, un outil ouvert, et beaucoup d'incertitude.</p></div><div><b>Après</b><p>La FAQ réduit la friction.</p></div></div><div class="action-box"><b>À faire</b><p>Écris comme si tu répondais en rendez-vous.</p></div></section>
+<section id="section-116" class="lesson-section layout-method accent-green" data-act="12"><div class="method-card"><div class="meta-row"><span class="kicker">116</span><span>SEO</span><span>method</span></div>
+    <h2>Adapter le CTA</h2>
+    <p class="lead">Un CTA doit correspondre à l’offre d’entrée : appel découverte, audit gratuit, diagnostic.</p><ol><li>Je prépare le contexte.</li><li>Je lance une action précise.</li><li>Je vérifie dans l'interface réelle.</li><li>Je corrige seulement ce qui bloque.</li></ol></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Ne mélange pas audit, devis et newsletter partout.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>L’action est claire.</p></div></div></section>
+<section id="section-117" class="lesson-section layout-diagnostic accent-red" data-act="12"><div class="meta-row"><span class="kicker">117</span><span>SEO</span><span>diagnostic</span></div>
+    <h2>Contrôler la longueur</h2>
+    <p class="lead">Un texte SEO trop long casse le design. Je garde des phrases courtes et utiles.</p><div class="diagnostic"><b>Diagnostic rapide</b><p>Si tu ne peux pas expliquer cette étape en une phrase, reviens au dernier écran stable et vérifie l'URL, l'outil ouvert et l'objectif de la section.</p></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Respecte les blocs existants.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le texte rentre sans déborder.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/19-section-screenshot-workflow.jpg" alt="Capture de la séance 09 - Contrôler la longueur" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Contrôler la longueur</figcaption>
+    </figure></section>
+<section id="section-118" class="lesson-section layout-quote accent-black" data-act="12"><blockquote>“Restaurants, réservations, avis Google, menu, appels, clients, équipes. Ces mots parlent plus que jargon IA.”</blockquote><div class="quote-grid"><div><div class="meta-row"><span class="kicker">118</span><span>SEO</span><span>quote</span></div><h2>Utiliser les mots de la cible</h2><div class="action-box"><b>À faire</b><p>Remplace le jargon par un bénéfice.</p></div></div><div><div class="proof-box"><b>Preuve que c'est bon</b><p>La page paraît humaine.</p></div></div></div></section>
+<section id="section-119" class="lesson-section layout-cards accent-amber" data-act="12"><div class="meta-row"><span class="kicker">119</span><span>SEO</span><span>cards</span></div>
+    <h2>Vérifier la cohérence</h2>
+    <p class="lead">Je relis toute la page après adaptation. Je veux une seule promesse, pas 5 directions.</p><div class="card-grid"><div><b>Pourquoi</b><p>Je relis toute la page après adaptation. Je veux une seule promesse, pas 5 directions.</p></div><div><b>Action</b><p>Supprime les phrases qui ne servent pas.</p></div><div><b>Validation</b><p>La page est plus nette.</p></div></div></section>
+<section id="section-120" class="lesson-section layout-steps accent-green" data-act="12"><div class="meta-row"><span class="kicker">120</span><span>SEO</span><span>steps</span></div>
+    <h2>Preuve SEO intégrée</h2>
+    <p class="lead">La preuve : les titres, services et FAQ reprennent la stratégie sans ressembler à un bourrage de mots-clés.</p><div class="steps-list"><div><span>1</span>Ouvre le bon écran.</div><div><span>2</span>Fais l'action indiquée.</div><div><span>3</span>Contrôle la preuve.</div><div><span>4</span>Note la correction si besoin.</div></div><figure class="shot">
+      <img src="img/captures-s9/22-viewport-limited.jpg" alt="Capture de la séance 09 - Preuve SEO intégrée" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Preuve SEO intégrée</figcaption>
+    </figure><div class="two-box"><div class="action-box"><b>À faire</b><p>Lis à voix haute.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le contenu reste naturel.</p></div></div></section>
+<section id="section-121" class="lesson-section layout-wide accent-red" data-act="13"><div class="wide-band"><div class="meta-row"><span class="kicker">121</span><span>Global</span><span>wide</span></div>
+    <h2>Pourquoi attendre</h2>
+    <p class="lead">Je ne crée pas la navbar globale avant d’avoir les pages principales. Sinon je dois la reprendre plusieurs fois.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Construis d’abord les pages utiles.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le menu aura de vraies destinations.</p></div></div></div></section>
+<section id="section-122" class="lesson-section layout-story accent-black" data-act="13"><div class="wide-band"><div class="meta-row"><span class="kicker">122</span><span>Global</span><span>story</span></div>
+    <h2>Créer la navbar</h2>
+    <p class="lead">La navbar doit être globale, claire, responsive, avec CTA. Elementor Pro Theme Builder sert à ça.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Utilise un vrai menu WordPress.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Elle apparaît partout.</p></div></div></div></section>
+<section id="section-123" class="lesson-section layout-split accent-amber" data-act="13"><div class="split-grid"><div><div class="meta-row"><span class="kicker">123</span><span>Global</span><span>split</span></div>
+    <h2>Tester les liens</h2>
+    <p class="lead">Un beau menu avec mauvais liens détruit la confiance. Je clique tout.</p><div class="action-box"><b>À faire</b><p>Teste chaque item en public.</p></div><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>Reproduis la navbar de [URL_SOURCE] à l&#x27;identique et déploie-la sur toutes les pages de mon WordPress via Elementor Pro Theme Builder.
+
+Contraintes :
+- Widgets natifs Elementor uniquement.
+- Menu WordPress réel lié aux pages existantes.
+- Display Conditions : Entire Site.
+- Desktop, tablette, mobile vérifiés.
+- Hover, sticky, hamburger mobile et liens testés un par un.
+
+Demande-moi les URLs ou libellés manquants avant d&#x27;inventer.</code></pre>
+    </div></div><div><figure class="shot">
+      <img src="img/captures-s9/25-first-section-result.jpg" alt="Capture de la séance 09 - Tester les liens" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Tester les liens</figcaption>
+    </figure><div class="proof-box"><b>Preuve que c'est bon</b><p>Les redirections sont correctes.</p></div></div></div></section>
+<section id="section-124" class="lesson-section layout-image accent-green" data-act="13"><div class="wide-copy"><div class="meta-row"><span class="kicker">124</span><span>Global</span><span>image</span></div>
+    <h2>Créer le footer</h2>
+    <p class="lead">Le footer rassemble liens, contact, mentions, rappel de l’offre. Il doit être global et propre.</p></div><figure class="shot">
+      <img src="img/captures-s9/26-next-section.jpg" alt="Capture de la séance 09 - Créer le footer" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Créer le footer</figcaption>
+    </figure><div class="two-box"><div class="action-box"><b>À faire</b><p>N’invente pas les URLs sociales.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le bas de page est fiable.</p></div></div><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>Reproduis le footer de [URL_SOURCE] à l&#x27;identique et déploie-le sur toutes les pages de mon WordPress via Elementor Pro Theme Builder.
+
+Contraintes :
+- Widgets natifs Elementor uniquement : Container, Image, Heading, Text, Icon List, Social Icons, Button, Form, Divider.
+- Tous les liens internes pointent vers de vraies pages WordPress.
+- Les liens externes ne sont pas inventés : tu me les demandes.
+- Display Conditions : Entire Site.
+- Desktop, tablette et mobile vérifiés.
+- Tous les liens sont testés un par un.</code></pre>
+    </div></section>
+<section id="section-125" class="lesson-section layout-check accent-red" data-act="13"><div class="meta-row"><span class="kicker">125</span><span>Global</span><span>check</span></div>
+    <h2>Créer les pages légales</h2>
+    <p class="lead">Mentions, confidentialité, CGU peuvent être nécessaires. Je ne les invente pas à l’arrache si le site part en production.</p><div class="check-grid"><label><input type="checkbox"> Je comprends l'objectif</label><label><input type="checkbox"> Je sais quoi cliquer</label><label><input type="checkbox"> Je peux vérifier le résultat</label><label><input type="checkbox"> Je sais quoi corriger si ça bloque</label></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Prépare-les avant de publier sérieusement.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le footer ne pointe pas vers du vide.</p></div></div></section>
+<section id="section-126" class="lesson-section layout-prompt accent-black" data-act="13"><div class="prompt-layout"><div><div class="meta-row"><span class="kicker">126</span><span>Global</span><span>prompt</span></div>
+    <h2>Créer page Solution</h2>
+    <p class="lead">Après Accueil, je peux créer une page Solution avec la même méthode section par section.</p><div class="action-box"><b>À faire</b><p>Réutilise le prompt section.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La page a sa propre URL.</p></div></div><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>[Image #X]
+Voici la prochaine section.
+Reprends exactement le même process : extraction source, plan, construction Elementor, vérification desktop/tablette/mobile, sauvegarde, puis mini compte-rendu.</code></pre>
+    </div></div><figure class="shot">
+      <img src="img/captures-s9/28-logo-edit-issue.jpg" alt="Capture de la séance 09 - Créer page Solution" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Créer page Solution</figcaption>
+    </figure></section>
+<section id="section-127" class="lesson-section layout-timeline accent-amber" data-act="13"><div class="meta-row"><span class="kicker">127</span><span>Global</span><span>timeline</span></div>
+    <h2>Créer page Contact</h2>
+    <p class="lead">La page Contact doit être simple : promesse, formulaire ou calendrier, infos pratiques.</p><div class="timeline"><div><span>01</span>Préparer</div><div><span>02</span>Construire</div><div><span>03</span>Vérifier</div><div><span>04</span>Corriger</div></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Ne la surcharge pas.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le prospect peut agir.</p></div></div></section>
+<section id="section-128" class="lesson-section layout-table accent-green" data-act="13"><div class="meta-row"><span class="kicker">128</span><span>Global</span><span>table</span></div>
+    <h2>Assigner la page d’accueil</h2>
+    <p class="lead">WordPress doit afficher la bonne page en accueil.</p><div class="table-wrap"><table><tr><th>Point</th><th>Décision</th><th>Contrôle</th></tr><tr><td>Objectif</td><td>Réglages &gt; Lecture si nécessaire.</td><td>Le domaine ouvre la bonne page.</td></tr><tr><td>Risque</td><td>Aller trop vite</td><td>Revenir à une validation observable</td></tr></table></div></section>
+<section id="section-129" class="lesson-section layout-mistake accent-red" data-act="13"><div class="mistake-layout"><div><div class="meta-row"><span class="kicker">129</span><span>Global</span><span>mistake</span></div>
+    <h2>Publier proprement</h2>
+    <p class="lead">Je publie quand les blocs clés sont prêts, pas au milieu d’une section cassée.</p><div class="trap-box"><b>Piège à éviter</b><p>Ne saute pas cette vérification. Si ce point est flou, la suite va coûter plus cher en corrections.</p></div></div><div><div class="action-box"><b>À faire</b><p>Sauvegarde puis preview puis publication.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La version publique est propre.</p></div></div></div><figure class="shot">
+      <img src="img/captures-s9/31-chatgpt-image-step.jpg" alt="Capture de la séance 09 - Publier proprement" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Publier proprement</figcaption>
+    </figure></section>
+<section id="section-130" class="lesson-section layout-before accent-black" data-act="13"><div class="meta-row"><span class="kicker">130</span><span>Global</span><span>before</span></div>
+    <h2>Preuve globale</h2>
+    <p class="lead">La preuve : navbar, footer et pages fonctionnent sur tout le site.</p><div class="before-after"><div><b>Avant</b><p>Une action vague, un outil ouvert, et beaucoup d'incertitude.</p></div><div><b>Après</b><p>Le site ressemble à un vrai produit.</p></div></div><div class="action-box"><b>À faire</b><p>Ouvre en navigation privée.</p></div></section>
+<section id="section-131" class="lesson-section layout-method accent-amber" data-act="14"><div class="method-card"><div class="meta-row"><span class="kicker">131</span><span>Production</span><span>method</span></div>
+    <h2>Garder un dossier par projet</h2>
+    <p class="lead">Chaque client ou projet doit avoir son dossier avec audit, textes, images, prompts et captures.</p><ol><li>Je prépare le contexte.</li><li>Je lance une action précise.</li><li>Je vérifie dans l'interface réelle.</li><li>Je corrige seulement ce qui bloque.</li></ol></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Ne mélange pas tous les sites.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu peux reprendre le travail plus tard.</p></div></div></section>
+<section id="section-132" class="lesson-section layout-diagnostic accent-green" data-act="14"><div class="meta-row"><span class="kicker">132</span><span>Production</span><span>diagnostic</span></div>
+    <h2>Sauvegarder aux bons moments</h2>
+    <p class="lead">Je sauvegarde après section validée, après responsive, après global header/footer.</p><div class="diagnostic"><b>Diagnostic rapide</b><p>Si tu ne peux pas expliquer cette étape en une phrase, reviens au dernier écran stable et vérifie l'URL, l'outil ouvert et l'objectif de la section.</p></div><div class="two-box"><div class="action-box"><b>À faire</b><p>N’attends pas la fin de 3 h.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu limites la casse.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/34-repeat-prompt-next.jpg" alt="Capture de la séance 09 - Sauvegarder aux bons moments" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Sauvegarder aux bons moments</figcaption>
+    </figure></section>
+<section id="section-133" class="lesson-section layout-quote accent-red" data-act="14"><blockquote>“Si Claude bloque, il doit expliquer. Je préfère un blocage clair à 10 actions bizarres.”</blockquote><div class="quote-grid"><div><div class="meta-row"><span class="kicker">133</span><span>Production</span><span>quote</span></div><h2>Éviter les workarounds aveugles</h2><div class="action-box"><b>À faire</b><p>Demande source du blocage, hypothèse et option.</p></div></div><div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu restes maître.</p></div></div></div></section>
+<section id="section-134" class="lesson-section layout-cards accent-black" data-act="14"><div class="meta-row"><span class="kicker">134</span><span>Production</span><span>cards</span></div>
+    <h2>Travailler en parallèle</h2>
+    <p class="lead">Pendant que Claude construit, je prépare textes, images, prochaine capture, FAQ.</p><div class="card-grid"><div><b>Pourquoi</b><p>Pendant que Claude construit, je prépare textes, images, prochaine capture, FAQ.</p></div><div><b>Action</b><p>Utilise le temps d’attente intelligemment.</p></div><div><b>Validation</b><p>La session produit plus.</p></div></div></section>
+<section id="section-135" class="lesson-section layout-steps accent-amber" data-act="14"><div class="meta-row"><span class="kicker">135</span><span>Production</span><span>steps</span></div>
+    <h2>Limiter les changements de style</h2>
+    <p class="lead">Changer couleur, typo et layout toutes les 10 minutes rend la page incohérente.</p><div class="steps-list"><div><span>1</span>Ouvre le bon écran.</div><div><span>2</span>Fais l'action indiquée.</div><div><span>3</span>Contrôle la preuve.</div><div><span>4</span>Note la correction si besoin.</div></div><figure class="shot">
+      <img src="img/captures-s9/37-generate-images-with-code.jpg" alt="Capture de la séance 09 - Limiter les changements de style" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Limiter les changements de style</figcaption>
+    </figure><div class="two-box"><div class="action-box"><b>À faire</b><p>Décide le système visuel tôt.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le site garde une identité.</p></div></div></section>
+<section id="section-136" class="lesson-section layout-wide accent-green" data-act="14"><div class="wide-band"><div class="meta-row"><span class="kicker">136</span><span>Production</span><span>wide</span></div>
+    <h2>Demander des corrections courtes</h2>
+    <p class="lead">Une correction doit viser un problème précis : bouton, espacement, image, mobile.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Évite “améliore tout”.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Claude corrige mieux.</p></div></div></div><figure class="shot">
+      <img src="img/captures-s9/38-image-quality-feedback.jpg" alt="Capture de la séance 09 - Demander des corrections courtes" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Demander des corrections courtes</figcaption>
+    </figure><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>Crée une nouvelle page WordPress appelée [NOM_PAGE].
+Ouvre-la dans Elementor.
+Réutilise le même workflow section par section que pour la page Accueil.
+À la fin, vérifie que la page est publiée, accessible et liée au menu si nécessaire.</code></pre>
+    </div></section>
+<section id="section-137" class="lesson-section layout-story accent-red" data-act="14"><div class="wide-band"><div class="meta-row"><span class="kicker">137</span><span>Production</span><span>story</span></div>
+    <h2>Documenter les prompts</h2>
+    <p class="lead">Les prompts qui marchent doivent être conservés. C’est ton système réutilisable.</p><div class="two-box"><div class="action-box"><b>À faire</b><p>Copie les meilleurs prompts dans ton QG.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu gagnes du temps sur le prochain site.</p></div></div></div></section>
+<section id="section-138" class="lesson-section layout-split accent-black" data-act="14"><div class="split-grid"><div><div class="meta-row"><span class="kicker">138</span><span>Production</span><span>split</span></div>
+    <h2>Ne pas exposer les accès</h2>
+    <p class="lead">Connexion WordPress, paiement, licences : je fais moi-même. L’agent attend.</p><div class="action-box"><b>À faire</b><p>Ne colle jamais d’identifiants dans le terminal.</p></div></div><div><figure class="shot">
+      <img src="img/captures-s9/40-last-section-prompt.jpg" alt="Capture de la séance 09 - Ne pas exposer les accès" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Ne pas exposer les accès</figcaption>
+    </figure><div class="proof-box"><b>Preuve que c'est bon</b><p>La sécurité reste propre.</p></div></div></div></section>
+<section id="section-139" class="lesson-section layout-image accent-amber" data-act="14"><div class="wide-copy"><div class="meta-row"><span class="kicker">139</span><span>Production</span><span>image</span></div>
+    <h2>Savoir quand arrêter</h2>
+    <p class="lead">Une page peut toujours être améliorée. Je m’arrête quand elle vend clairement et ne casse pas en responsive.</p></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Fixe une définition de fini.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu livres.</p></div></div></section>
+<section id="section-140" class="lesson-section layout-check accent-green" data-act="14"><div class="meta-row"><span class="kicker">140</span><span>Production</span><span>check</span></div>
+    <h2>Preuve méthode pro</h2>
+    <p class="lead">La preuve : je peux refaire la même méthode sur une nouvelle page sans improviser.</p><div class="check-grid"><label><input type="checkbox"> Je comprends l'objectif</label><label><input type="checkbox"> Je sais quoi cliquer</label><label><input type="checkbox"> Je peux vérifier le résultat</label><label><input type="checkbox"> Je sais quoi corriger si ça bloque</label></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Rejoue le workflow sur Solution.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La compétence est acquise.</p></div></div></section>
+<section id="section-141" class="lesson-section layout-prompt accent-red" data-act="15"><div class="prompt-layout"><div><div class="meta-row"><span class="kicker">141</span><span>Récap</span><span>prompt</span></div>
+    <h2>Checklist environnement</h2>
+    <p class="lead">Domaine acheté, hébergement actif, WordPress installé, Elementor actif, page Accueil créée.</p><div class="action-box"><b>À faire</b><p>Coche avant de passer aux prompts.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>La base est prête.</p></div></div><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>[Image #X]
+Voici la prochaine section.
+Reprends exactement le même process : extraction source, plan, construction Elementor, vérification desktop/tablette/mobile, sauvegarde, puis mini compte-rendu.</code></pre>
+    </div></div><figure class="shot">
+      <img src="img/captures-s9/43-footer-issue.jpg" alt="Capture de la séance 09 - Checklist environnement" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Checklist environnement</figcaption>
+    </figure></section>
+<section id="section-142" class="lesson-section layout-timeline accent-black" data-act="15"><div class="meta-row"><span class="kicker">142</span><span>Récap</span><span>timeline</span></div>
+    <h2>Checklist MCP</h2>
+    <p class="lead">Claude Code lancé, Chrome MCP connecté, onglets source/éditeur/preview ouverts, connexion WordPress faite manuellement.</p><div class="timeline"><div><span>01</span>Préparer</div><div><span>02</span>Construire</div><div><span>03</span>Vérifier</div><div><span>04</span>Corriger</div></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Teste une action simple.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>L’agent pilote le navigateur.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/44-audit-seo-context.jpg" alt="Capture de la séance 09 - Checklist MCP" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Checklist MCP</figcaption>
+    </figure></section>
+<section id="section-143" class="lesson-section layout-table accent-amber" data-act="15"><div class="meta-row"><span class="kicker">143</span><span>Récap</span><span>table</span></div>
+    <h2>Checklist prompt section</h2>
+    <p class="lead">Capture, URL source, nom section, URL Elementor, URL preview, contexte projet.</p><div class="table-wrap"><table><tr><th>Point</th><th>Décision</th><th>Contrôle</th></tr><tr><td>Objectif</td><td>Prépare avant chaque section.</td><td>Le prompt est complet.</td></tr><tr><td>Risque</td><td>Aller trop vite</td><td>Revenir à une validation observable</td></tr></table></div><figure class="shot">
+      <img src="img/captures-s9/45-two-images-generated.jpg" alt="Capture de la séance 09 - Checklist prompt section" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Checklist prompt section</figcaption>
+    </figure></section>
+<section id="section-144" class="lesson-section layout-mistake accent-green" data-act="15"><div class="mistake-layout"><div><div class="meta-row"><span class="kicker">144</span><span>Récap</span><span>mistake</span></div>
+    <h2>Checklist QA section</h2>
+    <p class="lead">Desktop, tablette, mobile, images, boutons, hover, texte, sauvegarde.</p><div class="trap-box"><b>Piège à éviter</b><p>Ne saute pas cette vérification. Si ce point est flou, la suite va coûter plus cher en corrections.</p></div></div><div><div class="action-box"><b>À faire</b><p>Ne valide pas sans QA.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Chaque section tient debout.</p></div></div></div><figure class="shot">
+      <img src="img/captures-s9/46-mobile-ok.jpg" alt="Capture de la séance 09 - Checklist QA section" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Checklist QA section</figcaption>
+    </figure></section>
+<section id="section-145" class="lesson-section layout-before accent-red" data-act="15"><div class="meta-row"><span class="kicker">145</span><span>Récap</span><span>before</span></div>
+    <h2>Checklist contenu</h2>
+    <p class="lead">Textes adaptés à ton audit, cible claire, services concrets, FAQ utile, CTA répété.</p><div class="before-after"><div><b>Avant</b><p>Une action vague, un outil ouvert, et beaucoup d'incertitude.</p></div><div><b>Après</b><p>La page parle à ton marché.</p></div></div><div class="action-box"><b>À faire</b><p>Supprime le texte générique.</p></div><figure class="shot">
+      <img src="img/captures-s9/47-image-centering.jpg" alt="Capture de la séance 09 - Checklist contenu" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Checklist contenu</figcaption>
+    </figure></section>
+<section id="section-146" class="lesson-section layout-method accent-black" data-act="15"><div class="method-card"><div class="meta-row"><span class="kicker">146</span><span>Récap</span><span>method</span></div>
+    <h2>Checklist global</h2>
+    <p class="lead">Navbar, footer, liens, pages, accueil assignée, navigation privée.</p><ol><li>Je prépare le contexte.</li><li>Je lance une action précise.</li><li>Je vérifie dans l'interface réelle.</li><li>Je corrige seulement ce qui bloque.</li></ol></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Teste comme un visiteur externe.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le site est utilisable.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/48-footer-prompt.jpg" alt="Capture de la séance 09 - Checklist global" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Checklist global</figcaption>
+    </figure></section>
+<section id="section-147" class="lesson-section layout-diagnostic accent-amber" data-act="15"><div class="meta-row"><span class="kicker">147</span><span>Récap</span><span>diagnostic</span></div>
+    <h2>Erreur fréquente 1</h2>
+    <p class="lead">Lancer une page entière d’un coup. C’est séduisant, mais tu perds le contrôle.</p><div class="diagnostic"><b>Diagnostic rapide</b><p>Si tu ne peux pas expliquer cette étape en une phrase, reviens au dernier écran stable et vérifie l'URL, l'outil ouvert et l'objectif de la section.</p></div><div class="two-box"><div class="action-box"><b>À faire</b><p>Reviens à la section par section.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Les erreurs deviennent petites.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/49-final-homepage-clean.jpg" alt="Capture de la séance 09 - Erreur fréquente 1" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Erreur fréquente 1</figcaption>
+    </figure></section>
+<section id="section-148" class="lesson-section layout-quote accent-green" data-act="15"><blockquote>“Garder les images source. Ce n’est pas propre et ça rend le site moins crédible.”</blockquote><div class="quote-grid"><div><div class="meta-row"><span class="kicker">148</span><span>Récap</span><span>quote</span></div><h2>Erreur fréquente 2</h2><div class="action-box"><b>À faire</b><p>Remplace par tes assets.</p></div></div><div><div class="proof-box"><b>Preuve que c'est bon</b><p>Le site devient original.</p></div><figure class="shot">
+      <img src="img/captures-s9/01-domain-hostinger-search.jpg" alt="Capture de la séance 09 - Erreur fréquente 2" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Erreur fréquente 2</figcaption>
+    </figure><div class="prompt-card">
+      <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
+      <pre><code>Fais un audit final de mon site WordPress.
+Vérifie : page Accueil, page Solution, page Contact, navbar, footer, responsive, liens, performance perçue, textes, images, CTA, cohérence avec l&#x27;audit SEO.
+Donne-moi une liste courte de corrections classées par priorité, puis corrige les problèmes simples directement.</code></pre>
+    </div></div></div></section>
+<section id="section-149" class="lesson-section layout-cards accent-red" data-act="15"><div class="meta-row"><span class="kicker">149</span><span>Récap</span><span>cards</span></div>
+    <h2>Erreur fréquente 3</h2>
+    <p class="lead">Valider sur desktop uniquement. La moitié des visiteurs arrive mobile.</p><div class="card-grid"><div><b>Pourquoi</b><p>Valider sur desktop uniquement. La moitié des visiteurs arrive mobile.</p></div><div><b>Action</b><p>Vérifie toujours mobile.</p></div><div><b>Validation</b><p>Tu évites les pages cassées.</p></div></div><figure class="shot">
+      <img src="img/captures-s9/02-domain-choice-hpanel.jpg" alt="Capture de la séance 09 - Erreur fréquente 3" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : Erreur fréquente 3</figcaption>
+    </figure></section>
+<section id="section-150" class="lesson-section layout-steps accent-black" data-act="15"><div class="meta-row"><span class="kicker">150</span><span>Récap</span><span>steps</span></div>
+    <h2>La suite logique</h2>
+    <p class="lead">Après Accueil, je crée Solution, Contact, puis je prépare le blog et les pages SEO depuis la stratégie.</p><div class="steps-list"><div><span>1</span>Ouvre le bon écran.</div><div><span>2</span>Fais l'action indiquée.</div><div><span>3</span>Contrôle la preuve.</div><div><span>4</span>Note la correction si besoin.</div></div><figure class="shot">
+      <img src="img/captures-s9/03-domain-payment.jpg" alt="Capture de la séance 09 - La suite logique" loading="lazy">
+      <figcaption>Capture utilisée pour cette étape : La suite logique</figcaption>
+    </figure><div class="two-box"><div class="action-box"><b>À faire</b><p>Répète la méthode, ne change pas de système.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Tu passes d’une page à un site complet.</p></div></div></section></main>
+  <section id="prompts-index" class="final"><div class="final-box"><h2>Index des prompts</h2><p>Les blocs sombres dans le support sont copiables. Ils couvrent l'installation Claude Code, le lancement en mode autonome, la connexion WordPress sécurisée, la construction pixel-perfect, les corrections, l'image, le SEO, le responsive, la navbar, le footer et l'audit final.</p></div></section>
+  <footer class="footer"><div class="footer-inner"><span>DENEM Academy · Séance 09</span><span>150 sections · 49 captures · prompts copiables</span></div></footer>
+  <script>
+    const progress=document.getElementById('progress');
+    window.addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-window.innerHeight;progress.style.width=((window.scrollY/h)*100)+'%';});
+    const io=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('is-visible')})},{threshold:.08,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.lesson-section').forEach(s=>{s.classList.add('reveal');io.observe(s);});
+    const navLinks=[...document.querySelectorAll('.act-nav a')];
+    const sections=[...document.querySelectorAll('.lesson-section')];
+    const navIo=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){const act=e.target.dataset.act;navLinks.forEach(a=>a.classList.toggle('is-active',a.getAttribute('href')===('#section-'+String((Number(act)-1)*10+1).padStart(3,'0'))));}})},{threshold:.25});
+    sections.forEach(s=>navIo.observe(s));
+    document.querySelectorAll('.copy-btn').forEach(btn=>{btn.addEventListener('click',async()=>{const code=btn.closest('.prompt-card').querySelector('code').innerText;try{await navigator.clipboard.writeText(code);btn.textContent='Copié';btn.classList.add('is-copied');setTimeout(()=>{btn.textContent='Copier';btn.classList.remove('is-copied')},1400);}catch(e){btn.textContent='Copie impossible';}})});
+  </script>
+</body>
+</html>
