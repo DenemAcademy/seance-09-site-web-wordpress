@@ -1531,6 +1531,14 @@ figure[class*="shot"]:empty::before,
   color: #f8fafc !important;
   -webkit-text-fill-color: #f8fafc !important;
 }
+.wide-band > h1,
+.wide-band > h2,
+.wide-band > h3,
+.wide-band > .lead,
+.wide-band > p {
+  color: #f8fafc !important;
+  -webkit-text-fill-color: #f8fafc !important;
+}
 @media (max-width: 700px) {
   .denem-session-switcher {
     grid-template-columns: 1fr;
@@ -1898,50 +1906,135 @@ Reprends exactement le même process : extraction source, plan, construction Ele
     <h2>Pourquoi un prompt long</h2>
     <p class="lead">Un prompt court donne une section approximative. Le prompt long impose la méthode : extraction, plan, construction, QA.</p><div class="action-box"><b>À faire</b><p>Ne raccourcis pas le prompt technique au début.</p></div><div class="proof-box"><b>Preuve que c'est bon</b><p>Claude suit des étapes claires.</p></div></div><div class="prompt-card">
       <div class="prompt-head"><span>Prompt à copier</span><button class="copy-btn" type="button">Copier</button></div>
-      <pre><code>PROMPT TECHNIQUE - RECONSTRUCTION PIXEL-PERFECT D&#x27;UNE SECTION D&#x27;UN SITE SOURCE VERS ELEMENTOR
+      <pre><code>PROMPT TECHNIQUE — RECONSTRUCTION PIXEL-PERFECT D'UNE SECTION D'UN SITE SOURCE VERS ELEMENTOR
 
-CONTEXTE
+━━━ CONTEXTE ━━━
 3 onglets Chrome :
-- SOURCE : [URL_SOURCE] - section ciblée : [NOM_SECTION]
-- EDITEUR : [URL_ELEMENTOR]
-- PREVIEW : [URL_PREVIEW]
+• SOURCE : {{URL_SOURCE}} — section ciblée : "{{NOM_SECTION}}"
+• ÉDITEUR : {{URL_ELEMENTOR}}
+• PREVIEW : {{URL_PREVIEW}}
 
-OBJECTIF
-Reproduire la section [NOM_SECTION] dans Elementor avec une fidélité visuelle pixel-perfect sur desktop 1440, tablette 768 et mobile 390.
-Tu dois reprendre la structure, la typographie, les espacements, les couleurs, les images, les hover, les animations et le comportement responsive.
+━━━ OBJECTIF ━━━
+Reproduire la section {{NOM_SECTION}} dans Elementor avec une fidélité visuelle pixel-perfect sur les 3 breakpoints (desktop 1440, tablet 768, mobile 390), incluant TOUS les effets (hover, animations, scroll, parallax, marquee), TOUTES les images source, TOUTE la typographie, TOUS les espacements, TOUTES les couleurs.
 
-CONTRAINTES
-- Widgets natifs Elementor uniquement : Container, Heading, Text Editor, Button, Image, Icon, Icon Box, Divider, Tabs, Accordion, Form si nécessaire.
-- Pas de widget HTML, pas de shortcode, pas de plugin tiers sans validation.
-- CSS custom seulement si un effet est impossible avec Elementor natif. Tu me préviens avant.
-- Toutes les images visibles dans la source doivent être présentes dans la section finale.
-- Tu adaptes les textes à mon projet si je fournis un texte ou un audit SEO.
+━━━ CONTRAINTES NON-NÉGOCIABLES ━━━
+WIDGETS
+• Widgets natifs Elementor uniquement : Container V3, Heading, Text Editor, Button, Image, Image Carousel, Icon, Icon Box, Icon List, Spacer, Divider, Star Rating, Counter, Tabs, Accordion, Form, Image Gallery, Loop Carousel/Grid (si Pro dispo).
+• Pas de widget HTML / Code Embed / Shortcode.
+• Pas de plugin tiers sauf validation explicite.
 
-ETAPE 1 - EXTRACTION SOURCE
-Localise le conteneur racine de la section.
-Extrait pour chaque élément : texte, classe, position, dimensions, style calculé, couleurs, polices, padding, margin, border, radius, shadow, transform, animations et pseudo-éléments.
-Refais l&#x27;analyse en 1440, 768 et 390.
-Liste toutes les images avec URL, taille et alt.
+CSS / JS
+• CSS custom autorisé UNIQUEMENT via Page Settings → Custom CSS, et seulement si un effet est strictement impossible avec les contrôles natifs. Prévenir avant.
+• JS custom interdit.
 
-ETAPE 2 - DETECTION DES EFFETS
-Teste les hover, transitions, animations temporelles, changements au scroll et accordéons/tabs si présents.
-Pour chaque effet, propose la solution Elementor native ou la meilleure approximation.
+POLICES
+• Titres : Archivo Black (substitut Neue Haas Grotesk Display).
+• Texte courant : Work Sans.
+• Si la source utilise une autre police, propose la meilleure alternative Google Fonts proche et applique-la sans demander.
 
-ETAPE 3 - PLAN D&#x27;IMPLEMENTATION
-Avant de toucher Elementor, écris le plan : conteneur racine, enfants, widgets, responsive, assets et effets.
-Si une décision est incertaine, pose une question courte.
+ICÔNES
+• Font Awesome natif Elementor.
 
-ETAPE 4 - CONSTRUCTION ELEMENTOR
-Construis avec les containers et widgets natifs.
-Sauvegarde à chaque jalon important, pas à chaque micro-modification.
+IMAGES
+• OBLIGATION ABSOLUE : chaque &lt;img&gt; de la section source doit apparaître dans la section finale. Jamais de placeholder.
 
-ETAPE 5 - VERIFICATION
-Recharge la preview.
-Compare source et résultat en desktop, tablette et mobile.
-Liste les écarts visibles, corrige-les, puis recommence jusqu&#x27;à obtenir une version propre.
+EFFETS
+• OBLIGATION ABSOLUE : tous les effets (hover, entrée, scroll, parallax, marquee, transitions) détectés ET reproduits, exactement ou en meilleure approximation native documentée.
 
-GO
-Lance l&#x27;extraction de la section maintenant. Tu ne me rends la main qu&#x27;après vérification responsive ou blocage clair.</code></pre>
+━━━ ÉTAPE 1 — EXTRACTION SOURCE ━━━
+1.1 Localise le sélecteur racine de la section. Confirme par screenshot.
+1.2 Pour chaque nœud descendant (titres, paragraphes, boutons, images, containers) extrait :
+• tag, innerText, classList
+• getBoundingClientRect (x, y, w, h)
+• getComputedStyle : display, position, flex props, grid props, fontFamily, fontSize, fontWeight, lineHeight, letterSpacing, textAlign, textTransform, color, backgroundColor, backgroundImage, padding, margin, border, borderRadius, boxShadow, filter, backdropFilter, opacity, transform, transition, animation, overflow, zIndex, mixBlendMode
+• Pseudo-éléments ::before / ::after si content !== 'none'
+• Attributs data-* (data-w-id, data-aos, data-scroll, etc.)
+1.3 Refais l'extraction aux viewports 1440, 768, 390 via resize. Documente ce qui change par breakpoint.
+1.4 Liste chaque image : URL absolue, naturalWidth/Height, alt, format.
+
+━━━ ÉTAPE 2 — DÉTECTION DES EFFETS (DOUBLE PASSE) ━━━
+2.1 ANALYSE STATIQUE
+• Parser document.styleSheets : @keyframes, animation, transition.
+• Lister scripts : GSAP, Framer Motion, Lenis, Webflow IX2, AOS, Swiper, Splide, Slick.
+• Lister data-* d'animation.
+
+2.2 ANALYSE DYNAMIQUE
+A) Hovers : pour chaque élément interactif, dispatchEvent mouseenter, mesurer transform/opacity/color/scale/boxShadow à t=0 et t=400ms, mouseleave, vérifier retour.
+B) Animations temporelles : lire transform à t=0, 500, 1000, 2000ms. Si évolution → animation auto (marquee, rotation, float).
+C) Scroll : MutationObserver sur classList, scrollBy par paliers de 200px, détecter apparitions/changements.
+D) Click : pour tabs/accordions/[aria-expanded], simuler click, observer DOM avant/après.
+
+2.3 SYNTHÈSE par effet :
+Type · sélecteur · propriétés animées (from→to) · durée · easing · solution Elementor (natif | CSS custom | impossible).
+
+━━━ ÉTAPE 3 — UPLOAD DES IMAGES (CASCADE) ━━━
+Chaque image DOIT apparaître.
+Cascade obligatoire :
+1) Upload WP standard via /wp-admin/async-upload.php (nonce + blob fetch)
+2) Si SVG bloqué → conversion PNG via canvas.toBlob()
+3) Si CORS bloque → proxy https://images.weserv.nl/?url=...
+4) Si tout échoue → URL externe directe dans le widget Image (settings.image = { id: '', url: srcOriginal })
+Mémorise la Map { srcOriginal → { id, url, source: 'wp'|'external' } }.
+
+━━━ ÉTAPE 4 — PLAN D'IMPLÉMENTATION ━━━
+Avant de toucher Elementor, écris en clair :
+4.1 Arborescence : container racine + enfants (direction, justify, align, gap, bg, padding, min-height, overflow, css_classes)
+4.2 Mapping source → settings Elementor pour chaque widget (typography_*, color, spacing, _element_custom_width par BP, box_shadow, hover variants).
+4.3 Effets : solution choisie par effet (natif vs CSS custom).
+
+━━━ ÉTAPE 5 — CONSTRUCTION DANS ELEMENTOR ━━━
+Toutes les opérations passent par javascript_exec dans l'onglet Éditeur :
+• $e.run('document/elements/create', { container, model })
+• $e.run('document/elements/settings', { container, settings })
+• $e.run('document/elements/delete', { container })
+
+Ordre :
+1) Container racine au root document
+2) Containers enfants en cascade
+3) Widgets feuilles avec settings complets en une passe par widget
+
+Sauvegarde en fin de section :
+$e.run('document/save/default')
+
+━━━ ÉTAPE 6 — VÉRIFICATION VISUELLE ━━━
+6.1 Recharge l'onglet PREVIEW.
+6.2 Screenshot de la section construite + screenshot source au même viewport. Compare verbalement.
+6.3 Re-mesure les widgets construits (même JS qu'Étape 1.2) et compare chaque propriété à la source.
+6.4 Liste tout écart > 5% en taille, couleur différente, espacement différent, effet manquant.
+
+━━━ ÉTAPE 7 — BOUCLE D'AJUSTEMENT (MAX 5 ITÉRATIONS) ━━━
+Tant qu'il reste un écart visible :
+• Identifier le widget (par data-id)
+• $e.run('document/elements/settings', { container, settings: {...} })
+• Sauvegarder
+• Recharger preview, re-screenshot, re-mesurer
+• Stop si écart résiduel < 2% sur toutes les mesures
+
+Après 5 itérations sans résolution, stop et reporte le blocage avec valeur source / valeur obtenue / contrôle Elementor utilisé / hypothèse.
+
+━━━ ÉTAPE 8 — RESPONSIVE ━━━
+Pour chaque widget, vérifier que les variantes _tablet et _mobile sont définies pour : font-size, padding, margin, custom_width, gap, flex_direction.
+Répliquer les changements de comportement source (flex-row → flex-column en mobile, etc.).
+
+━━━ ÉTAPE 9 — LIVRABLE ━━━
+Reporte :
+• URL preview à jour
+• Screenshots desktop / tablette / mobile
+• Liste images uploadées (id WP) vs externes
+• Liste effets reproduits (natif vs CSS custom)
+• Liste effets non-reproduits avec raison
+• Liste éléments à compléter manuellement
+• Itérations restantes si pixel-perfect non atteint
+
+━━━ RÈGLES OPÉRATIONNELLES ━━━
+• Tracker les étapes longues avec TaskCreate / TaskUpdate.
+• Batcher les appels JS (un seul javascript_exec qui crée plusieurs widgets en série).
+• Sauvegarder à chaque jalon, pas à chaque micro-modif.
+• Si blocage technique → stop et demande, pas 10 workarounds aveugles.
+• Pas de fichiers intermédiaires, tout reste en mémoire conversationnelle.
+
+━━━ GO ━━━
+Lance Étape 1 maintenant. Tu boucles jusqu'à pixel-perfect sur les 3 viewports avant de me rendre la main.</code></pre>
     </div></div><figure class="shot">
       <img src="img/captures-s9/02-domain-choice-hpanel.jpg" alt="Capture de la séance 09 - Pourquoi un prompt long" loading="lazy">
       <figcaption>Capture utilisée pour cette étape : Pourquoi un prompt long</figcaption>
